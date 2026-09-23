@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+data/images/
+
+# Environment secrets
+.env
+!.env.example
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Vector store: this project's store is small (<1MB) so it IS committed
+# for grading convenience. If you swap in a much larger real-world corpus,
+# uncomment the line below and regenerate it by re-running
+# notebooks/rag_pipeline.ipynb (see README "Reproducing the vector store").
+# backend/data/vector_store/
+
+# Raw document corpus is small in this project and IS committed;
+# if you swap in a large real-world corpus, ignore it here instead, e.g.:
+# data/documents/*.pdf
+
+# Large trained model artifacts over the 50MB guideline
+*.pt.orig
+
+# OS/editor cruft
+.DS_Store
+.vscode/
+.idea/
+
+# Gradio
+frontend/.gradio/
+
+# Test cache
+.pytest_cache/

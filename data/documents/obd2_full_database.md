@@ -1,0 +1,3714 @@
+# OBD-II Diagnostic Trouble Codes
+
+- **Code P0000** (Powertrain): ISO/SAE Reserved
+- **Code P0001** (Powertrain): Fuel Volume Regulator Control Circuit/Open
+- **Code P0002** (Powertrain): Fuel Volume Regulator Control Circuit Range/Performance
+- **Code P0003** (Powertrain): Fuel Volume Regulator Control Circuit Low
+- **Code P0004** (Powertrain): Fuel Volume Regulator Control Circuit High
+- **Code P0005** (Powertrain): Fuel Shutoff Valve Control Circuit/Open
+- **Code P0006** (Powertrain): Fuel Shutoff Valve Control Circuit Low
+- **Code P0007** (Powertrain): Fuel Shutoff Valve Control Circuit High
+- **Code P0008** (Powertrain): Engine Positions System Performance Bank 1
+- **Code P0009** (Powertrain): Engine Position System Performance Bank 2
+- **Code P000A** (Powertrain): Camshaft Position Slow Response Bank 1
+- **Code P000B** (Powertrain): Camshaft Position Slow Response Bank 1
+- **Code P000C** (Powertrain): Camshaft Position Slow Response Bank 2
+- **Code P000D** (Powertrain): Camshaft Position Slow Response Bank 2
+- **Code P000E** (Powertrain): Fuel Volume Regulator Control Exceeded Learning Limit
+- **Code P000F** (Powertrain): Fuel System Over Pressure Relief Valve Activated
+- **Code P0010** (Powertrain): Camshaft Position Actuator Circuit(Bank 1)
+- **Code P0011** (Powertrain): Camshaft Position - Timing Over-Advanced or System Performance(Bank 1)
+- **Code P0012** (Powertrain): Camshaft Position - Timing Over-Retarded (Bank 1)
+- **Code P0013** (Powertrain): Camshaft Position - Actuator Circuit (Bank 1)
+- **Code P0014** (Powertrain): Camshaft Position - Timing Over-Advanced or System Performance(Bank 1)
+- **Code P0015** (Powertrain): Camshaft Position -Timing Over-Retarded (Bank 1)
+- **Code P0016** (Powertrain): Crankshaft Position - Camshaft Position Correlation (Bank 1 Sensor A)
+- **Code P0017** (Powertrain): Crankshaft Position - Camshaft Position Correlation (Bank 1 Sensor B)
+- **Code P0018** (Powertrain): Crankshaft Position - Camshaft Position Correlation (Bank 2 Sensor A)
+- **Code P0019** (Powertrain): Crankshaft Position - Camshaft Position Correlation (Bank 2 Sensor B)
+- **Code P001A** (Powertrain): Camshaft Profile Control Circuit/Open Bank 1
+- **Code P001B** (Powertrain): Camshaft Profile Control Circuit Low Bank 1
+- **Code P001C** (Powertrain): Camshaft Profile Control Circuit High Bank 1
+- **Code P001D** (Powertrain): Camshaft Profile Control Circuit/Open Bank 2
+- **Code P001E** (Powertrain): Camshaft Profile Control Circuit Low Bank 2
+- **Code P001F** (Powertrain): Camshaft Profile Control Circuit High Bank 2
+- **Code P0020** (Powertrain): Camshaft Position Actuator Circuit (Bank 2)
+- **Code P0021** (Powertrain): Camshaft Position - Timing Over-Advanced or System Performance (Bank 2)
+- **Code P0022** (Powertrain): Camshaft Position - Timing Over-Retarded (Bank 2)
+- **Code P0023** (Powertrain): Camshaft Position - Actuator Circuit (Bank 2)
+- **Code P0024** (Powertrain): Camshaft Position - Timing Over-Advanced or System Performance (Bank 2)
+- **Code P0025** (Powertrain): Camshaft Position - Timing Over-Retarded (Bank 2)
+- **Code P0026** (Powertrain): Intake Valve Control Solenoid Circuit Range/Performance Bank 1
+- **Code P0027** (Powertrain): Exhaust Valve Control solenoid Circuit Range/Performance Bank 1
+- **Code P0028** (Powertrain): Intake valve Control Solenoid Circuit Range/Performance Bank 2
+- **Code P0029** (Powertrain): Exhaust Valve Control Solenoid Circuit Range/Performance Bank 2
+- **Code P002A** (Powertrain): Camshaft Profile Control Circuit/Open Bank 1
+- **Code P002B** (Powertrain): Camshaft Profile Control Circuit Low Bank 1
+- **Code P002C** (Powertrain): Camshaft Profile Control Circuit High Bank 1
+- **Code P002D** (Powertrain): Camshaft Profile Control Circuit/Open Bank 2
+- **Code P002E** (Powertrain): Camshaft Profile Control Circuit Low Bank 2
+- **Code P002F** (Powertrain): Camshaft Profile Control Circuit High Bank 2
+- **Code P0030** (Powertrain): HO2S Heater Control Circuit (Bank 1 Sensor 1)
+- **Code P0031** (Powertrain): HO2S Heater Control Circuit Low (Bank 1 Sensor 1)
+- **Code P0032** (Powertrain): HO2S Heater Control Circuit High (Bank 1 Sensor 1)
+- **Code P0033** (Powertrain): Turbo Charger Bypass Valve Control Circuit
+- **Code P0034** (Powertrain): Turbo Charger Bypass Valve Control Circuit Low
+- **Code P0035** (Powertrain): Turbo Charger Bypass Valve Control Circuit High
+- **Code P0036** (Powertrain): HO2S Heater Control Circuit (Bank 1 Sensor 2)
+- **Code P0037** (Powertrain): HO2S Heater Control Circuit Low (Bank 1 Sensor 2)
+- **Code P0038** (Powertrain): HO2S Heater Control Circuit High (Bank 1 Sensor 2)
+- **Code P0039** (Powertrain): Turbo/Super Charger Bypass Valve Control Circuit Range/Performance
+- **Code P003A** (Powertrain): Turbocharger/Supercharger Boost Control Position Exceeded Learning Limit
+- **Code P003B** (Powertrain): Turbocharger/Supercharger Boost Control Position Exceeded Learning Limit
+- **Code P003C** (Powertrain): Camshaft Profile Control Performance/Stuck Off Bank 1
+- **Code P003D** (Powertrain): Camshaft Profile Control Stuck On Bank 1
+- **Code P003E** (Powertrain): Camshaft Profile Control Performance/Stuck Off Bank 2
+- **Code P003F** (Powertrain): Camshaft Profile Control Stuck On Bank 2
+- **Code P0040** (Powertrain): Upstream Oxygen Sensors Swapped From Bank To Bank
+- **Code P0041** (Powertrain): Downstream Oxygen Sensors Swapped From Bank To Bank
+- **Code P0042** (Powertrain): HO2S Heater Control Circuit (Bank 1 Sensor 3)
+- **Code P0043** (Powertrain): HO2S Heater Control Circuit Low (Bank 1 Sensor 3)
+- **Code P0044** (Powertrain): HO2S Heater Control Circuit High (Bank 1 Sensor 3)
+- **Code P0045** (Powertrain): Turbocharger/Supercharger Boost Control Circuit/Open
+- **Code P0046** (Powertrain): Turbocharger/Supercharger Boost Control Circuit Range/Performance
+- **Code P0047** (Powertrain): Turbocharger/Supercharger Boost Control Circuit Low
+- **Code P0048** (Powertrain): Turbocharger/Supercharger Boost Control Circuit High
+- **Code P0049** (Powertrain): Turbocharger/Supercharger Turbine Overspeed
+- **Code P004A** (Powertrain): Turbocharger/Supercharger Boost Control Circuit/Open
+- **Code P004B** (Powertrain): Turbocharger/Supercharger Boost Control Circuit Range/Performance
+- **Code P004C** (Powertrain): Turbocharger/Supercharger Boost Control Circuit Low
+- **Code P004D** (Powertrain): Turbocharger/Supercharger Boost Control Circuit High
+- **Code P004E** (Powertrain): Turbocharger/Supercharger Boost Control Circuit Intermittent/Erratic
+- **Code P004F** (Powertrain): Turbocharger/Supercharger Boost Control Circuit Intermittent/Erratic
+- **Code P0050** (Powertrain): HO2S Heater Control Circuit (Bank 2 Sensor 1)
+- **Code P0051** (Powertrain): HO2S Heater Control Circuit Low (Bank 2 Sensor 1)
+- **Code P0052** (Powertrain): HO2S Heater Control Circuit High (Bank 2 Sensor 1)
+- **Code P0053** (Powertrain): HO2S Heater Resistance (Bank 1, Sensor 1)
+- **Code P0054** (Powertrain): HO2S Heater Resistance (Bank 1, Sensor 2)
+- **Code P0055** (Powertrain): HO2S Heater Resistance (Bank 1, Sensor 3)
+- **Code P0056** (Powertrain): HO2S Heater Control Circuit (Bank 2 Sensor 2)
+- **Code P0057** (Powertrain): HO2S Heater Control Circuit Low (Bank 2 Sensor 2)
+- **Code P0058** (Powertrain): HO2S Heater Control Circuit High (Bank 2 Sensor 2)
+- **Code P0059** (Powertrain): HO2S Heater Resistance (Bank 2, Sensor 1)
+- **Code P005A** (Powertrain): Camshaft Profile Control Performance/Stuck Off Bank 1
+- **Code P005B** (Powertrain): Camshaft Profile Control Stuck On Bank 1
+- **Code P005C** (Powertrain): Camshaft Profile Control Performance/Stuck Off Bank 2
+- **Code P005D** (Powertrain): Camshaft Profile Control Stuck On Bank 2
+- **Code P005E** (Powertrain): Turbocharger/Supercharger Boost Control Supply Voltage Circuit Low
+- **Code P005F** (Powertrain): Turbocharger/Supercharger Boost Control Supply Voltage Circuit High
+- **Code P0060** (Powertrain): HO2S Heater Resistance (Bank 2, Sensor 2)
+- **Code P0061** (Powertrain): HO2S Heater Resistance (Bank 2, Sensor 3)
+- **Code P0062** (Powertrain): HO2S Heater Control Circuit (Bank 2 Sensor 3)
+- **Code P0063** (Powertrain): HO2S Heater Control Circuit Low (Bank 2 Sensor 3)
+- **Code P0064** (Powertrain): HO2S Heater Control Circuit High (Bank 2 Sensor 3)
+- **Code P0065** (Powertrain): Air Assisted Injector Control Range/Performance
+- **Code P0066** (Powertrain): Air Assisted Injector Control Circuit or Circuit Low
+- **Code P0067** (Powertrain): Air Assisted Injector Control Circuit High
+- **Code P0068** (Powertrain): MAP/MAF - Throttle Position Correlation
+- **Code P0069** (Powertrain): Manifold Absolute Pressure - Barometric Pressure Correlation
+- **Code P006A** (Powertrain): MAP - Mass or Volume Air Flow Correlation Bank 1
+- **Code P006B** (Powertrain): MAP - Exhaust Pressure Correlation
+- **Code P006C** (Powertrain): MAP - Turbocharger/Supercharger Inlet Pressure Correlation
+- **Code P006D** (Powertrain): Barometric Pressure - Turbocharger/Supercharger Inlet Pressure Correlation
+- **Code P006E** (Powertrain): Turbocharger/Supercharger Boost Control Supply Voltage Circuit Low
+- **Code P006F** (Powertrain): Turbocharger/Supercharger Boost Control Supply Voltage Circuit High
+- **Code P0070** (Powertrain): Ambient Air Temperature Sensor Circuit
+- **Code P0071** (Powertrain): Ambient Air Temperature Sensor Range/Performance
+- **Code P0072** (Powertrain): Ambient Air Temperature Sensor Circuit Low Input
+- **Code P0073** (Powertrain): Ambient Air Temperature Sensor Circuit High Input
+- **Code P0074** (Powertrain): Ambient Air Temperature Sensor Circuit Intermittent
+- **Code P0075** (Powertrain): Intake Valve Control Solenoid Circuit (Bank 1)
+- **Code P0076** (Powertrain): Intake Valve Control Solenoid Circuit Low (Bank 1)
+- **Code P0077** (Powertrain): Intake Valve Control Solenoid Circuit High (Bank 1)
+- **Code P0078** (Powertrain): Exhaust Valve Control Solenoid Circuit (Bank 1)
+- **Code P0079** (Powertrain): Exhaust Valve Control Solenoid Circuit Low (Bank 1)
+- **Code P007A** (Powertrain): Charge Air Cooler Temperature Sensor Circuit Bank 1
+- **Code P007B** (Powertrain): Charge Air Cooler Temperature Sensor Circuit Range/Performance Bank 1
+- **Code P007C** (Powertrain): Charge Air Cooler Temperature Sensor Circuit Low Bank 1
+- **Code P007D** (Powertrain): Charge Air Cooler Temperature Sensor Circuit High Bank 1
+- **Code P007E** (Powertrain): Charge Air Cooler Temperature Sensor Circuit Intermittent/Erratic Bank 1
+- **Code P007F** (Powertrain): Charge Air Cooler Temperature Sensor Bank1/Bank2 Correlation
+- **Code P0080** (Powertrain): Exhaust Valve Control Solenoid Circuit High (Bank 1)
+- **Code P0081** (Powertrain): Intake valve Control Solenoid Circuit (Bank 2)
+- **Code P0082** (Powertrain): Intake Valve Control Solenoid Circuit Low (Bank 2)
+- **Code P0083** (Powertrain): Intake Valve Control Solenoid Circuit High (Bank 2)
+- **Code P0084** (Powertrain): Exhaust Valve Control Solenoid Circuit (Bank 2)
+- **Code P0085** (Powertrain): Exhaust Valve Control Solenoid Circuit Low (Bank 2)
+- **Code P0086** (Powertrain): Exhaust Valve Control Solenoid Circuit High (Bank 2)
+- **Code P0087** (Powertrain): Fuel Rail/System Pressure - Too Low
+- **Code P0088** (Powertrain): Fuel Rail/System Pressure - Too High
+- **Code P0089** (Powertrain): Fuel Pressure Regulator 1 Performance
+- **Code P008A** (Powertrain): Low Pressure Fuel System Pressure - Too Low
+- **Code P008B** (Powertrain): Low Pressure Fuel System Pressure - Too High
+- **Code P008C** (Powertrain): Fuel Cooler Pump Control Circuit Open
+- **Code P008D** (Powertrain): Fuel Cooler Pump Control Circuit Low
+- **Code P008E** (Powertrain): Fuel Cooler Pump Control Circuit High
+- **Code P008F** (Powertrain): Engine Coolant Temperature/Fuel Temperature Correlation
+- **Code P0090** (Powertrain): Fuel Pressure Regulator 1 Control Circuit
+- **Code P0091** (Powertrain): Fuel Pressure Regulator 1 Control Circuit Low
+- **Code P0092** (Powertrain): Fuel Pressure Regulator 1 Control Circuit High
+- **Code P0093** (Powertrain): Fuel System Leak Detected - Large Leak
+- **Code P0094** (Powertrain): Fuel System Leak Detected - Small Leak
+- **Code P0095** (Powertrain): Intake Air Temperature Sensor 2 Circuit Bank 1
+- **Code P0096** (Powertrain): Intake Air Temperature Sensor 2 Circuit Range/Performance Bank 1
+- **Code P0097** (Powertrain): Intake Air Temperature Sensor 2 Circuit Low Bank 1
+- **Code P0098** (Powertrain): Intake Air Temperature Sensor 2 Circuit High Bank 1
+- **Code P0099** (Powertrain): Intake Air Temperature Sensor 2 Circuit Intermittent/Erratic Bank 1
+- **Code P009A** (Powertrain): Intake Air Temperature/Ambient Air Temperature Correlation
+- **Code P009B** (Powertrain): Fuel Pressure Relief Control Circuit/Open
+- **Code P009C** (Powertrain): Fuel Pressure Relief Control Circuit Low
+- **Code P009D** (Powertrain): Fuel Pressure Relief Control Circuit High
+- **Code P009E** (Powertrain): Fuel Pressure Relief Control Performance/Stuck Off
+- **Code P009F** (Powertrain): Fuel Pressure Relief Control Stuck On
+- **Code P00A0** (Powertrain): Charge Air Cooler Temperature Sensor Circuit Bank 2
+- **Code P00A1** (Powertrain): Charge Air Cooler Temperature Sensor Circuit Range/Performance Bank 2
+- **Code P00A2** (Powertrain): Charge Air Cooler Temperature Sensor Circuit Low Bank 2
+- **Code P00A3** (Powertrain): Charge Air Cooler Temperature Sensor Circuit High Bank 2
+- **Code P00A4** (Powertrain): Charge Air Cooler Temperature Sensor Circuit Intermittent/Erratic Bank 2
+- **Code P00A5** (Powertrain): Intake Air Temperature Sensor 2 Circuit Bank 2
+- **Code P00A6** (Powertrain): Intake Air Temperature Sensor 2 Circuit Range/Performance Bank 2
+- **Code P00A7** (Powertrain): Intake Air Temperature Sensor 2 Circuit Low Bank 2
+- **Code P00A8** (Powertrain): Intake Air Temperature Sensor 2 Circuit High Bank 2
+- **Code P00A9** (Powertrain): Intake Air Temperature Sensor 2 Circuit Intermittent/Erratic Bank 2
+- **Code P00AA** (Powertrain): Intake Air Temperature Sensor 1 Circuit Bank 2
+- **Code P00AB** (Powertrain): Intake Air Temperature Sensor 1 Circuit Range/Performance Bank 2
+- **Code P00AC** (Powertrain): Intake Air Temperature Sensor 1 Circuit Low Bank 2
+- **Code P00AD** (Powertrain): Intake Air Temperature Sensor 1 Circuit High Bank 2
+- **Code P00AE** (Powertrain): Intake Air Temperature Sensor 1 Circuit Intermittent/Erratic Bank 2
+- **Code P00AF** (Powertrain): Turbocharger/Supercharger Boost Control Module Performance
+- **Code P00B0** (Powertrain): Turbocharger/Supercharger Boost Control Module Performance
+- **Code P00B1** (Powertrain): Radiator Coolant Temperature Sensor Circuit
+- **Code P00B2** (Powertrain): Radiator Coolant Temperature Sensor Circuit Range/Performance
+- **Code P00B3** (Powertrain): Radiator Coolant Temperature Sensor Circuit Low
+- **Code P00B4** (Powertrain): Radiator Coolant Temperature Sensor Circuit High
+- **Code P00B5** (Powertrain): Radiator Coolant Temperature Sensor Circuit Intermittent/Erratic
+- **Code P00B6** (Powertrain): Radiator Coolant Temperature/Engine Coolant Temperature Correlation
+- **Code P00B7** (Powertrain): Engine Coolant Flow Low/Performance
+- **Code P00B8** (Powertrain): MAP - Mass or Volume Air Flow Correlation Bank 2
+- **Code P00B9** (Powertrain): Low Pressure Fuel System Pressure - Too Low, Low Ambient Temperature
+- **Code P00BA** (Powertrain): Low Fuel Pressure - Forced Limited Power
+- **Code P00BB** (Powertrain): Fuel Injector Insufficient Flow - Forced Limited Power
+- **Code P00BC** (Powertrain): Mass or Volume Air Flow Circuit Range/Performance - Air Flow Too Low
+- **Code P00BD** (Powertrain): Mass or Volume Air Flow Circuit Range/Performance - Air Flow Too High
+- **Code P00BE** (Powertrain): Mass or Volume Air Flow Circuit Range/Performance - Air Flow Too Low
+- **Code P00BF** (Powertrain): Mass or Volume Air Flow Circuit Range/Performance - Air Flow Too High
+- **Code P0100** (Powertrain): Mass or Volume Air Flow - Circuit Malfunction
+- **Code P0101** (Powertrain): Mass or Volume Air Flow - Circuit Range/Performance Problem
+- **Code P0102** (Powertrain): Mass or Volume Air Flow - Circuit Low Input
+- **Code P0103** (Powertrain): Mass or Volume Air Flow - Circuit High Input
+- **Code P0104** (Powertrain): Mass or Volume Air Flow - Circuit Intermittent
+- **Code P0105** (Powertrain): Manifold Absolute Pressure/Barometric Pressure Circuit Malfunction
+- **Code P0106** (Powertrain): Manifold Absolute Pressure/Barometric Pressure Circuit Range/Performance Problem
+- **Code P0107** (Powertrain): Barometric pressure sensor circuit low input
+- **Code P0107** (Powertrain): Manifold Absolute Pressure/Barometric Pressure Circuit Low Input
+- **Code P0108** (Powertrain): Barometric pressure sensor circuit high input
+- **Code P0108** (Powertrain): Manifold Absolute Pressure/Barometric Pressure Circuit High Input
+- **Code P0109** (Powertrain): Manifold Absolute Pressure/Barometric Pressure Circuit Intermittent
+- **Code P010A** (Powertrain): Mass or Volume Air Flow - Circuit
+- **Code P010B** (Powertrain): Mass or Volume Air Flow - Circuit Range/Performance
+- **Code P010C** (Powertrain): Mass or Volume Air Flow - Circuit Low
+- **Code P010D** (Powertrain): Mass or Volume Air Flow - Circuit High
+- **Code P010E** (Powertrain): Mass or Volume Air Flow - Circuit Intermittent/Erratic
+- **Code P010F** (Powertrain): Mass or Volume Air Flow Sensor A/B Correlation
+- **Code P0110** (Powertrain): Intake Air Temperature Circuit Malfunction Bank 1
+- **Code P0111** (Powertrain): Intake Air Temperature Circuit Range/Performance Problem Bank 1
+- **Code P0112** (Powertrain): Intake air temp. sensor circuit low input
+- **Code P0112** (Powertrain): Intake Air Temperature Circuit Low Input Bank 1
+- **Code P0113** (Powertrain): Intake air temp. sensor circuit high input
+- **Code P0113** (Powertrain): Intake Air Temperature Circuit High Input Bank 1
+- **Code P0114** (Powertrain): Intake Air Temperature Circuit Intermittent Bank 1
+- **Code P0115** (Powertrain): Engine Coolant Temperature Sensor Circuit 1 Malfunction
+- **Code P0116** (Powertrain): Engine Coolant Temperature Sensor Circuit 1 Range/Performance Problem
+- **Code P0117** (Powertrain): Engine Coolant Temperature Sensor Circuit 1 Low Input
+- **Code P0118** (Powertrain): Engine Coolant Temperature Sensor Circuit 1 High Input
+- **Code P0119** (Powertrain): Engine Coolant Temperature Sensor Circuit 1 Intermittent
+- **Code P011A** (Powertrain): Engine Coolant Temperature Sensor 1/2 Correlation
+- **Code P011B** (Powertrain): Engine Coolant Temperature/Intake Air Temperature Correlation
+- **Code P011C** (Powertrain): Charge Air Temperature/Intake Air Temperature Correlation Bank 1
+- **Code P011D** (Powertrain): Charge Air Temperature/Intake Air Temperature Correlation Bank 2
+- **Code P0120** (Powertrain): Throttle Position Sensor/Switch A Circuit Malfunction
+- **Code P0121** (Powertrain): Throttle Position Sensor/Switch A Circuit Range/Performance Problem
+- **Code P0122** (Powertrain): Accelerator pedal sensor circuit low input
+- **Code P0122** (Powertrain): Throttle Position Sensor/Switch A Circuit Low Input
+- **Code P0123** (Powertrain): Accelerator pedal sensor circuit high input
+- **Code P0123** (Powertrain): Throttle Position Sensor/Switch A Circuit High Input
+- **Code P0124** (Powertrain): Throttle Position Sensor/Switch A Circuit Intermittent
+- **Code P0125** (Powertrain): Insufficient Coolant Temperature for Closed Loop Fuel Control
+- **Code P0126** (Powertrain): Insufficient Coolant Temperature for Stable Operation
+- **Code P0127** (Powertrain): Intake Air Temperature Too High
+- **Code P0128** (Powertrain): Coolant Thermostat (Coolant Temperature Below Thermostat Regulating Temperature)
+- **Code P0129** (Powertrain): Barometric Pressure Too Low
+- **Code P012A** (Powertrain): Turbocharger/Supercharger Inlet Pressure Sensor Circuit (Downstream of throttle valve) 
+- **Code P012B** (Powertrain): Turbocharger/Supercharger Inlet Pressure Sensor Circuit Range/Performance (Downstream of throttle valve) 
+- **Code P012C** (Powertrain): Turbocharger/Supercharger Inlet Pressure Sensor Circuit Low (Downstream of throttle valve)
+- **Code P012D** (Powertrain): Turbocharger/Supercharger Inlet Pressure Sensor Circuit High (Downstream of throttle valve) 
+- **Code P012E** (Powertrain): Turbocharger/Supercharger Inlet Pressure Sensor Circuit Intermittent/Erratic (Downstream of throttle valve)
+- **Code P0130** (Powertrain): 02 Sensor Circuit Malfunction (Bank I Sensor 1)
+- **Code P0131** (Powertrain): 02 Sensor Circuit Low Voltage (Bank I Sensor I)
+- **Code P0132** (Powertrain): 02 Sensor Circuit High Voltage (Bank I Sensor 1)
+- **Code P0133** (Powertrain): 02 Sensor Circuit Slow Response (Bank 1 Sensor 1)
+- **Code P0134** (Powertrain): 02 Sensor Circuit No Activity Detected (Bank I Sensor 1)
+- **Code P0135** (Powertrain): 02 Sensor Heater Circuit Malfunction (Bank 1 Sensor 1)
+- **Code P0136** (Powertrain): 02 Sensor Circuit Malfunction (Bank I Sensor 2)
+- **Code P0137** (Powertrain): 02 Sensor Circuit Low Voltage (Bank I Sensor 2)
+- **Code P0138** (Powertrain): 02 Sensor Circuit High Voltage (Bank I Sensor 2)
+- **Code P0139** (Powertrain): 02 Sensor Circuit Slow Response (Bank 1 Sensor 2)
+- **Code P013A** (Powertrain): O2 Sensor Slow Response - Rich to Lean (Bank 1 Sensor 2)
+- **Code P013B** (Powertrain): O2 Sensor Slow Response - Lean to Rich (Bank 1 Sensor 2)
+- **Code P013C** (Powertrain): O2 Sensor Slow Response - Rich to Lean (Bank 2 Sensor 2)
+- **Code P013D** (Powertrain): O2 Sensor Slow Response - Lean to Rich (Bank 2 Sensor 2)
+- **Code P013E** (Powertrain): O2 Sensor Delayed Response - Rich to Lean (Bank 1 Sensor 2)
+- **Code P013F** (Powertrain): O2 Sensor Delayed Response - Lean to Rich (Bank 1 Sensor 2)
+- **Code P0140** (Powertrain): 02 Sensor Circuit No Activity Detected (Bank 1 Sensor 2)
+- **Code P0141** (Powertrain): 02 Sensor Heater Circuit Malfunction (Bank 1 Sensor 2)
+- **Code P0142** (Powertrain): 02 Sensor Circuit Malfunction (Bank 1 Sensor 3)
+- **Code P0143** (Powertrain): 02 Sensor Circuit Low Voltage (Bank 1 Sensor 3)
+- **Code P0144** (Powertrain): 02 Sensor Circuit High Voltage (Bank 1 Sensor 3)
+- **Code P0145** (Powertrain): 02 Sensor Circuit Slow Response (Bank 1 Sensor 3)
+- **Code P0146** (Powertrain): 02 Sensor Circuit No Activity Detected (Bank 1 Sensor 3)
+- **Code P0147** (Powertrain): 02 Sensor Heater Circuit Malfunction (Bank 1 Sensor 3)
+- **Code P0148** (Powertrain): Fuel Delivery Error 
+- **Code P0149** (Powertrain): Fuel Timing Error
+- **Code P014A** (Powertrain): O2 Sensor Delayed Response - Rich to Lean (Bank 2 Sensor 2)
+- **Code P014B** (Powertrain): O2 Sensor Delayed Response - Lean to Rich (Bank 2 Sensor 2)
+- **Code P014C** (Powertrain): O2 Sensor Slow Response - Rich to Lean (Bank 1 Sensor 1)
+- **Code P014D** (Powertrain): O2 Sensor Slow Response - Lean to Rich (Bank 1 Sensor 1)
+- **Code P014E** (Powertrain): O2 Sensor Slow Response - Rich to Lean (Bank 2 Sensor 1)
+- **Code P014F** (Powertrain): O2 Sensor Slow Response - Lean to Rich (Bank 2 Sensor 1)
+- **Code P0150** (Powertrain): 02 Sensor Circuit Malfunction (Bank 2 Sensor 1)
+- **Code P0151** (Powertrain): 02 Sensor Circuit Low Voltage (Bank 2 Sensor 1)
+- **Code P0152** (Powertrain): 02 Sensor Circuit High Voltage (Bank 2 Sensor 1)
+- **Code P0153** (Powertrain): 02 Sensor Circuit Slow Response (Bank 2 Sensor 1)
+- **Code P0154** (Powertrain): 02 Sensor Circuit No Activity Detected (Bank 2 Sensor 1)
+- **Code P0155** (Powertrain): 02 Sensor Heater Circuit Malfunction (Bank 2 Sensor 1)
+- **Code P0156** (Powertrain): 02 Sensor Circuit Malfunction (Bank 2 Sensor 2)
+- **Code P0157** (Powertrain): 02 Sensor Circuit Low Voltage (Bank 2 Sensor 2)
+- **Code P0158** (Powertrain): 02 Sensor Circuit High Voltage (Bank 2 Sensor 2)
+- **Code P0159** (Powertrain): 02 Sensor Circuit Slow Response (Bank 2 Sensor 2)
+- **Code P015A** (Powertrain): O2 Sensor Delayed Response - Rich to Lean	(Bank 1 Sensor 1)
+- **Code P015B** (Powertrain): O2 Sensor Delayed Response - Lean to Rich	(Bank 1 Sensor 1)
+- **Code P015C** (Powertrain): O2 Sensor Delayed Response - Rich to Lean	(Bank 2 Sensor 1)
+- **Code P015D** (Powertrain): O2 Sensor Delayed Response - Lean to Rich	(Bank 2 Sensor 1)
+- **Code P0160** (Powertrain): 02 Sensor Circuit No Activity Detected (Bank 2 Sensor 2)
+- **Code P0161** (Powertrain): 02 Sensor Heater Circuit Malfunction (Bank 2 Sensor 2)
+- **Code P0162** (Powertrain): 02 Sensor Circuit Malfunction (Bank 2 Sensor 3)
+- **Code P0163** (Powertrain): 02 Sensor Circuit Low Voltage (Bank 2 Sensor 3)
+- **Code P0164** (Powertrain): 02 Sensor Circuit High Voltage (Bank 2 Sensor 3)
+- **Code P0165** (Powertrain): 02 Sensor Circuit Slow Response (Bank 2 Sensor 3)
+- **Code P0166** (Powertrain): 02 Sensor Circuit No Activity Detected (Bank 2 Sensor 3)
+- **Code P0167** (Powertrain): 02 Sensor Heater Circuit Malfunction (Bank 2 Sensor 3)
+- **Code P0168** (Powertrain): Fuel Temperature Too High
+- **Code P0169** (Powertrain): Incorrect Fuel Composition 
+- **Code P0170** (Powertrain): Fuel Trim Malfunction (Bank 1)
+- **Code P0171** (Powertrain): System too Lean (Bank 1)
+- **Code P0172** (Powertrain): System too Rich (Bank 1)
+- **Code P0173** (Powertrain): Fuel Trim Malfunction (Bank 2)
+- **Code P0174** (Powertrain): System too Lean (Bank 2)
+- **Code P0175** (Powertrain): System too Rich (Bank 2)
+- **Code P0176** (Powertrain): Fuel Composition Sensor Circuit Malfunction
+- **Code P0177** (Powertrain): Fuel Composition Sensor Circuit Range/Performance
+- **Code P0178** (Powertrain): Fuel Composition Sensor Circuit Low Input
+- **Code P0179** (Powertrain): Fuel Composition Sensor Circuit High Input
+- **Code P0180** (Powertrain): Fuel Temperature Sensor A Circuit Malfunction
+- **Code P0181** (Powertrain): Fuel Temperature Sensor A Circuit Range/Performance
+- **Code P0182** (Powertrain): Fuel Temperature Sensor A Circuit Low Input
+- **Code P0183** (Powertrain): Fuel Temperature Sensor A Circuit High Input
+- **Code P0184** (Powertrain): Fuel Temperature Sensor A Circuit Intermittent
+- **Code P0185** (Powertrain): Fuel Temperature Sensor B Circuit Malfunction
+- **Code P0186** (Powertrain): Fuel Temperature Sensor B Circuit Range/Performance
+- **Code P0187** (Powertrain): Fuel Temperature Sensor B Circuit Low Input
+- **Code P0188** (Powertrain): Fuel Temperature Sensor B Circuit High Input
+- **Code P0189** (Powertrain): Fuel Temperature Sensor B Circuit Intermittent
+- **Code P018A** (Powertrain): Fuel Pressure Sensor - Circuit 
+- **Code P018B** (Powertrain): Fuel Pressure Sensor - Circuit Range/Performance
+- **Code P018C** (Powertrain): Fuel Pressure Sensor - Circuit Low
+- **Code P018D** (Powertrain): Fuel Pressure Sensor - Circuit High
+- **Code P018E** (Powertrain): Fuel Pressure Sensor - Circuit Intermittent/Erratic 
+- **Code P018F** (Powertrain): Fuel System Over Pressure Relief Valve Frequent Activation
+- **Code P0190** (Powertrain): Fuel Rail Pressure Sensor A Circuit
+- **Code P0191** (Powertrain): Fuel Rail Pressure Sensor A Circuit Range/Performance
+- **Code P0192** (Powertrain): Fuel Rail Pressure Sensor A Circuit Low Input
+- **Code P0193** (Powertrain): Fuel Rail Pressure Sensor A Circuit High Input
+- **Code P0194** (Powertrain): Fuel Rail Pressure Sensor A Circuit Intermittent
+- **Code P0195** (Powertrain): Engine Oil Temperature Sensor Malfunction
+- **Code P0196** (Powertrain): Engine Oil Temperature Sensor Range/Performance
+- **Code P0197** (Powertrain): Engine oil temp. sensor circuit low input
+- **Code P0197** (Powertrain): Engine Oil Temperature Sensor Low
+- **Code P0198** (Powertrain): Engine oil temp. sensor circuit high input
+- **Code P0198** (Powertrain): Engine Oil Temperature Sensor High
+- **Code P0199** (Powertrain): Engine Oil Temperature Sensor Intermittent
+- **Code P0200** (Powertrain): Injector Circuit Malfunction
+- **Code P0201** (Powertrain): Injector Circuit Malfunction - Cylinder 1
+- **Code P0202** (Powertrain): Injector Circuit Malfunction - Cylinder 2
+- **Code P0203** (Powertrain): Injector Circuit Malfunction - Cylinder 3
+- **Code P0204** (Powertrain): Injector Circuit Malfunction - Cylinder 4
+- **Code P0205** (Powertrain): Injector Circuit Malfunction - Cylinder 5
+- **Code P0206** (Powertrain): Injector Circuit Malfunction - Cylinder 6
+- **Code P0207** (Powertrain): Injector Circuit Malfunction - Cylinder 7
+- **Code P0208** (Powertrain): Injector Circuit Malfunction - Cylinder 8
+- **Code P0209** (Powertrain): Injector Circuit Malfunction - Cylinder 9
+- **Code P020A** (Powertrain): Cylinder 1 Injection Timing
+- **Code P020B** (Powertrain): Cylinder 2 Injection Timing
+- **Code P020C** (Powertrain): Cylinder 3 Injection Timing
+- **Code P020D** (Powertrain): Cylinder 4 Injection Timing
+- **Code P020E** (Powertrain): Cylinder 5 Injection Timing
+- **Code P020F** (Powertrain): Cylinder 6 Injection Timing
+- **Code P0210** (Powertrain): Injector Circuit Malfunction - Cylinder 10
+- **Code P0211** (Powertrain): Injector Circuit Malfunction - Cylinder 11
+- **Code P0212** (Powertrain): Injector Circuit Malfunction - Cylinder 12
+- **Code P0213** (Powertrain): Cold Start Injector 1 Malfunction
+- **Code P0214** (Powertrain): Cold Start Injector 2 Malfunction
+- **Code P0215** (Powertrain): Engine Shutoff Solenoid Malfunction
+- **Code P0216** (Powertrain): Injection Timing Control Circuit Malfunction
+- **Code P0217** (Powertrain): Engine Overtemp Condition
+- **Code P0218** (Powertrain): Transmission Over Temperature Condition
+- **Code P0219** (Powertrain): Engine Overspeed Condition
+- **Code P021A** (Powertrain): Cylinder 7 Injection Timing
+- **Code P021B** (Powertrain): Cylinder 8 Injection Timing
+- **Code P021C** (Powertrain): Cylinder 9 Injection Timing
+- **Code P021D** (Powertrain): Cylinder 10 Injection Timing
+- **Code P021E** (Powertrain): Cylinder 11 Injection Timing
+- **Code P021F** (Powertrain): Cylinder 12 Injection Timing
+- **Code P0220** (Powertrain): Throttle switch B circuit malfunction
+- **Code P0220** (Powertrain): Throttle/Pedal Position Sensor/Switch B Circuit Malfunction
+- **Code P0221** (Powertrain): Throttle switch B circuit performance
+- **Code P0221** (Powertrain): Throttle/Pedal Position Sensor/Switch B Circuit Range/Performance
+- **Code P0222** (Powertrain): Throttle/Pedal Position Sensor/Switch B Circuit Low Input
+- **Code P0223** (Powertrain): Throttle/Pedal Position Sensor/Switch B Circuit High Input
+- **Code P0224** (Powertrain): Throttle/Pedal Position Sensor/Switch B Circuit Intermittent
+- **Code P0225** (Powertrain): Throttle/Pedal Position Sensor/Switch C Circuit Malfunction
+- **Code P0226** (Powertrain): Throttle/Pedal Position Sensor/Switch C Circuit Range/Performance
+- **Code P0227** (Powertrain): Throttle/Pedal Position Sensor/Switch C Circuit Low Input
+- **Code P0228** (Powertrain): Throttle/Pedal Position Sensor/Switch C Circuit High Input
+- **Code P0229** (Powertrain): Throttle/Pedal Position Sensor/Switch C Circuit Intermittent
+- **Code P022A** (Powertrain): Charge Air Cooler Bypass Control - Circuit Open
+- **Code P022B** (Powertrain): Charge Air Cooler Bypass Control - Circuit Low
+- **Code P022C** (Powertrain): Charge Air Cooler Bypass Control - Circuit High
+- **Code P022D** (Powertrain): Charge Air Cooler Bypass Control - Circuit Open
+- **Code P022E** (Powertrain): Charge Air Cooler Bypass Control - Circuit Low
+- **Code P022F** (Powertrain): Charge Air Cooler Bypass Control - Circuit High
+- **Code P0230** (Powertrain): Fuel pump relay driver failure
+- **Code P0230** (Powertrain): Fuel Pump Primary Circuit Malfunction
+- **Code P0231** (Powertrain): Fuel pump circuit failure
+- **Code P0231** (Powertrain): Fuel Pump Secondary Circuit Low
+- **Code P0232** (Powertrain): Fuel pump circuit failure
+- **Code P0232** (Powertrain): Fuel Pump Secondary Circuit High
+- **Code P0233** (Powertrain): Fuel Pump Secondary Circuit Intermittent
+- **Code P0234** (Powertrain): Engine Turbocharger/Supercharger Overboost Condition
+- **Code P0235** (Powertrain): Turbocharger Boost Sensor A Circuit Malfunction
+- **Code P0236** (Powertrain): Turbo boost sensor A circuit performance
+- **Code P0236** (Powertrain): Turbocharger Boost Sensor A Circuit Range/Performance
+- **Code P0237** (Powertrain): Turbo boost sensor A circuit low input
+- **Code P0237** (Powertrain): Turbocharger Boost Sensor A Circuit Low
+- **Code P0238** (Powertrain): Turbo boost sensor A circuit low high
+- **Code P0238** (Powertrain): Turbocharger Boost Sensor A Circuit High
+- **Code P0239** (Powertrain): Turbocharger Boost Sensor B Circuit Malfunction
+- **Code P023A** (Powertrain): Charge Air Cooler Coolant Pump Control Circuit Open
+- **Code P023B** (Powertrain): Charge Air Cooler Coolant Pump Control Circuit Low
+- **Code P023C** (Powertrain): Charge Air Cooler Coolant Pump Control Circuit High
+- **Code P023D** (Powertrain): Manifold Absolute Pressure - Turbocharger/Supercharger Boost Sensor - Correlation
+- **Code P023E** (Powertrain): Manifold Absolute Pressure - Turbocharger/Supercharger Boost Sensor - Correlation
+- **Code P023F** (Powertrain): Fuel Pump Secondary Circuit/Open 
+- **Code P0240** (Powertrain): Turbocharger Boost Sensor B Circuit Range/Performance
+- **Code P0241** (Powertrain): Turbocharger Boost Sensor B Circuit Low
+- **Code P0242** (Powertrain): Turbocharger Boost Sensor B Circuit High
+- **Code P0243** (Powertrain): Turbocharger Wastegate Solenoid A Malfunction
+- **Code P0244** (Powertrain): Turbocharger Wastegate Solenoid A Range/Performance
+- **Code P0245** (Powertrain): Turbocharger Wastegate Solenoid A Low
+- **Code P0246** (Powertrain): Turbocharger Wastegate Solenoid A High
+- **Code P0247** (Powertrain): Turbocharger Wastegate Solenoid B Malfunction
+- **Code P0248** (Powertrain): Turbocharger Wastegate Solenoid B Range/Performance
+- **Code P0249** (Powertrain): Turbocharger Wastegate Solenoid B Low
+- **Code P024A** (Powertrain): Charge Air Cooler Bypass Control - Range/Performance
+- **Code P024B** (Powertrain): Charge Air Cooler Bypass Control - Stuck
+- **Code P024C** (Powertrain): Charge Air Cooler Bypass Position Sensor - Circuit
+- **Code P024D** (Powertrain): Charge Air Cooler Bypass Position Sensor - Circuit Range/Performance
+- **Code P024E** (Powertrain): Charge Air Cooler Bypass Position Sensor - Circuit Low
+- **Code P024F** (Powertrain): Charge Air Cooler Bypass Position Sensor - Circuit High
+- **Code P0250** (Powertrain): Turbocharger Wastegate Solenoid B High
+- **Code P0251** (Powertrain): Injection Pump Fuel Metering Control A Malfunction (Cam/Rotor/Injector)
+- **Code P0252** (Powertrain): Injection Pump Fuel Metering Control A Range/Performance (Cam/Rotor/Injector)
+- **Code P0253** (Powertrain): Injection Pump Fuel Metering Control A Low (Cam/Rotor/Injector)
+- **Code P0254** (Powertrain): Injection Pump Fuel Metering Control A High (Cam/Rotor/Injector)
+- **Code P0255** (Powertrain): Injection Pump Fuel Metering Control A Intermittent (Cam/Rotor/Injector)
+- **Code P0256** (Powertrain): Injection Pump Fuel Metering Control B Malfunction (Cam/Rotor/Injector)
+- **Code P0257** (Powertrain): Injection Pump Fuel Metering Control B Range/Performance Injector)
+- **Code P0258** (Powertrain): Injection Pump Fuel Metering Control B Low (Cam/Rotor/Injector)
+- **Code P0259** (Powertrain): Injection Pump Fuel Metering Control B High (Cam/Rotor/Injector)
+- **Code P025A** (Powertrain): Fuel Pump Module Control Circuit/Open
+- **Code P025B** (Powertrain): Fuel Pump Module Control Circuit Range/Performance
+- **Code P025C** (Powertrain): Fuel Pump Module Control Circuit Low
+- **Code P025D** (Powertrain): Fuel Pump Module Control Circuit High
+- **Code P0260** (Powertrain): Injection Pump Fuel Metering Control "B" Intermittent (Cam/Rotor/Injector)
+- **Code P0261** (Powertrain): Injector circuit low Cylinder 1
+- **Code P0261** (Powertrain): Cylinder 1 Injector Circuit Low
+- **Code P0262** (Powertrain): Injector circuit high Cylinder 1
+- **Code P0262** (Powertrain): Cylinder 1 Injector Circuit High
+- **Code P0263** (Powertrain): Cylinder 1 contribution/balance fault
+- **Code P0263** (Powertrain): Cylinder 1 Contribution/Balance Fault
+- **Code P0264** (Powertrain): Injector circuit low Cylinder 2
+- **Code P0264** (Powertrain): Cylinder 2 Injector Circuit Low
+- **Code P0265** (Powertrain): Injector circuit high Cylinder 2
+- **Code P0265** (Powertrain): Cylinder 2 Injector Circuit High
+- **Code P0266** (Powertrain): Cylinder 2 contribution/balance fault
+- **Code P0266** (Powertrain): Cylinder 2 Contribution/Balance Fault
+- **Code P0267** (Powertrain): Injector circuit low Cylinder 3
+- **Code P0267** (Powertrain): Cylinder 3 Injector Circuit Low
+- **Code P0268** (Powertrain): Injector circuit high Cylinder 3
+- **Code P0268** (Powertrain): Cylinder 3 Injector Circuit High
+- **Code P0269** (Powertrain): Cylinder 3 contribution/balance fault
+- **Code P0269** (Powertrain): Cylinder 3 Contribution/Balance Fault
+- **Code P0270** (Powertrain): Injector circuit low Cylinder 4
+- **Code P0270** (Powertrain): Cylinder 4 Injector Circuit Low
+- **Code P0271** (Powertrain): Injector circuit high Cylinder 4
+- **Code P0271** (Powertrain): Cylinder 4 Injector Circuit High
+- **Code P0272** (Powertrain): Cylinder 4 contribution/balance fault
+- **Code P0272** (Powertrain): Cylinder 4 Contribution/Balance Fault
+- **Code P0273** (Powertrain): Injector circuit low Cylinder 5
+- **Code P0273** (Powertrain): Cylinder 5 Injector Circuit Low
+- **Code P0274** (Powertrain): Injector circuit high Cylinder 5
+- **Code P0274** (Powertrain): Cylinder 5 Injector Circuit High
+- **Code P0275** (Powertrain): Cylinder 5 contribution/balance fault
+- **Code P0275** (Powertrain): Cylinder 5 Contribution/Balance Fault
+- **Code P0276** (Powertrain): Injector circuit low Cylinder 6
+- **Code P0276** (Powertrain): Cylinder 6 Injector Circuit Low
+- **Code P0277** (Powertrain): Injector circuit high Cylinder 6
+- **Code P0277** (Powertrain): Cylinder 6 Injector Circuit High
+- **Code P0278** (Powertrain): Cylinder 6 contribution/balance fault
+- **Code P0278** (Powertrain): Cylinder 6 Contribution/Balance Fault
+- **Code P0279** (Powertrain): Injector circuit low Cylinder 7
+- **Code P0279** (Powertrain): Cylinder 7 Injector Circuit Low
+- **Code P0280** (Powertrain): Injector circuit high Cylinder 7
+- **Code P0280** (Powertrain): Cylinder 7 Injector Circuit High
+- **Code P0281** (Powertrain): Cylinder 7 contribution/balance fault
+- **Code P0281** (Powertrain): Cylinder 7 Contribution/Balance Fault
+- **Code P0282** (Powertrain): Injector circuit low Cylinder 8
+- **Code P0282** (Powertrain): Cylinder 8 Injector Circuit Low
+- **Code P0283** (Powertrain): Injector circuit high Cylinder 8
+- **Code P0283** (Powertrain): Cylinder 8 Injector Circuit High
+- **Code P0284** (Powertrain): Cylinder 8 contribution/balance fault
+- **Code P0284** (Powertrain): Cylinder 8 Contribution/Balance Fault
+- **Code P0285** (Powertrain): Cylinder 9 Injector Circuit Low
+- **Code P0286** (Powertrain): Cylinder 9 Injector Circuit High
+- **Code P0287** (Powertrain): Cylinder 9 Contribution/Balance Fault
+- **Code P0288** (Powertrain): Cylinder 10 Injector Circuit Low
+- **Code P0289** (Powertrain): Cylinder 10 Injector Circuit High
+- **Code P0290** (Powertrain): Cylinder 10 Contribution/Balance Fault
+- **Code P0291** (Powertrain): Cylinder 11 Injector Circuit Low
+- **Code P0292** (Powertrain): Cylinder 11 Injector Circuit High
+- **Code P0293** (Powertrain): Cylinder 11 Contribution/Balance Fault
+- **Code P0294** (Powertrain): Cylinder 12 Injector Circuit Low
+- **Code P0295** (Powertrain): Cylinder 12 Injector Circuit High
+- **Code P0296** (Powertrain): Cylinder 12 Contribution/Range Fault
+- **Code P0297** (Powertrain): Vehicle Overspeed Condition
+- **Code P0298** (Powertrain): Engine Oil Over Temperature Condition
+- **Code P0299** (Powertrain): Turbocharger/Supercharger - Underboost Condition
+- **Code P029A** (Powertrain): Cylinder 1 - Fuel Trim at Max Limit
+- **Code P029B** (Powertrain): Cylinder 1 - Fuel Trim at Min Limit
+- **Code P029C** (Powertrain): Cylinder 1 - Injector Restricted
+- **Code P029D** (Powertrain): Cylinder 1 - Injector Leaking
+- **Code P029E** (Powertrain): Cylinder 2 - Fuel Trim at Max Limit
+- **Code P029F** (Powertrain): Cylinder 2 - Fuel Trim at Min Limit
+- **Code P02A0** (Powertrain): Cylinder 2 - Injector Restricted
+- **Code P02A1** (Powertrain): Cylinder 2 - Injector Leaking
+- **Code P02A2** (Powertrain): Cylinder 3 - Fuel Trim at Max Limit
+- **Code P02A3** (Powertrain): Cylinder 3 - Fuel Trim at Min Limit
+- **Code P02A4** (Powertrain): Cylinder 3 - Injector Restricted
+- **Code P02A5** (Powertrain): Cylinder 3 - Injector Leaking
+- **Code P02A6** (Powertrain): Cylinder 4 - Fuel Trim at Max Limit
+- **Code P02A7** (Powertrain): Cylinder 4 - Fuel Trim at Min Limit
+- **Code P02A8** (Powertrain): Cylinder 4 - Injector Restricted
+- **Code P02A9** (Powertrain): Cylinder 4 - Injector Leaking
+- **Code P02AA** (Powertrain): Cylinder 5 - Fuel Trim at Max Limit
+- **Code P02AB** (Powertrain): Cylinder 5 - Fuel Trim at Min Limit
+- **Code P02AC** (Powertrain): Cylinder 5 - Injector Restricted
+- **Code P02AD** (Powertrain): Cylinder 5 - Injector Leaking
+- **Code P02AE** (Powertrain): Cylinder 6 - Fuel Trim at Max Limit
+- **Code P02AF** (Powertrain): Cylinder 6 - Fuel Trim at Min Limit
+- **Code P02B0** (Powertrain): Cylinder 6 - Injector Restricted
+- **Code P02B1** (Powertrain): Cylinder 6 - Injector Leaking
+- **Code P02B2** (Powertrain): Cylinder 7 - Fuel Trim at Max Limit
+- **Code P02B3** (Powertrain): Cylinder 7 - Fuel Trim at Min Limit
+- **Code P02B4** (Powertrain): Cylinder 7 - Injector Restricted
+- **Code P02B5** (Powertrain): Cylinder 7 - Injector Leaking
+- **Code P02B6** (Powertrain): Cylinder 8 - Fuel Trim at Max Limit
+- **Code P02B7** (Powertrain): Cylinder 8 - Fuel Trim at Min Limit
+- **Code P02B8** (Powertrain): Cylinder 8 - Injector Restricted
+- **Code P02B9** (Powertrain): Cylinder 8 - Injector Leaking
+- **Code P02BA** (Powertrain): Cylinder 9 - Fuel Trim at Max Limit
+- **Code P02BB** (Powertrain): Cylinder 9 - Fuel Trim at Min Limit
+- **Code P02BC** (Powertrain): Cylinder 9 - Injector Restricted
+- **Code P02BD** (Powertrain): Cylinder 9 - Injector Leaking
+- **Code P02BE** (Powertrain): Cylinder 10 - Fuel Trim at Max Limit
+- **Code P02BF** (Powertrain): Cylinder 10 - Fuel Trim at Min Limit
+- **Code P02C0** (Powertrain): Cylinder 10 - Injector Restricted
+- **Code P02C1** (Powertrain): Cylinder 10 - Injector Leaking
+- **Code P02C2** (Powertrain): Cylinder 11 - Fuel Trim at Max Limit
+- **Code P02C3** (Powertrain): Cylinder 11 - Fuel Trim at Min Limit
+- **Code P02C4** (Powertrain): Cylinder 11 - Injector Restricted
+- **Code P02C5** (Powertrain): Cylinder 11 - Injector Leaking
+- **Code P02C6** (Powertrain): Cylinder 12 - Fuel Trim at Max Limit
+- **Code P02C7** (Powertrain): Cylinder 12 - Fuel Trim at Min Limit
+- **Code P02C8** (Powertrain): Cylinder 12 - Injector Restricted
+- **Code P02C9** (Powertrain): Cylinder 12 - Injector Leaking
+- **Code P02CA** (Powertrain): Turbocharger/Supercharger - Overboost Condition
+- **Code P02CB** (Powertrain): Turbocharger/Supercharger - Underboost Condition
+- **Code P02CC** (Powertrain): Cylinder 1 Fuel Injector Offset Learning At Min Limit
+- **Code P02CD** (Powertrain): Cylinder 1 Fuel Injector Offset Learning At Max Limit
+- **Code P02CE** (Powertrain): Cylinder 2 Fuel Injector Offset Learning At Min Limit
+- **Code P02CF** (Powertrain): Cylinder 2 Fuel Injector Offset Learning At Max Limit
+- **Code P02D0** (Powertrain): Cylinder 3 Fuel Injector Offset Learning At Min Limit
+- **Code P02D1** (Powertrain): Cylinder 3 Fuel Injector Offset Learning At Max Limit
+- **Code P02D2** (Powertrain): Cylinder 4 Fuel Injector Offset Learning At Min Limit
+- **Code P02D3** (Powertrain): Cylinder 4 Fuel Injector Offset Learning At Max Limit
+- **Code P02D4** (Powertrain): Cylinder 5 Fuel Injector Offset Learning At Min Limit
+- **Code P02D5** (Powertrain): Cylinder 5 Fuel Injector Offset Learning At Max Limit
+- **Code P02D6** (Powertrain): Cylinder 6 Fuel Injector Offset Learning At Min Limit
+- **Code P02D7** (Powertrain): Cylinder 6 Fuel Injector Offset Learning At Max Limit
+- **Code P02D8** (Powertrain): Cylinder 7 Fuel Injector Offset Learning At Min Limit
+- **Code P02D9** (Powertrain): Cylinder 7 Fuel Injector Offset Learning At Max Limit
+- **Code P02DA** (Powertrain): Cylinder 8 Fuel Injector Offset Learning At Min Limit
+- **Code P02DB** (Powertrain): Cylinder 8 Fuel Injector Offset Learning At Max Limit
+- **Code P02DC** (Powertrain): Cylinder 9 Fuel Injector Offset Learning At Min Limit
+- **Code P02DD** (Powertrain): Cylinder 9 Fuel Injector Offset Learning At Max Limit
+- **Code P02DE** (Powertrain): Cylinder 10 Fuel Injector Offset Learning At Min Limit
+- **Code P02DF** (Powertrain): Cylinder 10 Fuel Injector Offset Learning At Max Limit
+- **Code P02E0** (Powertrain): Diesel Intake Air Flow Control Circuit/Open
+- **Code P02E1** (Powertrain): Diesel Intake Air Flow Control Performance
+- **Code P02E2** (Powertrain): Diesel Intake Air Flow Control Circuit Low
+- **Code P02E3** (Powertrain): Diesel Intake Air Flow Control Circuit High
+- **Code P02E4** (Powertrain): Diesel Intake Air Flow Control Stuck Open
+- **Code P02E5** (Powertrain): Diesel Intake Air Flow Control Stuck Closed
+- **Code P02E6** (Powertrain): Diesel Intake Air Flow Position Sensor Circuit
+- **Code P02E7** (Powertrain): Diesel Intake Air Flow Position Sensor Circuit Range/Performance
+- **Code P02E8** (Powertrain): Diesel Intake Air Flow Position Sensor Circuit Low
+- **Code P02E9** (Powertrain): Diesel Intake Air Flow Position Sensor Circuit High
+- **Code P02EA** (Powertrain): Diesel Intake Air Flow Position Sensor Circuit Intermittent/Erratic
+- **Code P02EB** (Powertrain): Diesel Intake Air Flow Control Motor Current Range/Performance
+- **Code P02EC** (Powertrain): Diesel Intake Air Flow Control System - High Air Flow Detected
+- **Code P02ED** (Powertrain): Diesel Intake Air Flow Control System - Low Air Flow Detected
+- **Code P02EE** (Powertrain): Cylinder 1 Injector Circuit Range/Performance
+- **Code P02EF** (Powertrain): Cylinder 2 Injector Circuit Range/Performance
+- **Code P02F0** (Powertrain): Cylinder 3 Injector Circuit Range/Performance
+- **Code P02F1** (Powertrain): Cylinder 4 Injector Circuit Range/Performance
+- **Code P02F2** (Powertrain): Cylinder 5 Injector Circuit Range/Performance
+- **Code P02F3** (Powertrain): Cylinder 6 Injector Circuit Range/Performance
+- **Code P02F4** (Powertrain): Cylinder 7 Injector Circuit Range/Performance
+- **Code P02F5** (Powertrain): Cylinder 8 Injector Circuit Range/Performance
+- **Code P02F6** (Powertrain): Cylinder 9 Injector Circuit Range/Performance
+- **Code P02F7** (Powertrain): Cylinder 10 Injector Circuit Range/Performance
+- **Code P02F8** (Powertrain): Cylinder 11 Injector Circuit Range/Performance
+- **Code P02F9** (Powertrain): Cylinder 12 Injector Circuit Range/Performance
+- **Code P02FA** (Powertrain): Diesel Intake Air Flow Position Sensor Minimum/Maximum Stop Performance
+- **Code P0300** (Powertrain): Random/Multiple Cylinder Misfire Detected
+- **Code P0301** (Powertrain): Fault cylinder 1 Misfire detected
+- **Code P0301** (Powertrain): Cylinder 1 Misfire Detected
+- **Code P0302** (Powertrain): Fault cylinder 2 Misfire detected
+- **Code P0302** (Powertrain): Cylinder 2 Misfire Detected
+- **Code P0303** (Powertrain): Fault cylinder 3 Misfire detected
+- **Code P0303** (Powertrain): Cylinder 3 Misfire Detected
+- **Code P0304** (Powertrain): Fault cylinder 4 Misfire detected
+- **Code P0304** (Powertrain): Cylinder 4 Misfire Detected
+- **Code P0305** (Powertrain): Fault cylinder 5 Misfire detected
+- **Code P0305** (Powertrain): Cylinder 5 Misfire Detected
+- **Code P0306** (Powertrain): Fault cylinder 6 Misfire detected
+- **Code P0306** (Powertrain): Cylinder 6 Misfire Detected
+- **Code P0307** (Powertrain): Fault cylinder 7 Misfire detected
+- **Code P0307** (Powertrain): Cylinder 7 Misfire Detected
+- **Code P0308** (Powertrain): Fault cylinder 8 Misfire detected
+- **Code P0308** (Powertrain): Cylinder 8 Misfire Detected
+- **Code P0309** (Powertrain): Cylinder 9 Misfire Detected
+- **Code P0310** (Powertrain): Cylinder 10 Misfire Detected
+- **Code P0311** (Powertrain): Cylinder 11 Misfire Detected
+- **Code P0312** (Powertrain): Cylinder 12 Misfire Detected
+- **Code P0313** (Powertrain): Misfire Detected with Low Fuel
+- **Code P0314** (Powertrain): Single Cylinder Misfire (Cylinder not Specified)
+- **Code P0315** (Powertrain): Crankshaft Position System Variation Not Learned
+- **Code P0316** (Powertrain): Misfire Detected On Startup (First 1000 Revolutions)
+- **Code P0317** (Powertrain): Rough Road Hardware Not Present
+- **Code P0318** (Powertrain): Rough Road Sensor A Signal Circuit
+- **Code P0319** (Powertrain): Rough Road Sensor B Signal Circuit 
+- **Code P0320** (Powertrain): Ignition/Distributor Engine Speed Input Circuit Malfunction
+- **Code P0321** (Powertrain): Ignition/Distributor Engine Speed Input Circuit Range/Performance
+- **Code P0322** (Powertrain): Ignition/Distributor Engine Speed Input Circuit No Signal
+- **Code P0323** (Powertrain): Ignition/Distributor Engine Speed Input Circuit Intermittent
+- **Code P0324** (Powertrain): Knock Control System Error
+- **Code P0325** (Powertrain): Knock Sensor 1 Circuit Malfunction (Bank 1 or Single Sensor)
+- **Code P0326** (Powertrain): Knock Sensor 1 Circuit Range/Performance (Bank 1 or Single Sensor)
+- **Code P0327** (Powertrain): Knock Sensor 1 Circuit Low Input (Bank 1 or Single Sensor)
+- **Code P0328** (Powertrain): Knock Sensor 1 Circuit High Input (Bank 1 or Single Sensor)
+- **Code P0329** (Powertrain): Knock Sensor 1 Circuit Intermittent (Bank 1 or Single Sensor)
+- **Code P032A** (Powertrain): Knock Sensor 3 Circuit Bank 1
+- **Code P032B** (Powertrain): Knock Sensor 3 Circuit Range/Performance Bank 1
+- **Code P032C** (Powertrain): Knock Sensor 3 Circuit Low Bank 1
+- **Code P032D** (Powertrain): Knock Sensor 3 Circuit High Bank 1
+- **Code P032E** (Powertrain): Knock Sensor 3 Circuit Intermittent Bank 1
+- **Code P0330** (Powertrain): Knock Sensor 2 Circuit Malfunction (Bank 2)
+- **Code P0331** (Powertrain): Knock Sensor 2 Circuit Range/Performance (Bank 2)
+- **Code P0332** (Powertrain): Knock Sensor 2 Circuit Low Input (Bank 2)
+- **Code P0333** (Powertrain): Knock Sensor 2 Circuit High Input (Bank 2)
+- **Code P0334** (Powertrain): Knock Sensor 2 Circuit Intermittent (Bank 2)
+- **Code P0335** (Powertrain): Crankshaft Position Sensor A Circuit Malfunction
+- **Code P0336** (Powertrain): Crankshaft Position Sensor A Circuit Range/Performance
+- **Code P0337** (Powertrain): Crankshaft Position Sensor A Circuit Low Input
+- **Code P0338** (Powertrain): Crankshaft Position Sensor A Circuit High Input
+- **Code P0339** (Powertrain): Crankshaft Position Sensor A Circuit Intermittent
+- **Code P033A** (Powertrain): Knock Sensor 4 Circuit (Bank 2)
+- **Code P033B** (Powertrain): Knock Sensor 4 Circuit Range/Performance (Bank 2)
+- **Code P033C** (Powertrain): Knock Sensor 4 Circuit Low (Bank 2)
+- **Code P033D** (Powertrain): Knock Sensor 4 Circuit High (Bank 2)
+- **Code P033E** (Powertrain): Knock Sensor 4 Circuit Intermittent (Bank 2)
+- **Code P0340** (Powertrain): Camshaft position sensor ckt. malfunction
+- **Code P0340** (Powertrain): Camshaft Position Sensor Circuit Malfunction (Bank 1)
+- **Code P0341** (Powertrain): Camshaft position sensor ckt. performance
+- **Code P0341** (Powertrain): Camshaft Position Sensor Circuit Range/Performance (Bank 1)
+- **Code P0342** (Powertrain): Camshaft Position Sensor A Circuit Low Input (Bank 1)
+- **Code P0343** (Powertrain): Camshaft Position Sensor A Circuit High Input (Bank 1)
+- **Code P0344** (Powertrain): Camshaft position sensor ckt. intermittent
+- **Code P0344** (Powertrain): Camshaft Position Sensor A Circuit Intermittent (Bank 1)
+- **Code P0345** (Powertrain): Camshaft Position Sensor A Circuit Malfunction (Bank 2)
+- **Code P0346** (Powertrain): Camshaft Position Sensor A Circuit Range/Performance (Bank 2)
+- **Code P0347** (Powertrain): Camshaft Position Sensor A Circuit Low Input (Bank 2)
+- **Code P0348** (Powertrain): Camshaft Position Sensor A Circuit High Input (Bank 2)
+- **Code P0349** (Powertrain): Camshaft Position Sensor A Circuit Intermittent (Bank 2)
+- **Code P0350** (Powertrain): Ignition Coil Primary/Secondary Circuit Malfunction
+- **Code P0351** (Powertrain): Ignition Coil A Primary/Secondary Circuit Malfunction
+- **Code P0352** (Powertrain): Ignition Coil B Primary/Secondary Circuit Malfunction
+- **Code P0353** (Powertrain): Ignition Coil C Primary/Secondary Circuit Malfunction
+- **Code P0354** (Powertrain): Ignition Coil D Primary/Secondary Circuit Malfunction
+- **Code P0355** (Powertrain): Ignition Coil E Primary/Secondary Circuit Malfunction
+- **Code P0356** (Powertrain): Ignition Coil F Primary/Secondary Circuit Malfunction
+- **Code P0357** (Powertrain): Ignition Coil G Primary/Secondary Circuit Malfunction
+- **Code P0358** (Powertrain): Ignition Coil H Primary/Secondary Circuit Malfunction
+- **Code P0359** (Powertrain): Ignition Coil I Primary/Secondary Circuit Malfunction
+- **Code P0360** (Powertrain): Ignition Coil J Primary/Secondary Circuit Malfunction
+- **Code P0361** (Powertrain): Ignition Coil K Primary/Secondary Circuit Malfunction
+- **Code P0362** (Powertrain): Ignition Coil L Primary/Secondary Circuit Malfunction
+- **Code P0363** (Powertrain): Misfire Detected - Fueling Disabled
+- **Code P0365** (Powertrain): Camshaft Position Sensor  - Circuit (Bank 1)
+- **Code P0366** (Powertrain): Camshaft Position Sensor  - Circuit Range/Performance (Bank 1)
+- **Code P0367** (Powertrain): Camshaft Position Sensor  - Circuit Low (Bank 1)
+- **Code P0368** (Powertrain): Camshaft Position Sensor  - Circuit High (Bank 1)
+- **Code P0369** (Powertrain): Camshaft Position Sensor  - Circuit Intermittent (Bank 1)
+- **Code P0370** (Powertrain): Timing Reference High Resolution Signal A Malfunction
+- **Code P0371** (Powertrain): Timing Reference High Resolution Signal A Too Many Pulses
+- **Code P0372** (Powertrain): Timing Reference High Resolution Signal A Too Few Pulses
+- **Code P0373** (Powertrain): Timing Reference High Resolution Signal A Intermittent/Erratic Pulses
+- **Code P0374** (Powertrain): Timing Reference High Resolution Signal A No Pulses
+- **Code P0375** (Powertrain): Timing Reference High Resolution Signal B Malfunction
+- **Code P0376** (Powertrain): Timing Reference High Resolution Signal B Too Many Pulses
+- **Code P0377** (Powertrain): Timing Reference High Resolution Signal B Too Few Pulses
+- **Code P0378** (Powertrain): Timing Reference High Resolution Signal B Intermittent/Erratic Pulses
+- **Code P0379** (Powertrain): Timing Reference High Resolution Signal B No Pulses
+- **Code P037D** (Powertrain): Glow Plug Sense Circuit 
+- **Code P037E** (Powertrain): Glow Plug Sense Circuit Low 
+- **Code P037F** (Powertrain): Glow Plug Sense Circuit High
+- **Code P0380** (Powertrain): Glow plug circuit malfunction
+- **Code P0380** (Powertrain): Glow Plug/Heater Circuit "A"
+- **Code P0381** (Powertrain): Glow plug indicator circuit malfunction
+- **Code P0381** (Powertrain): Glow Plug/Heater Indicator Circuit Malfunction
+- **Code P0382** (Powertrain): Glow Plug/Heater Circuit 
+- **Code P0383** (Powertrain): Glow Plug Control Module Control Circuit Low
+- **Code P0384** (Powertrain): Glow Plug Control Module Control Circuit High
+- **Code P0385** (Powertrain): Crankshaft Position Sensor B Circuit Malfunction
+- **Code P0386** (Powertrain): Crankshaft Position Sensor B Circuit Range/Performance
+- **Code P0387** (Powertrain): Crankshaft Position Sensor B Circuit Low Input
+- **Code P0388** (Powertrain): Crankshaft Position Sensor B Circuit High Input
+- **Code P0389** (Powertrain): Crankshaft Position Sensor B Circuit Intermittent
+- **Code P0390** (Powertrain): Camshaft Position Sensor  - Circuit (Bank 2)
+- **Code P0391** (Powertrain): Camshaft Position Sensor  - Circuit Range/Performance (Bank 2)
+- **Code P0392** (Powertrain): Camshaft Position Sensor  - Circuit Low (Bank 2)
+- **Code P0393** (Powertrain): Camshaft Position Sensor  - Circuit High (Bank 2)
+- **Code P0394** (Powertrain): Camshaft Position Sensor  - Circuit Intermittent (Bank 2)
+- **Code P0400** (Powertrain): Exhaust Gas Recirculation Flow Malfunction
+- **Code P0401** (Powertrain): Exhaust Gas Recirculation Flow Insufficient Detected
+- **Code P0402** (Powertrain): Exhaust Gas Recirculation Flow Excessive Detected
+- **Code P0403** (Powertrain): Exhaust Gas Recirculation Circuit Malfunction
+- **Code P0404** (Powertrain): Exhaust Gas Recirculation Circuit Range/Performance
+- **Code P0405** (Powertrain): Exhaust Gas Recirculation Sensor A Circuit Low
+- **Code P0406** (Powertrain): Exhaust Gas Recirculation Sensor A Circuit High
+- **Code P0407** (Powertrain): Exhaust Gas Recirculation Sensor B Circuit Low
+- **Code P0408** (Powertrain): Exhaust Gas Recirculation Sensor B Circuit High
+- **Code P0409** (Powertrain): Exhaust Gas Recirculation Sensor  - Circuit
+- **Code P040A** (Powertrain): Exhaust Gas Recirculation Temperature Sensor  - Circuit
+- **Code P040B** (Powertrain): Exhaust Gas Recirculation Temperature Sensor  - Circuit Range/Performance
+- **Code P040C** (Powertrain): Exhaust Gas Recirculation Temperature Sensor  - Circuit Low
+- **Code P040D** (Powertrain): Exhaust Gas Recirculation Temperature Sensor  - Circuit High
+- **Code P040E** (Powertrain): Exhaust Gas Recirculation Temperature Sensor  - Circuit Intermittent/Erratic
+- **Code P040F** (Powertrain): Exhaust Gas Recirculation Temperature Sensor   - Correlation
+- **Code P0410** (Powertrain): Secondary Air Injection System Malfunction
+- **Code P0411** (Powertrain): Secondary Air Injection System Incorrect Flow Detected
+- **Code P0412** (Powertrain): Secondary Air Injection System Switching Valve A Circuit Malfunction
+- **Code P0413** (Powertrain): Secondary Air Injection System Switching Valve A Circuit Open
+- **Code P0414** (Powertrain): Secondary Air Injection System Switching Valve A Circuit Shorted
+- **Code P0415** (Powertrain): Secondary Air Injection System Switching Valve B Circuit Malfunction
+- **Code P0416** (Powertrain): Secondary Air Injection System Switching Valve B Circuit Open
+- **Code P0417** (Powertrain): Secondary Air Injection System Switching Valve B Circuit Shorted
+- **Code P0418** (Powertrain): Secondary Air Injection System Relay "A" Circuit Malfunction
+- **Code P0419** (Powertrain): Secondary Air Injection System Relay "B" Circuit Malfunction
+- **Code P041A** (Powertrain): Exhaust Gas Recirculation Temperature Sensor  - Circuit 
+- **Code P041B** (Powertrain): Exhaust Gas Recirculation Temperature Sensor  - Circuit Range/Performance
+- **Code P041C** (Powertrain): Exhaust Gas Recirculation Temperature Sensor  - Circuit Low
+- **Code P041D** (Powertrain): Exhaust Gas Recirculation Temperature Sensor  - Circuit High
+- **Code P041E** (Powertrain): Exhaust Gas Recirculation Temperature Sensor  - Circuit Intermittent/Erratic
+- **Code P041F** (Powertrain): Secondary Air Injection System Switching Valve  - Circuit Low
+- **Code P0420** (Powertrain): Catalyst System Efficiency Below Threshold (Bank 1)
+- **Code P0421** (Powertrain): Warm Up Catalyst Efficiency Below Threshold (Bank 1)
+- **Code P0422** (Powertrain): Main Catalyst Efficiency Below Threshold (Bank 1)
+- **Code P0423** (Powertrain): Heated Catalyst Efficiency Below Threshold (Bank 1)
+- **Code P0424** (Powertrain): Heated Catalyst Temperature Below Threshold (Bank 1)
+- **Code P0425** (Powertrain): Catalyst Temperature Sensor (Bank 1, Sensor 1)
+- **Code P0426** (Powertrain): Catalyst Temperature Sensor Range/Performance (Bank 1, Sensor 1)
+- **Code P0427** (Powertrain): Catalyst Temperature Sensor Low (Bank 1, Sensor 1)
+- **Code P0428** (Powertrain): Catalyst Temperature Sensor High (Bank 1, Sensor 1)
+- **Code P0429** (Powertrain): Catalyst Heater Control Circuit (Bank 1)
+- **Code P042A** (Powertrain): Catalyst Temperature Sensor Circuit (Bank 1 Sensor 2)
+- **Code P042B** (Powertrain): Catalyst Temperature Sensor Circuit Range/Performance (Bank 1 Sensor 2)
+- **Code P042C** (Powertrain): Catalyst Temperature Sensor Circuit Low (Bank 1 Sensor 2)
+- **Code P042D** (Powertrain): Catalyst Temperature Sensor Circuit High (Bank 1 Sensor 2)
+- **Code P042E** (Powertrain): Exhaust Gas Recirculation  - Control Stuck Open
+- **Code P042F** (Powertrain): Exhaust Gas Recirculation  - Control Stuck Closed
+- **Code P0430** (Powertrain): Catalyst System Efficiency Below Threshold (Bank 2)
+- **Code P0431** (Powertrain): Warm Up Catalyst Efficiency Below Threshold (Bank 2)
+- **Code P0432** (Powertrain): Main Catalyst Efficiency Below Threshold (Bank 2)
+- **Code P0433** (Powertrain): Heated Catalyst Efficiency Below Threshold (Bank 2)
+- **Code P0434** (Powertrain): Heated Catalyst Temperature Below Threshold (Bank 2)
+- **Code P0435** (Powertrain): Catalyst Temperature Sensor Circuit Malfunction (Bank 2, Sensor 1)
+- **Code P0436** (Powertrain): Catalyst Temperature Sensor Circuit Range/Performance (Bank 2, Sensor 1)
+- **Code P0437** (Powertrain): Catalyst Temperature Sensor Circuit Low (Bank 2, Sensor 1)
+- **Code P0438** (Powertrain): Catalyst Temperature Sensor Circuit High (Bank 2, Sensor 1)
+- **Code P0439** (Powertrain): Catalyst Heater Control Circuit (Bank 2)
+- **Code P043A** (Powertrain): Catalyst Temperature Sensor Circuit (Bank 2 Sensor 2)
+- **Code P043B** (Powertrain): Catalyst Temperature Sensor Circuit Range/Performance Bank 2 Sensor 2)
+- **Code P043C** (Powertrain): Catalyst Temperature Sensor Circuit Low (Bank 2 Sensor 2)
+- **Code P043D** (Powertrain): Catalyst Temperature Sensor Circuit High (Bank 2 Sensor 2)
+- **Code P043E** (Powertrain): Evaporative Emission System Leak Detection Reference Orifice Low Flow
+- **Code P043F** (Powertrain): Evaporative Emission System Leak Detection Reference Orifice High Flow
+- **Code P0440** (Powertrain): Evaporative Emission Control System Malfunction
+- **Code P0441** (Powertrain): Evaporative Emission Control System Incorrect Purge Flow
+- **Code P0442** (Powertrain): Evaporative Emission Control System Leak Detected (small leak)
+- **Code P0443** (Powertrain): Evaporative Emission Control System Purge Control Valve Circuit
+- **Code P0444** (Powertrain): Evaporative Emission Control System Purge Control Valve Circuit Open
+- **Code P0445** (Powertrain): Evaporative Emission Control System Purge Control Valve Circuit Shorted
+- **Code P0446** (Powertrain): Evaporative Emission Control System Vent Control Circuit Malfunction
+- **Code P0447** (Powertrain): Evaporative Emission Control System Vent Control Circuit Open
+- **Code P0448** (Powertrain): Evaporative Emission Control System Vent Control Circuit Shorted
+- **Code P0449** (Powertrain): Evaporative Emission Control System Vent Valve/Solenoid Circuit Malfunction
+- **Code P044A** (Powertrain): Exhaust Gas Recirculation Sensor - Circuit
+- **Code P044B** (Powertrain): Exhaust Gas Recirculation Sensor - Circuit Range/Performance
+- **Code P044C** (Powertrain): Exhaust Gas Recirculation Sensor - Circuit Low
+- **Code P044D** (Powertrain): Exhaust Gas Recirculation Sensor - Circuit High 
+- **Code P044E** (Powertrain): Exhaust Gas Recirculation Sensor - Circuit Intermittent/Erratic 
+- **Code P044F** (Powertrain): Secondary Air Injection System Switching Valve  - Circuit High
+- **Code P0450** (Powertrain): Evaporative Emission Control System Pressure Sensor Malfunction
+- **Code P0451** (Powertrain): Evaporative Emission Control System Pressure Sensor Range/Performance
+- **Code P0452** (Powertrain): Evaporative Emission Control System Pressure Sensor Low Input
+- **Code P0453** (Powertrain): Evaporative Emission Control System Pressure Sensor High Input
+- **Code P0454** (Powertrain): Evaporative Emission Control System Pressure Sensor Intermittent
+- **Code P0455** (Powertrain): Evaporative Emission Control System Leak Detected (gross leak)
+- **Code P0456** (Powertrain): Evaporative Emissions System Small Leak Detected
+- **Code P0457** (Powertrain): Evaporative Emission Control System Leak Detected
+- **Code P0458** (Powertrain): Evaporative Emission System Purge Control Valve Circuit Low
+- **Code P0459** (Powertrain): Evaporative Emission System Purge Control Valve Circuit High
+- **Code P045A** (Powertrain): Exhaust Gas Recirculation  - Control Circuit 
+- **Code P045B** (Powertrain): Exhaust Gas Recirculation  - Control Circuit Range/Performance
+- **Code P045C** (Powertrain): Exhaust Gas Recirculation  - Control Circuit Low 
+- **Code P045D** (Powertrain): Exhaust Gas Recirculation  - Control Circuit High
+- **Code P045E** (Powertrain): Exhaust Gas Recirculation  - Control Stuck Open
+- **Code P045F** (Powertrain): Exhaust Gas Recirculation  - Control Stuck Closed
+- **Code P0460** (Powertrain): Fuel level sensor circuit malfunction
+- **Code P0460** (Powertrain): Fuel Level Sensor Circuit Malfunction
+- **Code P0461** (Powertrain): Fuel Level Sensor Circuit Range/Performance
+- **Code P0462** (Powertrain): Fuel Level Sensor Circuit Low Input
+- **Code P0463** (Powertrain): Fuel Level Sensor Circuit High Input
+- **Code P0464** (Powertrain): Fuel Level Sensor Circuit Intermittent
+- **Code P0465** (Powertrain): Purge Flow Sensor Circuit Malfunction
+- **Code P0466** (Powertrain): Purge Flow Sensor Circuit Range/Performance
+- **Code P0467** (Powertrain): Purge Flow Sensor Circuit Low Input
+- **Code P0468** (Powertrain): Purge Flow Sensor Circuit High Input
+- **Code P0469** (Powertrain): Purge Flow Sensor Circuit Intermittent
+- **Code P046A** (Powertrain): Catalyst Temperature Sensor 1/2 Correlation (Bank 1)
+- **Code P046B** (Powertrain): Catalyst Temperature Sensor 1/2 Correlation (Bank 2)
+- **Code P046C** (Powertrain): Exhaust Gas Recirculation Sensor  - Circuit Range/Performance 
+- **Code P046D** (Powertrain): Exhaust Gas Recirculation Sensor  - Circuit Intermittent/Erratic 
+- **Code P046E** (Powertrain): Exhaust Gas Recirculation Sensor  - Circuit Range/Performance
+- **Code P046F** (Powertrain): Exhaust Gas Recirculation Sensor  - Circuit Intermittent/Erratic
+- **Code P0470** (Powertrain): Exhaust back pressure sensor circuit malfunction
+- **Code P0470** (Powertrain): Exhaust Pressure Sensor  - Circuit
+- **Code P0471** (Powertrain): Exhaust back pressure sensor circuit performance
+- **Code P0471** (Powertrain): Exhaust Pressure Sensor  - Circuit Range/Performance
+- **Code P0472** (Powertrain): Exhaust back pressure sensor circuit low input
+- **Code P0472** (Powertrain): Exhaust Pressure Sensor  - Circuit Low
+- **Code P0473** (Powertrain): Exhaust back pressure sensor circuit high input
+- **Code P0473** (Powertrain): Exhaust Pressure Sensor  - Circuit High
+- **Code P0474** (Powertrain): Exhaust Pressure Sensor  - Circuit Intermittent
+- **Code P0475** (Powertrain): Exhaust pressure control valve malfunction
+- **Code P0475** (Powertrain): Exhaust Pressure Control Valve  -
+- **Code P0476** (Powertrain): Exhaust pressure control valve performance
+- **Code P0476** (Powertrain): Exhaust Pressure Control Valve  - Range/Performance
+- **Code P0477** (Powertrain): Exhaust Pressure Control Valve  - Low
+- **Code P0478** (Powertrain): Exhaust pressure control valve high input
+- **Code P0478** (Powertrain): Exhaust Pressure Control Valve  - High
+- **Code P0479** (Powertrain): Exhaust Pressure Control Valve  - Intermittent
+- **Code P047A** (Powertrain): Exhaust Pressure Sensor  - Circuit 
+- **Code P047B** (Powertrain): Exhaust Pressure Sensor  - Circuit Range/Performance
+- **Code P047C** (Powertrain): Exhaust Pressure Sensor  - Circuit Low
+- **Code P047D** (Powertrain): Exhaust Pressure Sensor  - Circuit High 
+- **Code P047E** (Powertrain): Exhaust Pressure Sensor  - Circuit Intermittent/Erratic
+- **Code P047F** (Powertrain): Exhaust Pressure Control Valve  - Stuck Open
+- **Code P0480** (Powertrain): Cooling Fan I Control Circuit Malfunction
+- **Code P0481** (Powertrain): Cooling Fan 2 Control Circuit Malfunction
+- **Code P0482** (Powertrain): Cooling Fan 3 Control Circuit Malfunction
+- **Code P0483** (Powertrain): Cooling Fan Rationality Check Malfunction
+- **Code P0484** (Powertrain): Cooling Fan Circuit Over Current 
+- **Code P0485** (Powertrain): Cooling Fan Power/Ground Circuit Malfunction
+- **Code P0486** (Powertrain): Exhaust Gas Recirculation Sensor  - Circuit
+- **Code P0487** (Powertrain): Exhaust Gas Recirculation Throttle Control Circuit  - Open
+- **Code P0488** (Powertrain): Exhaust Gas Recirculation Throttle Control Circuit  - Range/Performance
+- **Code P0489** (Powertrain): Exhaust Gas Recirculation  - Control Circuit Low
+- **Code P048A** (Powertrain): Exhaust Pressure Control Valve  - Stuck Closed
+- **Code P048B** (Powertrain): Exhaust Pressure Control Valve Position Sensor/Switch Circuit
+- **Code P048C** (Powertrain): Exhaust Pressure Control Valve Position Sensor/Switch Circuit Range/Performance
+- **Code P048D** (Powertrain): Exhaust Pressure Control Valve Position Sensor/Switch Circuit Low
+- **Code P048E** (Powertrain): Exhaust Pressure Control Valve Position Sensor/Switch Circuit High
+- **Code P048F** (Powertrain): Exhaust Pressure Control Valve Position Sensor/Switch Circuit Intermittent/Erratic
+- **Code P0490** (Powertrain): Exhaust Gas Recirculation  - Control Circuit High
+- **Code P0491** (Powertrain): Secondary Air Injection System Insufficient Flow Bank 1
+- **Code P0492** (Powertrain): Secondary Air Injection System Insufficient Flow Bank 2
+- **Code P0493** (Powertrain): Fan Overspeed
+- **Code P0494** (Powertrain): Fan Speed Low
+- **Code P0495** (Powertrain): Fan Speed High
+- **Code P0496** (Powertrain): EVAP Flow During A Non-Purge Condition
+- **Code P0497** (Powertrain): Evaporative Emission System Low Purge Flow
+- **Code P0498** (Powertrain): Evaporative Emission System Vent Valve Control Circuit Low
+- **Code P0499** (Powertrain): Evaporative Emission System Vent Valve Control Circuit High
+- **Code P049A** (Powertrain): Exhaust Gas Recirculation  - Flow
+- **Code P049B** (Powertrain): Exhaust Gas Recirculation  - Flow Insufficient Detected
+- **Code P049C** (Powertrain): Exhaust Gas Recirculation  - Flow Excessive Detected
+- **Code P049D** (Powertrain): Exhaust Gas Recirculation  - Control Position Exceeded Learning Limit
+- **Code P049E** (Powertrain): Exhaust Gas Recirculation  - Control Position Exceeded Learning Limit
+- **Code P049F** (Powertrain): Exhaust Pressure Control Valve  -
+- **Code P04A0** (Powertrain): Exhaust Pressure Control Valve  - Range/Performance
+- **Code P04A1** (Powertrain): Exhaust Pressure Control Valve  - Low
+- **Code P04A2** (Powertrain): Exhaust Pressure Control Valve  - High
+- **Code P04A3** (Powertrain): Exhaust Pressure Control Valve - Intermittent
+- **Code P04A4** (Powertrain): Exhaust Pressure Control Valve  - Stuck Open
+- **Code P04A5** (Powertrain): Exhaust Pressure Control Valve  - Stuck Closed
+- **Code P04A6** (Powertrain): Exhaust Pressure Control Valve  - Position Sensor/Switch Circuit
+- **Code P04A7** (Powertrain): Exhaust Pressure Control Valve  - Position Sensor/Switch Circuit Range/Performance
+- **Code P04A8** (Powertrain): Exhaust Pressure Control Valve  - Position Sensor/Switch Circuit Low
+- **Code P04A9** (Powertrain): Exhaust Pressure Control Valve  - Position Sensor/Switch Circuit High
+- **Code P04AA** (Powertrain): Exhaust Pressure Control Valve  - Position Sensor/Switch Circuit Intermittent/Erratic
+- **Code P0500** (Powertrain): Vehicle speed sensor malfunction
+- **Code P0500** (Powertrain): Vehicle Speed Sensor  - Malfunction
+- **Code P0501** (Powertrain): Vehicle Speed Sensor  - Range/Performance
+- **Code P0502** (Powertrain): Vehicle Speed Sensor  - Low Input
+- **Code P0503** (Powertrain): Vehicle speed sensor noisy
+- **Code P0503** (Powertrain): Vehicle Speed Sensor  - Intermittent/Erratic/High
+- **Code P0504** (Powertrain): Brake Switch   - Correlation
+- **Code P0505** (Powertrain): Idle Control System Malfunction
+- **Code P0506** (Powertrain): Idle Control System RPM Lower Than Expected
+- **Code P0507** (Powertrain): Idle Control System RPM Higher Than Expected
+- **Code P0508** (Powertrain): Idle Air Control System Circuit Low
+- **Code P0509** (Powertrain): Idle Air Control System Circuit High
+- **Code P050A** (Powertrain): Cold Start Idle Air Control System Performance
+- **Code P050B** (Powertrain): Cold Start Ignition Timing Performance
+- **Code P050C** (Powertrain): Cold Start Engine Coolant Temperature Performance
+- **Code P050D** (Powertrain): Cold Start Rough Idle
+- **Code P050E** (Powertrain): Cold Start Engine Exhaust Temperature Too Low
+- **Code P050F** (Powertrain): Brake Assist Vacuum Too Low
+- **Code P0510** (Powertrain): Closed Throttle Position Switch Malfunction
+- **Code P0511** (Powertrain): Idle Air Control Circuit
+- **Code P0512** (Powertrain): Starter Request Circuit
+- **Code P0513** (Powertrain): Incorrect Immobilizer Key
+- **Code P0514** (Powertrain): Battery Temperature Sensor Circuit Range/Performance
+- **Code P0515** (Powertrain): Battery Temperature Sensor Circuit
+- **Code P0516** (Powertrain): Battery Temperature Sensor Circuit Low
+- **Code P0517** (Powertrain): Battery Temperature Sensor Circuit High
+- **Code P0518** (Powertrain): Idle Air Control Circuit Intermittent
+- **Code P0519** (Powertrain): Idle Air Control System Performance
+- **Code P051A** (Powertrain): Crankcase Pressure Sensor Circuit
+- **Code P051B** (Powertrain): Crankcase Pressure Sensor Circuit Range/Performance
+- **Code P051C** (Powertrain): Crankcase Pressure Sensor Circuit Low
+- **Code P051D** (Powertrain): Crankcase Pressure Sensor Circuit High
+- **Code P051E** (Powertrain): Crankcase Pressure Sensor Circuit Intermittent/Erratic
+- **Code P051F** (Powertrain): Positive Crankcase Ventilation Filter Restriction
+- **Code P0520** (Powertrain): Engine Oil Pressure Sensor/Switch Circuit Malfunction
+- **Code P0521** (Powertrain): Engine Oil Pressure Sensor/Switch Circuit Range/Performance
+- **Code P0522** (Powertrain): Engine Oil Pressure Sensor/Switch Circuit Low Voltage
+- **Code P0523** (Powertrain): Engine Oil Pressure Sensor/Switch Circuit High Voltage
+- **Code P0524** (Powertrain): Engine Oil Pressure Too Low
+- **Code P0525** (Powertrain): Cruise Control Servo Control Circuit Range/Performance
+- **Code P0526** (Powertrain): Fan Speed Sensor Circuit
+- **Code P0527** (Powertrain): Fan Speed Sensor Circuit Range/Performance
+- **Code P0528** (Powertrain): Fan Speed Sensor Circuit No Signal
+- **Code P0529** (Powertrain): Fan Speed Sensor Circuit Intermittent
+- **Code P052A** (Powertrain): Cold Start  - Camshaft Position Timing Over-Advanced Bank 1
+- **Code P052B** (Powertrain): Cold Start  - Camshaft Position Timing Over-Retarded Bank 1
+- **Code P052C** (Powertrain): Cold Start  - Camshaft Position Timing Over-Advanced Bank 2
+- **Code P052D** (Powertrain): Cold Start  - Camshaft Position Timing Over-Retarded Bank 2
+- **Code P052E** (Powertrain): Positive Crankcase Ventilation Regulator Valve Performance
+- **Code P0530** (Powertrain): A/C Refrigerant Pressure Sensor  - Circuit
+- **Code P0531** (Powertrain): A/C Refrigerant Pressure Sensor  - Circuit Range/Performance
+- **Code P0532** (Powertrain): A/C Refrigerant Pressure Sensor  - Circuit Low
+- **Code P0533** (Powertrain): A/C Refrigerant Pressure Sensor  - Circuit High
+- **Code P0534** (Powertrain): Air Conditioner Refrigerant Charge Loss
+- **Code P0535** (Powertrain): A/C Evaporator Temperature Sensor Circuit
+- **Code P0536** (Powertrain): A/C Evaporator Temperature Sensor Circuit Range/Performance
+- **Code P0537** (Powertrain): A/C Evaporator Temperature Sensor Circuit Low
+- **Code P0538** (Powertrain): A/C Evaporator Temperature Sensor Circuit High
+- **Code P0539** (Powertrain): A/C Evaporator Temperature Sensor Circuit Intermittent
+- **Code P053A** (Powertrain): Positive Crankcase Ventilation Heater Control Circuit /Open
+- **Code P053B** (Powertrain): Positive Crankcase Ventilation Heater Control Circuit Low
+- **Code P053C** (Powertrain): Positive Crankcase Ventilation Heater Control Circuit High
+- **Code P0540** (Powertrain): Intake Air Heater  - Circuit
+- **Code P0541** (Powertrain): Manifold intake air heater…
+- **Code P0541** (Powertrain): Intake Air Heater  - Circuit Low
+- **Code P0542** (Powertrain): Manifold intake air heater…
+- **Code P0542** (Powertrain): Intake Air Heater  - Circuit High
+- **Code P0543** (Powertrain): Intake Air Heater  - Circuit Open
+- **Code P0544** (Powertrain): Exhaust Gas Temperature Sensor Circuit (Bank 1 Sensor 1)
+- **Code P0545** (Powertrain): Exhaust Gas Temperature Sensor Circuit Low (Bank 1 Sensor 1)
+- **Code P0546** (Powertrain): Exhaust Gas Temperature Sensor Circuit High (Bank 1 Sensor 1)
+- **Code P0547** (Powertrain): Exhaust Gas Temperature Sensor Circuit (Bank 2 Sensor 1)
+- **Code P0548** (Powertrain): Exhaust Gas Temperature Sensor Circuit Low (Bank 2 Sensor 1)
+- **Code P0549** (Powertrain): Exhaust Gas Temperature Sensor Circuit High (Bank 2 Sensor 1)
+- **Code P054A** (Powertrain): Cold Start  - Camshaft Position Timing Over-Advanced Bank 1
+- **Code P054B** (Powertrain): Cold Start  - Camshaft Position Timing Over-Retarded Bank 1
+- **Code P054C** (Powertrain): Cold Start  - Camshaft Position Timing Over-Advanced Bank 2
+- **Code P054D** (Powertrain): Cold Start  - Camshaft Position Timing Over-Retarded Bank 2
+- **Code P0550** (Powertrain): Power Steering Pressure Sensor Circuit Malfunction
+- **Code P0551** (Powertrain): Power Steering Pressure Sensor Circuit Range/Performance
+- **Code P0552** (Powertrain): Power Steering Pressure Sensor Circuit Low Input
+- **Code P0553** (Powertrain): Power Steering Pressure Sensor Circuit High Input
+- **Code P0554** (Powertrain): Power Steering Pressure Sensor Circuit Intermittent
+- **Code P0555** (Powertrain): Brake Booster Pressure Sensor Circuit
+- **Code P0556** (Powertrain): Brake Booster Pressure Sensor Circuit Range/Performance
+- **Code P0557** (Powertrain): Brake Booster Pressure Sensor Circuit Low
+- **Code P0558** (Powertrain): Brake Booster Pressure Sensor Circuit High
+- **Code P0559** (Powertrain): Brake Booster Pressure Sensor Circuit Intermittent
+- **Code P0560** (Powertrain): System voltage malfunction
+- **Code P0560** (Powertrain): System Voltage Malfunction
+- **Code P0561** (Powertrain): System Voltage Unstable
+- **Code P0562** (Powertrain): System voltage low
+- **Code P0562** (Powertrain): System Voltage Low
+- **Code P0563** (Powertrain): System voltage high
+- **Code P0563** (Powertrain): System Voltage High
+- **Code P0564** (Powertrain): Cruise Control Multi-Function Input  - Circuit
+- **Code P0565** (Powertrain): Cruise “On” signal malfunction
+- **Code P0565** (Powertrain): Cruise Control On Signal Malfunction
+- **Code P0566** (Powertrain): Cruise “Off” signal malfunction
+- **Code P0566** (Powertrain): Cruise Control Off Signal Malfunction
+- **Code P0567** (Powertrain): Cruise “Resume” signal malfunction
+- **Code P0567** (Powertrain): Cruise Control Resume Signal Malfunction
+- **Code P0568** (Powertrain): Cruise “Set” signal malfunction
+- **Code P0568** (Powertrain): Cruise Control Set Signal Malfunction
+- **Code P0569** (Powertrain): Cruise “Coast” signal malfunction
+- **Code P0569** (Powertrain): Cruise Control Coast Signal Malfunction
+- **Code P056A** (Powertrain): Cruise Control - Increase Distance Signal
+- **Code P056B** (Powertrain): Cruise Control - Decrease Distance Signal
+- **Code P0570** (Powertrain): Cruise Control Accel Signal Malfunction
+- **Code P0571** (Powertrain): Brake switch A circuit malfunction
+- **Code P0571** (Powertrain): Cruise Control/Brake Switch A Circuit Malfunction
+- **Code P0572** (Powertrain): Cruise Control/Brake Switch A Circuit Low
+- **Code P0573** (Powertrain): Cruise Control/Brake Switch A Circuit High
+- **Code P0574** (Powertrain): Cruise Control System - Vehicle Speed Too High
+- **Code P0575** (Powertrain): Cruise Control Input Circuit
+- **Code P0576** (Powertrain): Cruise Control Input Circuit Low
+- **Code P0577** (Powertrain): Cruise Control Input Circuit High
+- **Code P0578** (Powertrain): Cruise Control Multi-Function Input  - Circuit Stuck
+- **Code P0579** (Powertrain): Cruise Control Multi-Function Input  - Circuit Range/Performance
+- **Code P0580** (Powertrain): Cruise Control Multi-Function Input  - Circuit Low
+- **Code P0581** (Powertrain): Cruise Control Multi-Function Input  - Circuit High
+- **Code P0582** (Powertrain): Cruise Control Vacuum Control Circuit /Open
+- **Code P0583** (Powertrain): Cruise Control Vacuum Control Circuit Low
+- **Code P0584** (Powertrain): Cruise Control Vacuum Control Circuit High
+- **Code P0585** (Powertrain): Cruise Control Multi-Function Input   - Correlation
+- **Code P0586** (Powertrain): Cruise Control Vent Control Circuit/Open
+- **Code P0587** (Powertrain): Cruise Control Vent Control Circuit Low
+- **Code P0588** (Powertrain): Cruise Control Vent Control Circuit High
+- **Code P0589** (Powertrain): Cruise Control Multi-Function Input  - Circuit
+- **Code P0590** (Powertrain): Cruise Control Multi-Function Input  - Circuit Stuck
+- **Code P0591** (Powertrain): Cruise Control Multi-Function Input  - Circuit Range/Performance
+- **Code P0592** (Powertrain): Cruise Control Multi-Function Input  - Circuit Low
+- **Code P0593** (Powertrain): Cruise Control Multi-Function Input  - Circuit High
+- **Code P0594** (Powertrain): Cruise Control Servo Control Circuit/Open
+- **Code P0595** (Powertrain): Cruise Control Servo Control Circuit Low
+- **Code P0596** (Powertrain): Cruise Control Servo Control Circuit High
+- **Code P0597** (Powertrain): Thermostat Heater Control Circuit/Open
+- **Code P0598** (Powertrain): Thermostat Heater Control Circuit Low
+- **Code P0599** (Powertrain): Thermostat Heater Control Circuit High
+- **Code P0600** (Powertrain): Serial Communication Link Malfunction
+- **Code P0601** (Powertrain): Internal Control Module Memory Check Sum Error
+- **Code P0602** (Powertrain): Control Module Programming Error
+- **Code P0603** (Powertrain): Internal control module KAM error
+- **Code P0603** (Powertrain): Internal Control Module Keep Alive Memory (KAM) Error
+- **Code P0604** (Powertrain): Internal Control Module Random Access Memory (RAM) Error
+- **Code P0605** (Powertrain): Internal control module ROM error
+- **Code P0605** (Powertrain): Internal Control Module Read Only Memory (ROM) Error
+- **Code P0606** (Powertrain): PCM processor fault
+- **Code P0606** (Powertrain): PCM Processor Fault
+- **Code P0607** (Powertrain): Control Module Performance
+- **Code P0608** (Powertrain): Control Module VSS Output "A" Malfunction
+- **Code P0609** (Powertrain): Control Module VSS Output "B" Malfunction
+- **Code P060A** (Powertrain): Internal Control Module Monitoring Processor Performance
+- **Code P060B** (Powertrain): Internal Control Module A/D Processing Performance
+- **Code P060C** (Powertrain): Internal Control Module Main Processor Performance
+- **Code P060D** (Powertrain): Internal Control Module Accelerator Pedal Position Performance
+- **Code P060E** (Powertrain): Internal Control Module Throttle Position Performance
+- **Code P060F** (Powertrain): Internal Control Module Coolant Temperature Performance
+- **Code P0610** (Powertrain): Control Module Vehicle Options Error
+- **Code P0611** (Powertrain): Fuel Injector Control Module Performance
+- **Code P0612** (Powertrain): Fuel Injector Control Module Relay Control
+- **Code P0613** (Powertrain): TCM Processor
+- **Code P0614** (Powertrain): ECM / TCM Incompatible
+- **Code P0615** (Powertrain): Starter Relay Circuit
+- **Code P0616** (Powertrain): Starter Relay Circuit Low
+- **Code P0617** (Powertrain): Starter Relay Circuit High
+- **Code P0618** (Powertrain): Alternative Fuel Control Module KAM Error
+- **Code P0619** (Powertrain): Alternative Fuel Control Module RAM/ROM Error
+- **Code P061A** (Powertrain): Internal Control Module Torque Performance
+- **Code P061B** (Powertrain): Internal Control Module Torque Calculation Performance
+- **Code P061C** (Powertrain): Internal Control Module Engine RPM Performance
+- **Code P061D** (Powertrain): Internal Control Module Engine Air Mass Performance
+- **Code P061E** (Powertrain): Internal Control Module Brake Signal Performance
+- **Code P061F** (Powertrain): Internal Control Module Throttle Actuator Controller Performance
+- **Code P0620** (Powertrain): Generator Control Circuit Malfunction
+- **Code P0621** (Powertrain): Generator Lamp "L" Control Circuit Malfunction
+- **Code P0622** (Powertrain): Generator Field "F" Control Circuit Malfunction
+- **Code P0623** (Powertrain): Generator Lamp Control Circuit
+- **Code P0624** (Powertrain): Fuel Cap Lamp Control Circuit
+- **Code P0625** (Powertrain): Generator Field/F Terminal Circuit Low
+- **Code P0626** (Powertrain): Generator Field/F Terminal Circuit High
+- **Code P0627** (Powertrain): Fuel Pump  - Control Circuit /Open
+- **Code P0628** (Powertrain): Fuel Pump  - Control Circuit Low
+- **Code P0629** (Powertrain): Fuel Pump  - Control Circuit High
+- **Code P062A** (Powertrain): Fuel Pump  - Control Circuit Range/Performance
+- **Code P062B** (Powertrain): Internal Control Module Fuel Injector Control Performance
+- **Code P062C** (Powertrain): Internal Control Module Vehicle Speed Performance
+- **Code P062D** (Powertrain): Fuel Injector Driver Circuit Performance Bank 1
+- **Code P062E** (Powertrain): Fuel Injector Driver Circuit Performance Bank 2
+- **Code P062F** (Powertrain): Internal Control Module EEPROM Error
+- **Code P0630** (Powertrain): VIN Not Programmed or Incompatible &ndash; ECM/PCM
+- **Code P0631** (Powertrain): VIN Not Programmed or Incompatible &ndash; TCM
+- **Code P0632** (Powertrain): Odometer Not Programmed &ndash; ECM/PCM
+- **Code P0633** (Powertrain): Immobilizer Key Not Programmed &ndash; ECM/PCM
+- **Code P0634** (Powertrain): PCM/ECM/TCM Internal Temperature Too High
+- **Code P0635** (Powertrain): Power Steering Control Circuit
+- **Code P0636** (Powertrain): Power Steering Control Circuit Low
+- **Code P0637** (Powertrain): Power Steering Control Circuit High
+- **Code P0638** (Powertrain): Throttle Actuator Control Range/Performance (Bank 1)
+- **Code P0639** (Powertrain): Throttle Actuator Control Range/Performance (Bank 2)
+- **Code P063A** (Powertrain): Generator Voltage Sense Circuit
+- **Code P063B** (Powertrain): Generator Voltage Sense Circuit Range/Performance 
+- **Code P063C** (Powertrain): Generator Voltage Sense Circuit Low
+- **Code P063D** (Powertrain): Generator Voltage Sense Circuit High
+- **Code P063E** (Powertrain): Auto Configuration Throttle Input Not Present 
+- **Code P063F** (Powertrain): Auto Configuration Engine Coolant Temperature Input Not Present
+- **Code P0640** (Powertrain): Manifold intake air heater…
+- **Code P0640** (Powertrain): Intake Air Heater Control Circuit
+- **Code P0641** (Powertrain): Sensor Reference Voltage  - Circuit Open
+- **Code P0642** (Powertrain): Sensor Reference Voltage  - Circuit Low
+- **Code P0643** (Powertrain): Sensor Reference Voltage  - Circuit High
+- **Code P0644** (Powertrain): Driver Display Serial Communication Circuit
+- **Code P0645** (Powertrain): A/C Clutch Relay Control Circuit
+- **Code P0646** (Powertrain): A/C Clutch Relay Control Circuit Low
+- **Code P0647** (Powertrain): A/C Clutch Relay Control Circuit High
+- **Code P0648** (Powertrain): Immobilizer Lamp Control Circuit
+- **Code P0649** (Powertrain): Speed Control Lamp Control Circuit
+- **Code P064A** (Powertrain): Fuel Pump Control Module
+- **Code P064B** (Powertrain): PTO Control Module
+- **Code P064C** (Powertrain): Glow Plug Control Module
+- **Code P064D** (Powertrain): Internal Control Module O2 Sensor Processor Performance Bank 1
+- **Code P064E** (Powertrain): Internal Control Module O2 Sensor Processor Performance Bank 2
+- **Code P064F** (Powertrain): Unauthorized Software/Calibration Detected
+- **Code P0650** (Powertrain): Malfunction Indicator Lamp (MIL) Control Circuit Malfunction
+- **Code P0651** (Powertrain): Sensor Reference Voltage  - Circuit Open
+- **Code P0652** (Powertrain): Sensor Reference Voltage  - Circuit Low
+- **Code P0653** (Powertrain): Sensor Reference Voltage  - Circuit High
+- **Code P0654** (Powertrain): Engine RPM Output Circuit Malfunction
+- **Code P0655** (Powertrain): Engine Hot Lamp Output Control Circuit Malfunction
+- **Code P0656** (Powertrain): Fuel Level Output Circuit Malfunction
+- **Code P0657** (Powertrain): Actuator Supply Voltage  - Circuit/Open
+- **Code P0658** (Powertrain): Actuator Supply Voltage  - Circuit Low
+- **Code P0659** (Powertrain): Actuator Supply Voltage  - Circuit High
+- **Code P065A** (Powertrain): Generator System Performance
+- **Code P065B** (Powertrain): Generator Control Circuit Range/Performance
+- **Code P065C** (Powertrain): Generator Mechanical Performance
+- **Code P065D** (Powertrain): Reductant System Malfunction Lamp Control Circuit
+- **Code P065E** (Powertrain): Intake Manifold Tuning Valve Performance Bank 1
+- **Code P065F** (Powertrain): Intake Manifold Tuning Valve Performance Bank 2
+- **Code P0660** (Powertrain): Intake Manifold Tuning Valve Control Circuit/Open Bank 1
+- **Code P0661** (Powertrain): Intake Manifold Tuning Valve Control Circuit Low Bank 1
+- **Code P0662** (Powertrain): Intake Manifold Tuning Valve Control Circuit High Bank 1
+- **Code P0663** (Powertrain): Intake Manifold Tuning Valve Control Circuit/Open Bank 2
+- **Code P0664** (Powertrain): Intake Manifold Tuning Valve Control Circuit Low Bank 2
+- **Code P0665** (Powertrain): Intake Manifold Tuning Valve Control Circuit High Bank 2
+- **Code P0666** (Powertrain): PCM/ECM/TCM Internal Temperature Sensor Circuit
+- **Code P0667** (Powertrain): PCM/ECM/TCM Internal Temperature Sensor Range/Performance
+- **Code P0668** (Powertrain): PCM/ECM/TCM Internal Temperature Sensor Circuit Low
+- **Code P0669** (Powertrain): PCM/ECM/TCM Internal Temperature Sensor Circuit High
+- **Code P066A** (Powertrain): Cylinder 1 Glow Plug Control Circuit Low
+- **Code P066B** (Powertrain): Cylinder 1 Glow Plug Control Circuit High
+- **Code P066C** (Powertrain): Cylinder 2 Glow Plug Control Circuit Low
+- **Code P066D** (Powertrain): Cylinder 2 Glow Plug Control Circuit High
+- **Code P066E** (Powertrain): Cylinder 3 Glow Plug Control Circuit Low
+- **Code P066F** (Powertrain): Cylinder 3 Glow Plug Control Circuit High
+- **Code P0670** (Powertrain): Glow plug control circuit malfunction
+- **Code P0670** (Powertrain): Glow Plug Module Control Circuit
+- **Code P0671** (Powertrain): Glow plug #1 circuit failure
+- **Code P0671** (Powertrain): Cylinder 1 Glow Plug Circuit
+- **Code P0672** (Powertrain): Glow plug #2 circuit failure
+- **Code P0672** (Powertrain): Cylinder 2 Glow Plug Circuit
+- **Code P0673** (Powertrain): Glow plug #3 circuit failure
+- **Code P0673** (Powertrain): Cylinder 3 Glow Plug Circuit
+- **Code P0674** (Powertrain): Glow plug #4 circuit failure
+- **Code P0674** (Powertrain): Cylinder 4 Glow Plug Circuit
+- **Code P0675** (Powertrain): Glow plug #5 circuit failure
+- **Code P0675** (Powertrain): Cylinder 5 Glow Plug Circuit
+- **Code P0676** (Powertrain): Glow plug #6 circuit failure
+- **Code P0676** (Powertrain): Cylinder 6 Glow Plug Circuit
+- **Code P0677** (Powertrain): Glow plug #7 circuit failure
+- **Code P0677** (Powertrain): Cylinder 7 Glow Plug Circuit
+- **Code P0678** (Powertrain): Glow plug #8 circuit failure
+- **Code P0678** (Powertrain): Cylinder 8 Glow Plug Circuit
+- **Code P0679** (Powertrain): Cylinder 9 Glow Plug Circuit
+- **Code P067A** (Powertrain): Cylinder 4 Glow Plug Control Circuit Low
+- **Code P067B** (Powertrain): Cylinder 4 Glow Plug Control Circuit High
+- **Code P067C** (Powertrain): Cylinder 5 Glow Plug Control Circuit Low
+- **Code P067D** (Powertrain): Cylinder 5 Glow Plug Control Circuit High
+- **Code P067E** (Powertrain): Cylinder 6 Glow Plug Control Circuit Low
+- **Code P067F** (Powertrain): Cylinder 6 Glow Plug Control Circuit High
+- **Code P0680** (Powertrain): Cylinder 10 Glow Plug Circuit
+- **Code P0681** (Powertrain): Cylinder 11 Glow Plug Circuit
+- **Code P0682** (Powertrain): Cylinder 12 Glow Plug Circuit
+- **Code P0683** (Powertrain): Glow plug diagnostic signal communication fault
+- **Code P0683** (Powertrain): Glow Plug Control Module to PCM Communication Circuit
+- **Code P0684** (Powertrain): Glow Plug Control Module to PCM Communication Circuit Range/Performance
+- **Code P0685** (Powertrain): ECM/PCM Power Relay Control Circuit Open
+- **Code P0686** (Powertrain): ECM/PCM Power Relay Control Circuit Low
+- **Code P0687** (Powertrain): ECM/PCM Power Relay Control Circuit High
+- **Code P0688** (Powertrain): ECM/PCM Power Relay Sense Circuit Open
+- **Code P0689** (Powertrain): ECM/PCM Power Relay Sense Circuit Low
+- **Code P068A** (Powertrain): ECM/PCM Power Relay De-Energized Performance - Too Early
+- **Code P068B** (Powertrain): ECM/PCM Power Relay De-Energized Performance - Too Late
+- **Code P068C** (Powertrain): Cylinder 7 Glow Plug Control Circuit Low
+- **Code P068D** (Powertrain): Cylinder 7 Glow Plug Control Circuit High
+- **Code P068E** (Powertrain): Cylinder 8 Glow Plug Control Circuit Low
+- **Code P068F** (Powertrain): Cylinder 8 Glow Plug Control Circuit High
+- **Code P0690** (Powertrain): ECM/PCM Power Relay Sense Circuit High
+- **Code P0691** (Powertrain): Fan 1 Control Circuit Low
+- **Code P0692** (Powertrain): Fan 1 Control Circuit High
+- **Code P0693** (Powertrain): Fan 2 Control Circuit Low
+- **Code P0694** (Powertrain): Fan 2 Control Circuit High
+- **Code P0695** (Powertrain): Fan 3 Control Circuit Low
+- **Code P0696** (Powertrain): Fan 3 Control Circuit High
+- **Code P0697** (Powertrain): Sensor Reference Voltage - Circuit Open
+- **Code P0698** (Powertrain): Sensor Reference Voltage - Circuit Low
+- **Code P0699** (Powertrain): Sensor Reference Voltage - Circuit High
+- **Code P069A** (Powertrain): Cylinder 9 Glow Plug Control Circuit Low
+- **Code P069B** (Powertrain): Cylinder 9 Glow Plug Control Circuit High
+- **Code P069C** (Powertrain): Cylinder 10 Glow Plug Control Circuit Low
+- **Code P069D** (Powertrain): Cylinder 10 Glow Plug Control Circuit High
+- **Code P069E** (Powertrain): Fuel Pump Control Module Requested MIL Illumination
+- **Code P069F** (Powertrain): Throttle Actuator Control Lamp Control Circuit
+- **Code P06A0** (Powertrain): Variable A/C Compressor Control Circuit 
+- **Code P06A1** (Powertrain): Variable A/C Compressor Control Circuit Low
+- **Code P06A2** (Powertrain): Variable A/C Compressor Control Circuit High
+- **Code P06A3** (Powertrain): Sensor Reference Voltage - Circuit Open
+- **Code P06A4** (Powertrain): Sensor Reference Voltage - Circuit Low
+- **Code P06A5** (Powertrain): Sensor Reference Voltage - Circuit High
+- **Code P06A6** (Powertrain): Sensor Reference Voltage  - Circuit Range/Performance
+- **Code P06A7** (Powertrain): Sensor Reference Voltage  - Circuit Range/Performance
+- **Code P06A8** (Powertrain): Sensor Reference Voltage - Circuit Range/Performance
+- **Code P06A9** (Powertrain): Sensor Reference Voltage - Circuit Range/Performance
+- **Code P06AA** (Powertrain): PCM/ECM/TCM Internal Temperature  - Too High
+- **Code P06AB** (Powertrain): PCM/ECM/TCM Internal Temperature Sensor  - Circuit
+- **Code P06AC** (Powertrain): PCM/ECM/TCM Internal Temperature Sensor  - Range/Performance
+- **Code P06AD** (Powertrain): PCM/ECM/TCM Internal Temperature Sensor  - Circuit Low
+- **Code P06AE** (Powertrain): PCM/ECM/TCM Internal Temperature Sensor  - Circuit High
+- **Code P06AF** (Powertrain): Torque Management System - Forced Engine Shutdown
+- **Code P06B0** (Powertrain): Sensor Power Supply  - Circuit/Open
+- **Code P06B1** (Powertrain): Sensor Power Supply  - Circuit Low
+- **Code P06B2** (Powertrain): Sensor Power Supply  - Circuit High
+- **Code P06B3** (Powertrain): Sensor Power Supply  - Circuit/Open
+- **Code P06B4** (Powertrain): Sensor Power Supply  - Circuit Low
+- **Code P06B5** (Powertrain): Sensor Power Supply  - Circuit High
+- **Code P06B6** (Powertrain): Internal Control Module Knock Sensor Processor 1 Performance
+- **Code P06B7** (Powertrain): Internal Control Module Knock Sensor Processor 2 Performance
+- **Code P06B8** (Powertrain): Internal Control Module Non-Volatile Random Access Memory (NVRAM) Error 
+- **Code P06B9** (Powertrain): Cylinder 1 Glow Plug Circuit Range/Performance
+- **Code P06BA** (Powertrain): Cylinder 2 Glow Plug Circuit Range/Performance
+- **Code P06BB** (Powertrain): Cylinder 3 Glow Plug Circuit Range/Performance
+- **Code P06BC** (Powertrain): Cylinder 4 Glow Plug Circuit Range/Performance
+- **Code P06BD** (Powertrain): Cylinder 5 Glow Plug Circuit Range/Performance
+- **Code P06BE** (Powertrain): Cylinder 6 Glow Plug Circuit Range/Performance
+- **Code P06BF** (Powertrain): Cylinder 7 Glow Plug Circuit Range/Performance
+- **Code P06C0** (Powertrain): Cylinder 8 Glow Plug Circuit Range/Performance
+- **Code P06C1** (Powertrain): Cylinder 9 Glow Plug Circuit Range/Performance
+- **Code P06C2** (Powertrain): Cylinder 10 Glow Plug Circuit Range/Performance
+- **Code P06C3** (Powertrain): Cylinder 11 Glow Plug Circuit Range/Performance
+- **Code P06C4** (Powertrain): Cylinder 12 Glow Plug Circuit Range/Performance
+- **Code P06C5** (Powertrain): Cylinder 1 Glow Plug Incorrect
+- **Code P06C6** (Powertrain): Cylinder 2 Glow Plug Incorrect
+- **Code P06C7** (Powertrain): Cylinder 3 Glow Plug Incorrect
+- **Code P06C8** (Powertrain): Cylinder 4 Glow Plug Incorrect
+- **Code P06C9** (Powertrain): Cylinder 5 Glow Plug Incorrect
+- **Code P06CA** (Powertrain): Cylinder 6 Glow Plug Incorrect
+- **Code P06CB** (Powertrain): Cylinder 7 Glow Plug Incorrect
+- **Code P06CC** (Powertrain): Cylinder 8 Glow Plug Incorrect
+- **Code P06CD** (Powertrain): Cylinder 9 Glow Plug Incorrect
+- **Code P06CE** (Powertrain): Cylinder 10 Glow Plug Incorrect
+- **Code P06CF** (Powertrain): Cylinder 11 Glow Plug Incorrect
+- **Code P06D0** (Powertrain): Cylinder 12 Glow Plug Incorrect
+- **Code P06D1** (Powertrain): Internal Control Module Ignition Coil Control Performance
+- **Code P0700** (Powertrain): Transmission Control System Malfunction
+- **Code P0701** (Powertrain): Transmission Control System Range/Performance
+- **Code P0702** (Powertrain): Transmission Control System Electrical
+- **Code P0703** (Powertrain): Torque Converter/Brake Switch B Circuit Malfunction
+- **Code P0704** (Powertrain): Clutch switch input circuit malfunction; F650-F750 with Allison AT545: neutral switch
+- **Code P0705** (Powertrain): Transmission Range Sensor A Circuit malfunction (PRNDL Input)
+- **Code P0706** (Powertrain): Transmission Range Sensor A Circuit Range/Performance
+- **Code P0707** (Powertrain): Transmission Range Sensor A Circuit Low Input
+- **Code P0708** (Powertrain): TR sensor circuit high input
+- **Code P0708** (Powertrain): Transmission Range Sensor A Circuit High Input
+- **Code P0709** (Powertrain): Transmission Range Sensor A Circuit Intermittent
+- **Code P070A** (Powertrain): Transmission Fluid Level Sensor Circuit
+- **Code P070B** (Powertrain): Transmission Fluid Level Sensor Circuit Range/Performance
+- **Code P070C** (Powertrain): Transmission Fluid Level Sensor Circuit Low
+- **Code P070D** (Powertrain): Transmission Fluid Level Sensor Circuit High
+- **Code P070E** (Powertrain): Transmission Fluid Level Sensor Circuit intermittent/Erratic
+- **Code P070F** (Powertrain): Transmission Fluid Level Too Low
+- **Code P0710** (Powertrain): Transmission Fluid Temperature Sensor A Circuit Malfunction
+- **Code P0711** (Powertrain): Transmission Fluid Temperature Sensor A Circuit Range/Performance
+- **Code P0712** (Powertrain): Transmission Fluid Temperature Sensor A Circuit Low Input
+- **Code P0713** (Powertrain): Transmission Fluid Temperature Sensor A Circuit High Input
+- **Code P0714** (Powertrain): Transmission Fluid Temperature Sensor A Circuit Intermittent
+- **Code P0715** (Powertrain): Input/Turbine Speed Sensor A Circuit Malfunction
+- **Code P0716** (Powertrain): Input/Turbine Speed Sensor A Circuit Range/Performance
+- **Code P0717** (Powertrain): Input/Turbine Speed Sensor A Circuit No Signal
+- **Code P0718** (Powertrain): Input/Turbine Speed Sensor A Circuit Intermittent
+- **Code P0719** (Powertrain): Torque Converter/Brake Switch B Circuit Low
+- **Code P071A** (Powertrain): Transmission Mode Switch  - Circuit
+- **Code P071B** (Powertrain): Transmission Mode Switch  - Circuit Low
+- **Code P071C** (Powertrain): Transmission Mode Switch  - Circuit High
+- **Code P071D** (Powertrain): Transmission Mode Switch  - Circuit
+- **Code P071E** (Powertrain): Transmission Mode Switch  - Circuit Low
+- **Code P071F** (Powertrain): Transmission Mode Switch  - Circuit High
+- **Code P0720** (Powertrain): Output Speed Sensor Circuit Malfunction
+- **Code P0721** (Powertrain): Output Speed Sensor Range/Performance
+- **Code P0722** (Powertrain): Output Speed Sensor No Signal
+- **Code P0723** (Powertrain): Output Speed Sensor Intermittent
+- **Code P0724** (Powertrain): Torque Converter/Brake Switch B Circuit High
+- **Code P0725** (Powertrain): Engine Speed input Circuit Malfunction
+- **Code P0726** (Powertrain): Engine Speed Input Circuit Range/Performance
+- **Code P0727** (Powertrain): Engine Speed Input Circuit No Signal
+- **Code P0728** (Powertrain): Engine Speed Input Circuit Intermittent
+- **Code P0729** (Powertrain): Gear 6 Incorrect Ratio
+- **Code P072A** (Powertrain): Stuck in Neutral
+- **Code P072B** (Powertrain): Stuck In Reverse
+- **Code P072C** (Powertrain): Stuck in Gear 1
+- **Code P072D** (Powertrain): Stuck in Gear 2
+- **Code P072E** (Powertrain): Stuck in Gear 3
+- **Code P072F** (Powertrain): Stuck in Gear 4
+- **Code P0730** (Powertrain): Incorrect Gear Ratio
+- **Code P0731** (Powertrain): Gear I Incorrect ratio
+- **Code P0732** (Powertrain): Gear 2 Incorrect ratio
+- **Code P0733** (Powertrain): Gear 3 incorrect ratio
+- **Code P0733** (Powertrain): Gear 3 Incorrect ratio
+- **Code P0734** (Powertrain): Gear 4 Incorrect ratio
+- **Code P0735** (Powertrain): Gear 5 Incorrect ratio
+- **Code P0736** (Powertrain): Reverse incorrect gear ratio
+- **Code P0737** (Powertrain): TCM Engine Speed Output Circuit
+- **Code P0738** (Powertrain): TCM Engine Speed Output Circuit Low
+- **Code P0739** (Powertrain): TCM Engine Speed Output Circuit High
+- **Code P073A** (Powertrain): Stuck in Gear 5
+- **Code P073B** (Powertrain): Stuck in Gear 6
+- **Code P073C** (Powertrain): Stuck in Gear 7
+- **Code P073D** (Powertrain): Unable to Engage Neutral
+- **Code P073E** (Powertrain): Unable to Engage Reverse
+- **Code P073F** (Powertrain): Unable to Engage Gear 1
+- **Code P0740** (Powertrain): Torque Converter Clutch Circuit Malfunction
+- **Code P0741** (Powertrain): Torque Converter Clutch Circuit Performance or Stuck Off
+- **Code P0742** (Powertrain): Torque Converter Clutch Circuit Stock On
+- **Code P0743** (Powertrain): Torque Converter Clutch Circuit Electrical
+- **Code P0744** (Powertrain): Torque Converter Clutch Circuit Intermittent
+- **Code P0745** (Powertrain): Pressure Control Solenoid A Malfunction
+- **Code P0746** (Powertrain): Pressure Control Solenoid A Performance or Stuck Off
+- **Code P0747** (Powertrain): Pressure Control Solenoid A Stuck On
+- **Code P0748** (Powertrain): Pressure Control Solenoid A Electrical
+- **Code P0749** (Powertrain): Pressure Control Solenoid A Intermittent
+- **Code P074A** (Powertrain): Unable To Engage Gear 2
+- **Code P074B** (Powertrain): Unable To Engage Gear 3
+- **Code P074C** (Powertrain): Unable To Engage Gear 4
+- **Code P074D** (Powertrain): Unable To Engage Gear 5
+- **Code P074E** (Powertrain): Unable To Engage Gear 6
+- **Code P074F** (Powertrain): Unable To Engage Gear 7
+- **Code P0750** (Powertrain): Shift solenoid A malfunction
+- **Code P0750** (Powertrain): Shift Solenoid A Malfunction
+- **Code P0751** (Powertrain): Shift Solenoid A Performance or Stuck Off
+- **Code P0752** (Powertrain): Shift Solenoid A Stuck On
+- **Code P0753** (Powertrain): Shift Solenoid A Electrical
+- **Code P0754** (Powertrain): Shift Solenoid A Intermittent
+- **Code P0755** (Powertrain): Shift Solenoid B Malfunction
+- **Code P0756** (Powertrain): Shift Solenoid B Performance or Stock Off
+- **Code P0757** (Powertrain): Shift Solenoid B Stuck On
+- **Code P0758** (Powertrain): Shift Solenoid B Electrical
+- **Code P0759** (Powertrain): Shift Solenoid B Intermittent
+- **Code P075A** (Powertrain): Shift Solenoid G Malfunction
+- **Code P075B** (Powertrain): Shift Solenoid G Performance/Stuck Off
+- **Code P075C** (Powertrain): Shift Solenoid G Stuck On
+- **Code P075D** (Powertrain): Shift Solenoid G Electrical
+- **Code P075E** (Powertrain): Shift Solenoid G Intermittent
+- **Code P075F** (Powertrain): Transmission Fluid Level Too High
+- **Code P0760** (Powertrain): Shift Solenoid C Malfunction
+- **Code P0761** (Powertrain): Shift Solenoid C Performance or Stuck Off
+- **Code P0762** (Powertrain): Shift Solenoid C Stuck On
+- **Code P0763** (Powertrain): Shift Solenoid C Electrical
+- **Code P0764** (Powertrain): Shift Solenoid C Intermittent
+- **Code P0765** (Powertrain): Shift Solenoid D Malfunction
+- **Code P0766** (Powertrain): Shift Solenoid D Performance or Stuck Off
+- **Code P0767** (Powertrain): Shift Solenoid D Stuck On
+- **Code P0768** (Powertrain): Shift Solenoid D Electrical
+- **Code P0769** (Powertrain): Shift Solenoid D Intermittent
+- **Code P076A** (Powertrain): Shift Solenoid H Malfunction
+- **Code P076B** (Powertrain): Shift Solenoid H Performance/Stuck Off
+- **Code P076C** (Powertrain): Shift Solenoid H Stuck On
+- **Code P076D** (Powertrain): Shift Solenoid H Electrical
+- **Code P076E** (Powertrain): Shift Solenoid H Intermittent
+- **Code P076F** (Powertrain): Gear 7 Incorrect Ratio
+- **Code P0770** (Powertrain): Shift Solenoid E Malfunction
+- **Code P0771** (Powertrain): Shift Solenoid E Performance or Stuck Off
+- **Code P0772** (Powertrain): Shift Solenoid E Stuck On
+- **Code P0773** (Powertrain): Shift Solenoid E Electrical
+- **Code P0774** (Powertrain): Shift Solenoid E Intermittent
+- **Code P0775** (Powertrain): Pressure Control Solenoid B Malfunction
+- **Code P0776** (Powertrain): Pressure Control Solenoid B Performance or Stuck Off
+- **Code P0777** (Powertrain): Pressure Control Solenoid B Stuck On
+- **Code P0778** (Powertrain): Pressure Control Solenoid B Electrical
+- **Code P0779** (Powertrain): Pressure Control Solenoid B Intermittent
+- **Code P077A** (Powertrain): Output Speed Sensor Circuit - Loss of Direction Signal
+- **Code P077B** (Powertrain): Output Speed Sensor Circuit - Direction Error
+- **Code P0780** (Powertrain): Shift Malfunction
+- **Code P0781** (Powertrain): 1-2 Shift malfunction
+- **Code P0782** (Powertrain): 2-3 Shift malfunction
+- **Code P0783** (Powertrain): 3-4 Shift malfunction
+- **Code P0784** (Powertrain): 4-5 Shift Malfunction
+- **Code P0785** (Powertrain): Shift Timing Solenoid A Malfunction
+- **Code P0786** (Powertrain): Shift Timing Solenoid A Range/Performance
+- **Code P0787** (Powertrain): Shift Timing Solenoid A Low
+- **Code P0788** (Powertrain): Shift Timing Solenoid A High
+- **Code P0789** (Powertrain): Shift Timing Solenoid A Intermittent
+- **Code P078A** (Powertrain): Shift Timing Solenoid B Malfunction
+- **Code P078B** (Powertrain): Shift Timing Solenoid B Range/Performance
+- **Code P078C** (Powertrain): Shift Timing Solenoid B Low
+- **Code P078D** (Powertrain): Shift Timing Solenoid B High
+- **Code P078E** (Powertrain): Shift Timing Solenoid B Intermittent
+- **Code P0790** (Powertrain): Normal/Performance Switch Circuit Malfunction
+- **Code P0791** (Powertrain): Intermediate Shaft Speed Sensor A Circuit
+- **Code P0792** (Powertrain): Intermediate Shaft Speed Sensor A Circuit Range/Performance
+- **Code P0793** (Powertrain): Intermediate Shaft Speed Sensor A Circuit No Signal
+- **Code P0794** (Powertrain): Intermediate Shaft Speed Sensor A Circuit Intermittent
+- **Code P0795** (Powertrain): Pressure Control Solenoid C Malfunction
+- **Code P0796** (Powertrain): Pressure Control Solenoid C Performance or Stuck off
+- **Code P0797** (Powertrain): Pressure Control Solenoid C Stuck On
+- **Code P0798** (Powertrain): Pressure Control Solenoid C Electrical
+- **Code P0799** (Powertrain): Pressure Control Solenoid C Intermittent
+- **Code P079A** (Powertrain): Transmission Friction Element  - Slip Detected
+- **Code P079B** (Powertrain): Transmission Friction Element  - Slip Detected
+- **Code P079C** (Powertrain): Transmission Friction Element - Slip Detected
+- **Code P079D** (Powertrain): Transmission Friction Element - Slip Detected
+- **Code P079E** (Powertrain): Transmission Friction Element - Slip Detected
+- **Code P079F** (Powertrain): Transmission Friction Element - Slip Detected
+- **Code P07A0** (Powertrain): Transmission Friction Element - Slip Detected
+- **Code P07A1** (Powertrain): Transmission Friction Element - Slip Detected
+- **Code P07A2** (Powertrain): Transmission Friction Element  - Performance/Stuck Off
+- **Code P07A3** (Powertrain): Transmission Friction Element  - Stuck On
+- **Code P07A4** (Powertrain): Transmission Friction Element  - Performance/Stuck Off
+- **Code P07A5** (Powertrain): Transmission Friction Element  - Stuck On
+- **Code P07A6** (Powertrain): Transmission Friction Element - Performance/Stuck Off
+- **Code P07A7** (Powertrain): Transmission Friction Element - Stuck On
+- **Code P07A8** (Powertrain): Transmission Friction Element - Performance/Stuck Off
+- **Code P07A9** (Powertrain): Transmission Friction Element - Stuck On
+- **Code P07AA** (Powertrain): Transmission Friction Element - Performance/Stuck Off
+- **Code P07AB** (Powertrain): Transmission Friction Element - Stuck On
+- **Code P07AC** (Powertrain): Transmission Friction Element - Performance/Stuck Off
+- **Code P07AD** (Powertrain): Transmission Friction Element - Stuck On
+- **Code P07AE** (Powertrain): Transmission Friction Element - Performance/Stuck Off
+- **Code P07AF** (Powertrain): Transmission Friction Element - Stuck On
+- **Code P07B0** (Powertrain): Transmission Friction Element - Performance/Stuck Off
+- **Code P07B1** (Powertrain): Transmission Friction Element - Stuck On
+- **Code P07B2** (Powertrain): Transmission Park Position Sensor/Switch  - Circuit Open
+- **Code P07B3** (Powertrain): Transmission Park Position Sensor/Switch  - Circuit Low
+- **Code P07B4** (Powertrain): Transmission Park Position Sensor/Switch  - Circuit High
+- **Code P07B5** (Powertrain): Transmission Park Position Sensor/Switch  - Circuit Performance/Low
+- **Code P07B6** (Powertrain): Transmission Park Position Sensor/Switch  - Circuit Performance High
+- **Code P07B7** (Powertrain): Transmission Park Position Sensor/Switch  - Circuit Intermittent/Erratic
+- **Code P07B8** (Powertrain): Transmission Park Position Sensor/Switch  - Circuit Open
+- **Code P07B9** (Powertrain): Transmission Park Position Sensor/Switch  - Circuit Low
+- **Code P07BA** (Powertrain): Transmission Park Position Sensor/Switch  - Circuit High
+- **Code P07BB** (Powertrain): Transmission Park Position Sensor/Switch  - Circuit Performance/Low
+- **Code P07BC** (Powertrain): Transmission Park Position Sensor/Switch  - Circuit Performance High
+- **Code P07BD** (Powertrain): Transmission Park Position Sensor/Switch  - Circuit Intermittent/Erratic
+- **Code P07BE** (Powertrain): Transmission Park Position Sensor/Switch   - Correlation
+- **Code P0800** (Powertrain): Transfer Case Control System (MIL Request)
+- **Code P0801** (Powertrain): Reverse Inhibit Control Circuit Malfunction
+- **Code P0802** (Powertrain): Transmission Control System MIL Request Circuit/Open
+- **Code P0803** (Powertrain): 1-4 Upshift (Skip Shift) Solenoid Control Circuit Malfunction
+- **Code P0804** (Powertrain): 1-4 Upshift (Skip Shift) Lamp Control Circuit Malfunction
+- **Code P0805** (Powertrain): Clutch Position Sensor Circuit
+- **Code P0806** (Powertrain): Clutch Position Sensor Circuit Range/Performance
+- **Code P0807** (Powertrain): Clutch Position Sensor Circuit Low
+- **Code P0808** (Powertrain): Clutch Position Sensor Circuit High
+- **Code P0809** (Powertrain): Clutch Position Sensor Circuit Intermittent
+- **Code P080A** (Powertrain): Clutch Position Not Learned
+- **Code P080B** (Powertrain): Upshift/Skip Shift Solenoid Control Circuit Range/Performance
+- **Code P080C** (Powertrain): Upshift/Skip Shift Solenoid Control Circuit Low
+- **Code P080D** (Powertrain): Upshift/Skip Shift Solenoid Control Circuit High
+- **Code P0810** (Powertrain): Clutch Position Control Error
+- **Code P0811** (Powertrain): Excessive Clutch Slippage
+- **Code P0812** (Powertrain): Reverse Input Circuit
+- **Code P0813** (Powertrain): Reverse Output Circuit
+- **Code P0814** (Powertrain): Transmission Range Display Circuit
+- **Code P0815** (Powertrain): Upshift Switch Circuit
+- **Code P0816** (Powertrain): Downshift Switch Circuit
+- **Code P0817** (Powertrain): Starter Disable Circuit
+- **Code P0818** (Powertrain): Driveline Disconnect Switch Input Circuit
+- **Code P0819** (Powertrain): Up and Down Shift Switch to Transmission Range Correlation
+- **Code P081A** (Powertrain): Starter Disable Circuit Low
+- **Code P081B** (Powertrain): Starter Disable Circuit High
+- **Code P081C** (Powertrain): Park Input Circuit
+- **Code P081D** (Powertrain): Neutral Input Circuit
+- **Code P081E** (Powertrain): Excessive Clutch  - Slippage
+- **Code P0820** (Powertrain): Gear Lever X-Y Position Sensor Circuit
+- **Code P0821** (Powertrain): Gear Lever X Position Circuit
+- **Code P0822** (Powertrain): Gear Lever Y Position Circuit
+- **Code P0823** (Powertrain): Gear Lever X Position Circuit Intermittent
+- **Code P0824** (Powertrain): Gear Lever Y Position Circuit Intermittent
+- **Code P0825** (Powertrain): Gear Lever Push-Pull Switch (Shift Anticipate)
+- **Code P0826** (Powertrain): Up and Down Shift Switch Circuit
+- **Code P0827** (Powertrain): Up and Down Shift Switch Circuit Low
+- **Code P0828** (Powertrain): Up and Down Shift Switch Circuit High
+- **Code P0829** (Powertrain): 5-6 Shift Malfunction
+- **Code P082A** (Powertrain): Gear Lever X Position Circuit Range/Performance
+- **Code P082B** (Powertrain): Gear Lever X Position Circuit Low
+- **Code P082C** (Powertrain): Gear Lever X Position Circuit High
+- **Code P082D** (Powertrain): Gear Lever Y Position Circuit Range/Performance
+- **Code P082E** (Powertrain): Gear Lever Y Position Circuit Low
+- **Code P082F** (Powertrain): Gear Lever Y Position Circuit High
+- **Code P0830** (Powertrain): Clutch Pedal Switch  - Circuit
+- **Code P0831** (Powertrain): Clutch Pedal Switch  - Circuit Low
+- **Code P0832** (Powertrain): Clutch Pedal Switch  - Circuit High
+- **Code P0833** (Powertrain): Clutch Pedal Switch  - Circuit
+- **Code P0834** (Powertrain): Clutch Pedal Switch  - Circuit Low
+- **Code P0835** (Powertrain): Clutch Pedal Switch  - Circuit High
+- **Code P0836** (Powertrain): Four Wheel Drive (4WD) Switch Circuit
+- **Code P0837** (Powertrain): Four Wheel Drive (4WD) Switch Circuit Range/Performance
+- **Code P0838** (Powertrain): Four Wheel Drive (4WD) Switch Circuit Low
+- **Code P0839** (Powertrain): Four Wheel Drive (4WD) Switch Circuit High
+- **Code P083A** (Powertrain): Transmission Fluid Pressure Sensor/Switch - Circuit
+- **Code P083B** (Powertrain): Transmission Fluid Pressure Sensor/Switch - Circuit Range/Performance
+- **Code P083C** (Powertrain): Transmission Fluid Pressure Sensor/Switch - Circuit Low
+- **Code P083D** (Powertrain): Transmission Fluid Pressure Sensor/Switch - Circuit High
+- **Code P083E** (Powertrain): Transmission Fluid Pressure Sensor/Switch - Circuit Intermittent
+- **Code P083F** (Powertrain): Clutch Pedal Switch   - Correlation
+- **Code P0840** (Powertrain): Transmission Fluid Pressure Sensor/Switch  - Circuit
+- **Code P0841** (Powertrain): Transmission Fluid Pressure Sensor/Switch  - Circuit Range/Performance
+- **Code P0842** (Powertrain): Transmission Fluid Pressure Sensor/Switch  - Circuit Low
+- **Code P0843** (Powertrain): Transmission Fluid Pressure Sensor/Switch  - Circuit High
+- **Code P0844** (Powertrain): Transmission Fluid Pressure Sensor/Switch  - Circuit Intermittent
+- **Code P0845** (Powertrain): Transmission Fluid Pressure Sensor/Switch  - Circuit
+- **Code P0846** (Powertrain): Transmission Fluid Pressure Sensor/Switch  - Circuit Range/Performance
+- **Code P0847** (Powertrain): Transmission Fluid Pressure Sensor/Switch  - Circuit Low
+- **Code P0848** (Powertrain): Transmission Fluid Pressure Sensor/Switch  - Circuit High
+- **Code P0849** (Powertrain): Transmission Fluid Pressure Sensor/Switch  - Circuit Intermittent
+- **Code P084A** (Powertrain): Transmission Fluid Pressure Sensor/Switch - Circuit
+- **Code P084B** (Powertrain): Transmission Fluid Pressure Sensor/Switch - Circuit Range/Performance
+- **Code P084C** (Powertrain): Transmission Fluid Pressure Sensor/Switch - Circuit Low
+- **Code P084D** (Powertrain): Transmission Fluid Pressure Sensor/Switch - Circuit High
+- **Code P084E** (Powertrain): Transmission Fluid Pressure Sensor/Switch - Circuit Intermittent
+- **Code P084F** (Powertrain): Park/Neutral Switch Output Circuit
+- **Code P0850** (Powertrain): Park/Neutral Switch Input Circuit
+- **Code P0851** (Powertrain): Park/Neutral Switch Input Circuit Low
+- **Code P0852** (Powertrain): Park/Neutral Switch Input Circuit High
+- **Code P0853** (Powertrain): Drive Switch Input Circuit
+- **Code P0854** (Powertrain): Drive Switch Input Circuit Low
+- **Code P0855** (Powertrain): Drive Switch Input Circuit High
+- **Code P0856** (Powertrain): Traction Control Input Signal
+- **Code P0857** (Powertrain): Traction Control Input Signal Range/Performance
+- **Code P0858** (Powertrain): Traction Control Input Signal Low
+- **Code P0859** (Powertrain): Traction Control Input Signal High
+- **Code P085A** (Powertrain): Gear Shift Control Module  - Communication Circuit
+- **Code P085B** (Powertrain): Gear Shift Control Module  - Communication Circuit Low
+- **Code P085C** (Powertrain): Gear Shift Control Module  - Communication Circuit High
+- **Code P085D** (Powertrain): Gear Shift Control Module  - Performance
+- **Code P085E** (Powertrain): Gear Shift Control Module  - Performance
+- **Code P0860** (Powertrain): Gear Shift Module Communication Circuit
+- **Code P0861** (Powertrain): Gear Shift Module Communication Circuit Low
+- **Code P0862** (Powertrain): Gear Shift Module Communication Circuit High
+- **Code P0863** (Powertrain): TCM Communication Circuit
+- **Code P0864** (Powertrain): TCM Communication Circuit Range/Performance
+- **Code P0865** (Powertrain): TCM Communication Circuit Low
+- **Code P0866** (Powertrain): TCM Communication Circuit High
+- **Code P0867** (Powertrain): Transmission Fluid Pressure
+- **Code P0868** (Powertrain): Transmission Fluid Pressure Low 
+- **Code P0869** (Powertrain): Transmission Fluid Pressure High
+- **Code P0870** (Powertrain): Transmission Fluid Pressure Sensor/Switch - Circuit
+- **Code P0871** (Powertrain): Transmission Fluid Pressure Sensor/Switch - Circuit Range/Performance
+- **Code P0872** (Powertrain): Transmission Fluid Pressure Sensor/Switch - Circuit Low
+- **Code P0873** (Powertrain): Transmission Fluid Pressure Sensor/Switch - Circuit High
+- **Code P0874** (Powertrain): Transmission Fluid Pressure Sensor/Switch - Circuit Intermittent
+- **Code P0875** (Powertrain): Transmission Fluid Pressure Sensor/Switch - Circuit
+- **Code P0876** (Powertrain): Transmission Fluid Pressure Sensor/Switch - Circuit Range/Performance
+- **Code P0877** (Powertrain): Transmission Fluid Pressure Sensor/Switch - Circuit Low
+- **Code P0878** (Powertrain): Transmission Fluid Pressure Sensor/Switch - Circuit High
+- **Code P0879** (Powertrain): Transmission Fluid Pressure Sensor/Switch - Circuit Intermittent
+- **Code P0880** (Powertrain): TCM Power Input Signal
+- **Code P0881** (Powertrain): TCM Power Input Signal Range/Performance
+- **Code P0882** (Powertrain): TCM Power Input Signal Low
+- **Code P0883** (Powertrain): TCM Power Input Signal High
+- **Code P0884** (Powertrain): TCM Power Input Signal Intermittent
+- **Code P0885** (Powertrain): TCM Power Relay Control Circuit/Open
+- **Code P0886** (Powertrain): TCM Power Relay Control Circuit Low
+- **Code P0887** (Powertrain): TCM Power Relay Control Circuit High
+- **Code P0888** (Powertrain): TCM Power Relay Sense Circuit
+- **Code P0889** (Powertrain): TCM Power Relay Sense Circuit Range/Performance
+- **Code P088A** (Powertrain): Transmission Fluid Filter Deteriorated
+- **Code P088B** (Powertrain): Transmission Fluid Filter Very Deteriorated
+- **Code P0890** (Powertrain): TCM Power Relay Sense Circuit Low
+- **Code P0891** (Powertrain): TCM Power Relay Sense Circuit High
+- **Code P0892** (Powertrain): TCM Power Relay Sense Circuit Intermittent
+- **Code P0893** (Powertrain): Multiple Gears Engaged
+- **Code P0894** (Powertrain): Transmission Component Slipping
+- **Code P0895** (Powertrain): Shift Time Too Short
+- **Code P0896** (Powertrain): Shift Time Too Long
+- **Code P0897** (Powertrain): Transmission Fluid Deteriorated
+- **Code P0898** (Powertrain): Transmission Control System MIL Request Circuit Low
+- **Code P0899** (Powertrain): Transmission Control System MIL Request Circuit High
+- **Code P0900** (Powertrain): Clutch Actuator Circuit/Open 
+- **Code P0901** (Powertrain): Clutch Actuator Circuit Range/Performance
+- **Code P0902** (Powertrain): Clutch Actuator Circuit Low
+- **Code P0903** (Powertrain): Clutch Actuator Circuit High
+- **Code P0904** (Powertrain): Gate Select Position Circuit 
+- **Code P0905** (Powertrain): Gate Select Position Circuit Range/Performance 
+- **Code P0906** (Powertrain): Gate Select Position Circuit Low
+- **Code P0907** (Powertrain): Gate Select Position Circuit High
+- **Code P0908** (Powertrain): Gate Select Position Circuit Intermittent
+- **Code P0909** (Powertrain): Gate Select Control Error
+- **Code P0910** (Powertrain): Gate Select Actuator Circuit/Open
+- **Code P0911** (Powertrain): Gate Select Actuator Circuit Range/Performance
+- **Code P0912** (Powertrain): Gate Select Actuator Circuit Low
+- **Code P0913** (Powertrain): Gate Select Actuator Circuit High 
+- **Code P0914** (Powertrain): Gear Shift Position Circuit
+- **Code P0915** (Powertrain): Gear Shift Position Circuit Range/Performance
+- **Code P0916** (Powertrain): Gear Shift Position Circuit Low
+- **Code P0917** (Powertrain): Gear Shift Position Circuit High
+- **Code P0918** (Powertrain): Gear Shift Position Circuit Intermittent
+- **Code P0919** (Powertrain): Gear Shift Position Control Error
+- **Code P0920** (Powertrain): Gear Shift Forward Actuator Circuit/Open
+- **Code P0921** (Powertrain): Gear Shift Forward Actuator Circuit Range/Performance 
+- **Code P0922** (Powertrain): Gear Shift Forward Actuator Circuit Low 
+- **Code P0923** (Powertrain): Gear Shift Forward Actuator Circuit High 
+- **Code P0924** (Powertrain): Gear Shift Reverse Actuator Circuit/Open
+- **Code P0925** (Powertrain): Gear Shift Reverse Actuator Circuit Range/Performance
+- **Code P0926** (Powertrain): Gear Shift Reverse Actuator Circuit Low
+- **Code P0927** (Powertrain): Gear Shift Reverse Actuator Circuit High 
+- **Code P0928** (Powertrain): Gear Shift Lock Solenoid/Actuator Control Circuit  Open
+- **Code P0929** (Powertrain): Gear Shift Lock Solenoid/Actuator Control Circuit  - Range/Performance
+- **Code P092A** (Powertrain): Gear Shift Lock Solenoid/Actuator Control Circuit  Open
+- **Code P092B** (Powertrain): Gear Shift Lock Solenoid/Actuator Control Circuit  - Range/Performance 
+- **Code P092C** (Powertrain): Gear Shift Lock Solenoid/Actuator Control Circuit  - Low
+- **Code P092D** (Powertrain): Gear Shift Lock Solenoid/Actuator Control Circuit  - High 
+- **Code P0930** (Powertrain): Gear Shift Lock Solenoid/Actuator Control Circuit  - Low 
+- **Code P0931** (Powertrain): Gear Shift Lock Solenoid/Actuator Control Circuit  - High 
+- **Code P0932** (Powertrain): Hydraulic Pressure Sensor Circuit
+- **Code P0933** (Powertrain): Hydraulic Pressure Sensor Range/Performance
+- **Code P0934** (Powertrain): Hydraulic Pressure Sensor Circuit Low
+- **Code P0935** (Powertrain): Hydraulic Pressure Sensor Circuit High
+- **Code P0936** (Powertrain): Hydraulic Pressure Sensor Circuit Intermittent
+- **Code P0937** (Powertrain): Hydraulic Oil Temperature Sensor Circuit
+- **Code P0938** (Powertrain): Hydraulic Oil Temperature Sensor Range/Performance 
+- **Code P0939** (Powertrain): Hydraulic Oil Temperature Sensor Circuit Low
+- **Code P0940** (Powertrain): Hydraulic Oil Temperature Sensor Circuit High
+- **Code P0941** (Powertrain): Hydraulic Oil Temperature Sensor Circuit Intermittent
+- **Code P0942** (Powertrain): Hydraulic Pressure Unit 
+- **Code P0943** (Powertrain): Hydraulic Pressure Unit Cycling Period Too Short 
+- **Code P0944** (Powertrain): Hydraulic Pressure Unit Loss of Pressure
+- **Code P0945** (Powertrain): Hydraulic Pump Relay Circuit/Open 
+- **Code P0946** (Powertrain): Hydraulic Pump Relay Circuit Range/Performance
+- **Code P0947** (Powertrain): Hydraulic Pump Relay Circuit Low 
+- **Code P0948** (Powertrain): Hydraulic Pump Relay Circuit High 
+- **Code P0949** (Powertrain): Auto Shift Manual Adaptive Learning Not Complete
+- **Code P0950** (Powertrain): Auto Shift Manual Control Circuit
+- **Code P0951** (Powertrain): Auto Shift Manual Control Circuit Range/Performance
+- **Code P0952** (Powertrain): Auto Shift Manual Control Circuit Low
+- **Code P0953** (Powertrain): Auto Shift Manual Control Circuit High
+- **Code P0954** (Powertrain): Auto Shift Manual Control Circuit Intermittent 
+- **Code P0955** (Powertrain): Auto Shift Manual Mode Circuit
+- **Code P0956** (Powertrain): Auto Shift Manual Mode Circuit Range/Performance
+- **Code P0957** (Powertrain): Auto Shift Manual Mode Circuit Low 
+- **Code P0958** (Powertrain): Auto Shift Manual Mode Circuit High 
+- **Code P0959** (Powertrain): Auto Shift Manual Mode Circuit Intermittent 
+- **Code P0960** (Powertrain): Pressure Control Solenoid  - Control Circuit/Open
+- **Code P0961** (Powertrain): Pressure Control Solenoid  - Control Circuit Range/Performance 
+- **Code P0962** (Powertrain): Pressure Control Solenoid  - Control Circuit Low
+- **Code P0963** (Powertrain): Pressure Control Solenoid  - Control Circuit High
+- **Code P0964** (Powertrain): Pressure Control Solenoid  - Control Circuit/Open 
+- **Code P0965** (Powertrain): Pressure Control Solenoid  - Control Circuit Range/Performance
+- **Code P0966** (Powertrain): Pressure Control Solenoid  - Control Circuit Low
+- **Code P0967** (Powertrain): Pressure Control Solenoid  - Control Circuit High
+- **Code P0968** (Powertrain): Pressure Control Solenoid - Control Circuit/Open 
+- **Code P0969** (Powertrain): Pressure Control Solenoid - Control Circuit Range/Performance
+- **Code P0970** (Powertrain): Pressure Control Solenoid - Control Circuit Low
+- **Code P0971** (Powertrain): Pressure Control Solenoid - Control Circuit High
+- **Code P0972** (Powertrain): Shift Solenoid  - Control Circuit Range/Performance 
+- **Code P0973** (Powertrain): Shift Solenoid  - Control Circuit Low
+- **Code P0974** (Powertrain): Shift Solenoid  - Control Circuit High
+- **Code P0975** (Powertrain): Shift Solenoid  - Control Circuit Range/Performance 
+- **Code P0976** (Powertrain): Shift Solenoid  - Control Circuit Low 
+- **Code P0977** (Powertrain): Shift Solenoid  - Control Circuit High
+- **Code P0978** (Powertrain): Shift Solenoid - Control Circuit Range/Performance
+- **Code P0979** (Powertrain): Shift Solenoid - Control Circuit Low 
+- **Code P0980** (Powertrain): Shift Solenoid - Control Circuit High
+- **Code P0981** (Powertrain): Shift Solenoid - Control Circuit Range/Performance
+- **Code P0982** (Powertrain): Shift Solenoid - Control Circuit Low 
+- **Code P0983** (Powertrain): Shift Solenoid - Control Circuit High 
+- **Code P0984** (Powertrain): Shift Solenoid - Control Circuit Range/Performance
+- **Code P0985** (Powertrain): Shift Solenoid - Control Circuit Low
+- **Code P0986** (Powertrain): Shift Solenoid - Control Circuit High
+- **Code P0987** (Powertrain): Transmission Fluid Pressure Sensor/Switch - Circuit
+- **Code P0988** (Powertrain): Transmission Fluid Pressure Sensor/Switch - Circuit Range/Performance
+- **Code P0989** (Powertrain): Transmission Fluid Pressure Sensor/Switch - Circuit Low
+- **Code P0990** (Powertrain): Transmission Fluid Pressure Sensor/Switch - Circuit High
+- **Code P0991** (Powertrain): Transmission Fluid Pressure Sensor/Switch - Circuit Intermittent
+- **Code P0992** (Powertrain): Transmission Fluid Pressure Sensor/Switch - Circuit 
+- **Code P0993** (Powertrain): Transmission Fluid Pressure Sensor/Switch - Circuit Range/Performance
+- **Code P0994** (Powertrain): Transmission Fluid Pressure Sensor/Switch - Circuit Low 
+- **Code P0995** (Powertrain): Transmission Fluid Pressure Sensor/Switch - Circuit High
+- **Code P0996** (Powertrain): Transmission Fluid Pressure Sensor/Switch - Circuit Intermittent
+- **Code P0997** (Powertrain): Shift Solenoid - Control Circuit Range/Performance 
+- **Code P0998** (Powertrain): Shift Solenoid - Control Circuit Low 
+- **Code P0999** (Powertrain): Shift Solenoid - Control Circuit High 
+- **Code P099A** (Powertrain): Shift Solenoid - Control Circuit Range/Performance
+- **Code P099B** (Powertrain): Shift Solenoid - Control Circuit Low
+- **Code P099C** (Powertrain): Shift Solenoid - Control Circuit High 
+- **Code P099D** (Powertrain): Shift Solenoid - Control Circuit Range/Performance 
+- **Code P099E** (Powertrain): Shift Solenoid - Control Circuit Low 
+- **Code P099F** (Powertrain): Shift Solenoid - Control Circuit High 
+- **Code P0A00** (Powertrain): Motor Electronics Coolant Temperature Sensor Circuit
+- **Code P0A01** (Powertrain): Range/Performance 
+- **Code P0A02** (Powertrain): Motor Electronics Coolant Temperature Sensor Circuit Low 
+- **Code P0A03** (Powertrain): Motor Electronics Coolant Temperature Sensor Circuit High
+- **Code P0A04** (Powertrain): Motor Electronics Coolant Temperature Sensor Circuit Intermittent
+- **Code P0A05** (Powertrain): Motor Electronics Coolant Pump  - Control Circuit/Open
+- **Code P0A06** (Powertrain): Motor Electronics Coolant Pump  - Control Circuit Low
+- **Code P0A07** (Powertrain): Motor Electronics Coolant Pump  - Control Circuit High 
+- **Code P0A08** (Powertrain): DC/DC Converter Status Circuit
+- **Code P0A09** (Powertrain): DC/DC Converter Status Circuit Low
+- **Code P0A0A** (Powertrain): High Voltage System Interlock Circuit
+- **Code P0A0B** (Powertrain): High Voltage System Interlock Circuit Performance
+- **Code P0A0C** (Powertrain): High Voltage System Interlock Circuit Low
+- **Code P0A0D** (Powertrain): High Voltage System Interlock Circuit High
+- **Code P0A0E** (Powertrain): High Voltage System Interlock Circuit Intermittent
+- **Code P0A0F** (Powertrain): Engine Failed to Start 
+- **Code P0A10** (Powertrain): DC/DC Converter Status Circuit High
+- **Code P0A11** (Powertrain): DC/DC Converter Enable Circuit/Open
+- **Code P0A12** (Powertrain): DC/DC Converter Enable Circuit Low
+- **Code P0A13** (Powertrain): DC/DC Converter Enable Circuit High 
+- **Code P0A14** (Powertrain): Engine Mount  - Control Circuit/Open 
+- **Code P0A15** (Powertrain): Engine Mount  - Control Circuit Low
+- **Code P0A16** (Powertrain): Engine Mount  - Control Circuit High 
+- **Code P0A17** (Powertrain): Motor Torque Sensor Circuit
+- **Code P0A18** (Powertrain): Motor Torque Sensor Circuit Range/Performance 
+- **Code P0A19** (Powertrain): Motor Torque Sensor Circuit Low 
+- **Code P0A1A** (Powertrain): Generator Control Module 
+- **Code P0A1B** (Powertrain): Drive Motor  - Control Module 
+- **Code P0A1C** (Powertrain): Drive Motor  - Control Module
+- **Code P0A1D** (Powertrain): Hybrid Powertrain Control Module 
+- **Code P0A1E** (Powertrain): Starter/Generator Control Module 
+- **Code P0A1F** (Powertrain): Battery Energy Control Module 
+- **Code P0A20** (Powertrain): Motor Torque Sensor Circuit High
+- **Code P0A21** (Powertrain): Motor Torque Sensor Circuit Intermittent
+- **Code P0A22** (Powertrain): Generator Torque Sensor Circuit
+- **Code P0A23** (Powertrain): Generator Torque Sensor Circuit Range/Performance 
+- **Code P0A24** (Powertrain): Generator Torque Sensor Circuit Low 
+- **Code P0A25** (Powertrain): Generator Torque Sensor Circuit High
+- **Code P0A26** (Powertrain): Generator Torque Sensor Circuit Intermittent 
+- **Code P0A27** (Powertrain): Hybrid Battery Power Off Circuit 
+- **Code P0A28** (Powertrain): Hybrid Battery Power Off Circuit Low
+- **Code P0A29** (Powertrain): Hybrid Battery Power Off Circuit High 
+- **Code P0A2A** (Powertrain): Drive Motor  - Temperature Sensor Circuit
+- **Code P0A2B** (Powertrain): Drive Motor  - Temperature Sensor Circuit Range/Performance 
+- **Code P0A2C** (Powertrain): Drive Motor  - Temperature Sensor Circuit Low 
+- **Code P0A2D** (Powertrain): Drive Motor  - Temperature Sensor Circuit High
+- **Code P0A2E** (Powertrain): Drive Motor  - Temperature Sensor Circuit Intermittent
+- **Code P0A2F** (Powertrain): Drive Motor  - Over Temperature 
+- **Code P0A30** (Powertrain): Drive Motor  - Temperature Sensor Circuit
+- **Code P0A31** (Powertrain): Drive Motor  - Temperature Sensor Circuit Range/Performance 
+- **Code P0A32** (Powertrain): Drive Motor  - Temperature Sensor Circuit Low 
+- **Code P0A33** (Powertrain): Drive Motor  - Temperature Sensor Circuit High
+- **Code P0A34** (Powertrain): Drive Motor  - Temperature Sensor Circuit Intermittent 
+- **Code P0A35** (Powertrain): Drive Motor  - Over Temperature 
+- **Code P0A36** (Powertrain): Generator Temperature Sensor Circuit 
+- **Code P0A37** (Powertrain): Generator Temperature Sensor Circuit Range/Performance 
+- **Code P0A38** (Powertrain): Generator Temperature Sensor Circuit Low
+- **Code P0A39** (Powertrain): Generator Temperature Sensor Circuit High 
+- **Code P0A3A** (Powertrain): Generator Temperature Sensor Circuit Intermittent 
+- **Code P0A3B** (Powertrain): Generator Over Temperature 
+- **Code P0A3C** (Powertrain): Drive Motor  - Inverter Over Temperature 
+- **Code P0A3D** (Powertrain): Drive Motor  - Inverter Over Temperature
+- **Code P0A3E** (Powertrain): Generator Inverter Over Temperature
+- **Code P0A3F** (Powertrain): Drive Motor  - Position Sensor Circuit 
+- **Code P0A40** (Powertrain): Drive Motor  - Position Sensor Circuit Range/Performance 
+- **Code P0A41** (Powertrain): Drive Motor  - Position Sensor Circuit Low 
+- **Code P0A42** (Powertrain): Drive Motor  - Position Sensor Circuit High
+- **Code P0A43** (Powertrain): Drive Motor  - Position Sensor Circuit Intermittent
+- **Code P0A44** (Powertrain): Drive Motor  - Position Sensor Circuit Overspeed 
+- **Code P0A45** (Powertrain): Drive Motor  - Position Sensor Circuit
+- **Code P0A46** (Powertrain): Drive Motor  - Position Sensor Circuit Range/Performance
+- **Code P0A47** (Powertrain): Drive Motor  - Position Sensor Circuit Low
+- **Code P0A48** (Powertrain): Drive Motor  - Position Sensor Circuit High 
+- **Code P0A49** (Powertrain): Drive Motor  - Position Sensor Circuit Intermittent 
+- **Code P0A4A** (Powertrain): Drive Motor  - Position Sensor Circuit Overspeed
+- **Code P0A4B** (Powertrain): Generator Position Sensor Circuit
+- **Code P0A4C** (Powertrain): Generator Position Sensor Circuit Range/Performance
+- **Code P0A4D** (Powertrain): Generator Position Sensor Circuit Low 
+- **Code P0A4E** (Powertrain): Generator Position Sensor Circuit High 
+- **Code P0A4F** (Powertrain): Generator Position Sensor Circuit Intermittent
+- **Code P0A50** (Powertrain): Generator Position Sensor Circuit Overspeed 
+- **Code P0A51** (Powertrain): Drive Motor  - Current Sensor Circuit
+- **Code P0A52** (Powertrain): Drive Motor  - Current Sensor Circuit Range/Performance
+- **Code P0A53** (Powertrain): Drive Motor  - Current Sensor Circuit Low 
+- **Code P0A54** (Powertrain): Drive Motor  - Current Sensor Circuit High 
+- **Code P0A55** (Powertrain): Drive Motor  - Current Sensor Circuit 
+- **Code P0A56** (Powertrain): Drive Motor  - Current Sensor Circuit Range/Performance
+- **Code P0A57** (Powertrain): Drive Motor  - Current Sensor Circuit Low 
+- **Code P0A58** (Powertrain): Drive Motor  - Current Sensor Circuit High
+- **Code P0A59** (Powertrain): Generator Current Sensor Circuit
+- **Code P0A5A** (Powertrain): Generator Current Sensor Circuit Range/Performance 
+- **Code P0A5B** (Powertrain): Generator Current Sensor Circuit Low 
+- **Code P0A5C** (Powertrain): Generator Current Sensor Circuit High
+- **Code P0A5D** (Powertrain): Drive Motor  - Phase U Current 
+- **Code P0A5E** (Powertrain): Drive Motor  - Phase U Current Low
+- **Code P0A5F** (Powertrain): Drive Motor  - Phase U Current High
+- **Code P0A60** (Powertrain): Drive Motor  - Phase V Current
+- **Code P0A61** (Powertrain): Drive Motor  - Phase V Current Low 
+- **Code P0A62** (Powertrain): Drive Motor  - Phase V Current High 
+- **Code P0A63** (Powertrain): Drive Motor  - Phase W Current 
+- **Code P0A64** (Powertrain): Drive Motor  - Phase W Current Low 
+- **Code P0A65** (Powertrain): Drive Motor  - Phase W Current High
+- **Code P0A66** (Powertrain): Drive Motor  - Phase U Current 
+- **Code P0A67** (Powertrain): Drive Motor  - Phase U Current Low 
+- **Code P0A68** (Powertrain): Drive Motor  - Phase U Current High
+- **Code P0A69** (Powertrain): Drive Motor  - Phase V Current 
+- **Code P0A6A** (Powertrain): Drive Motor  - Phase V Current Low 
+- **Code P0A6B** (Powertrain): Drive Motor  - Phase V Current High
+- **Code P0A6C** (Powertrain): Drive Motor  - Phase W Current
+- **Code P0A6D** (Powertrain): Drive Motor  - Phase W Current Low 
+- **Code P0A6E** (Powertrain): Drive Motor  - Phase W Current High
+- **Code P0A6F** (Powertrain): Generator Phase U Current
+- **Code P0A70** (Powertrain): Generator Phase U Current Low
+- **Code P0A71** (Powertrain): Generator Phase U Current High
+- **Code P0A72** (Powertrain): Generator Phase V Current
+- **Code P0A73** (Powertrain): Generator Phase V Current Low 
+- **Code P0A74** (Powertrain): Generator Phase V Current High 
+- **Code P0A75** (Powertrain): Generator Phase W Current 
+- **Code P0A76** (Powertrain): Generator Phase W Current Low
+- **Code P0A77** (Powertrain): Generator Phase W Current High
+- **Code P0A78** (Powertrain): Drive Motor  - Inverter Performance
+- **Code P0A79** (Powertrain): Drive Motor  - Inverter Performance
+- **Code P0A7A** (Powertrain): Generator Inverter Performance
+- **Code P0A7B** (Powertrain): Battery Energy Control Module Requested MIL Illumination 
+- **Code P0A7C** (Powertrain): Motor Electronics Over Temperature
+- **Code P0A7D** (Powertrain): Hybrid Battery Pack State of Charge Low
+- **Code P0A7E** (Powertrain): Hybrid Battery Pack Over Temperature
+- **Code P0A7F** (Powertrain): Hybrid Battery Pack Deterioration
+- **Code P0A80** (Powertrain): Replace Hybrid Battery Pack
+- **Code P0A81** (Powertrain): Hybrid Battery Pack Cooling Fan 1 Control Circuit/Open
+- **Code P0A82** (Powertrain): Hybrid Battery Pack Cooling Fan 1 Performance/Stuck Off
+- **Code P0A83** (Powertrain): Hybrid Battery Pack Cooling Fan 1 Stuck On
+- **Code P0A84** (Powertrain): Hybrid Battery Pack Cooling Fan 1 Control Circuit Low
+- **Code P0A85** (Powertrain): Hybrid Battery Pack Cooling Fan 1 Control Circuit High
+- **Code P0A86** (Powertrain): 14 Volt Power Module Current Sensor Circuit
+- **Code P0A87** (Powertrain): 14 Volt Power Module Current Sensor Circuit Range/Performance
+- **Code P0A88** (Powertrain): 14 Volt Power Module Current Sensor Circuit Low
+- **Code P0A89** (Powertrain): 14 Volt Power Module Current Sensor Circuit High
+- **Code P0A8A** (Powertrain): 14 Volt Power Module Current Sensor Circuit Intermittent
+- **Code P0A8B** (Powertrain): 14 Volt Power Module System Voltage
+- **Code P0A8C** (Powertrain): 14 Volt Power Module System Voltage Unstable
+- **Code P0A8D** (Powertrain): 14 Volt Power Module System Voltage Low
+- **Code P0A8E** (Powertrain): 14 Volt Power Module System Voltage High
+- **Code P0A8F** (Powertrain): 14 Volt Power Module System Performance
+- **Code P0A90** (Powertrain): Drive Motor  - Performance
+- **Code P0A91** (Powertrain): Drive Motor  - Performance
+- **Code P0A92** (Powertrain): Hybrid Generator Performance 
+- **Code P0A93** (Powertrain): Inverter  - Cooling System Performance
+- **Code P0A94** (Powertrain): DC/DC Converter Performance
+- **Code P0A95** (Powertrain): High Voltage Fuse 
+- **Code P0A96** (Powertrain): Hybrid Battery Pack Cooling Fan 2 Control Circuit/Open
+- **Code P0A97** (Powertrain): Hybrid Battery Pack Cooling Fan 2 Performance/Stuck Off
+- **Code P0A98** (Powertrain): Hybrid Battery Pack Cooling Fan 2 Stuck On
+- **Code P0A99** (Powertrain): Hybrid Battery Pack Cooling Fan 2 Control Circuit Low
+- **Code P0A9A** (Powertrain): Hybrid Battery Pack Cooling Fan 2 Control Circuit High
+- **Code P0A9B** (Powertrain): Hybrid Battery Temperature Sensor  - Circuit
+- **Code P0A9C** (Powertrain): Hybrid Battery Temperature Sensor  - Range/Performance 
+- **Code P0A9D** (Powertrain): Hybrid Battery Temperature Sensor  - Circuit Low
+- **Code P0A9E** (Powertrain): Hybrid Battery Temperature Sensor  - Circuit High 
+- **Code P0A9F** (Powertrain): Hybrid Battery Temperature Sensor  - Circuit Intermittent/Erratic 
+- **Code P0AA0** (Powertrain): Hybrid Battery Positive Contactor Circuit 
+- **Code P0AA1** (Powertrain): Hybrid Battery Positive Contactor Circuit Stuck Closed
+- **Code P0AA2** (Powertrain): Hybrid Battery Positive Contactor Circuit Stuck Open
+- **Code P0AA3** (Powertrain): Hybrid Battery Negative Contactor Circuit
+- **Code P0AA4** (Powertrain): Hybrid Battery Negative Contactor Circuit Stuck Closed
+- **Code P0AA5** (Powertrain): Hybrid Battery Negative Contactor Circuit Stuck Open
+- **Code P0AA6** (Powertrain): Hybrid Battery Voltage System Isolation Fault 
+- **Code P0AA7** (Powertrain): Hybrid Battery Voltage Isolation Sensor Circuit 
+- **Code P0AA8** (Powertrain): Hybrid Battery Voltage Isolation Sensor Circuit Range/Performance
+- **Code P0AA9** (Powertrain): Hybrid Battery Voltage Isolation Sensor Circuit Low 
+- **Code P0AAA** (Powertrain): Hybrid Battery Voltage Isolation Sensor Circuit High 
+- **Code P0AAB** (Powertrain): Hybrid Battery Voltage Isolation Sensor Circuit Intermittent/Erratic
+- **Code P0AAC** (Powertrain): Hybrid Battery Pack Air Temperature Sensor  - Circuit
+- **Code P0AAD** (Powertrain): Range/Performance 
+- **Code P0AAE** (Powertrain): Hybrid Battery Pack Air Temperature Sensor  - Circuit Low
+- **Code P0AAF** (Powertrain): Hybrid Battery Pack Air Temperature Sensor  - Circuit High P0AB0 Intermittent/Erratic
+- **Code P0AB1** (Powertrain): Hybrid Battery Pack Air Temperature Sensor  - Circuit 
+- **Code P0AB2** (Powertrain): Hybrid Battery Pack Air Temperature Sensor  - Circuit Range/Performance
+- **Code P0AB3** (Powertrain): Hybrid Battery Pack Air Temperature Sensor  - Circuit Low
+- **Code P0AB4** (Powertrain): Hybrid Battery Pack Air Temperature Sensor  - Circuit High
+- **Code P0AB5** (Powertrain): Intermittent/Erratic P0AB6 Engine Mount  - Control Circuit/Open
+- **Code P0AB7** (Powertrain): Engine Mount  - Control Circuit Low
+- **Code P0AB8** (Powertrain): Engine Mount  - Control Circuit High
+- **Code P0AB9** (Powertrain): Hybrid System Performance
+- **Code P0ABA** (Powertrain): Hybrid Battery Pack Voltage Sense  - Circuit 
+- **Code P0ABB** (Powertrain): Hybrid Battery Pack Voltage Sense  - Circuit Range/Performance 
+- **Code P0ABC** (Powertrain): Hybrid Battery Pack Voltage Sense  - Circuit Low 
+- **Code P0ABD** (Powertrain): Hybrid Battery Pack Voltage Sense  - Circuit High 
+- **Code P0ABE** (Powertrain): Hybrid Battery Pack Voltage Sense  - Circuit Intermittent/Erratic
+- **Code P0ABF** (Powertrain): Hybrid Battery Pack Current Sensor  - Circuit 
+- **Code P0AC0** (Powertrain): Hybrid Battery Pack Current Sensor  - Circuit Range/Performance 
+- **Code P0AC1** (Powertrain): Hybrid Battery Pack Current Sensor  - Circuit Low 
+- **Code P0AC2** (Powertrain): Hybrid Battery Pack Current Sensor  - Circuit High
+- **Code P0AC3** (Powertrain): Hybrid Battery Pack Current Sensor  - Circuit Intermittent/Erratic
+- **Code P0AC4** (Powertrain): Hybrid Powertrain Control Module Requested MIL Illumination
+- **Code P0AC5** (Powertrain): Hybrid Battery Temperature Sensor  - Circuit
+- **Code P0AC6** (Powertrain): Hybrid Battery Temperature Sensor  - Range/Performance 
+- **Code P0AC7** (Powertrain): Hybrid Battery Temperature Sensor  - Circuit Low
+- **Code P0AC8** (Powertrain): Hybrid Battery Temperature Sensor  - Circuit High 
+- **Code P0AC9** (Powertrain): Hybrid Battery Temperature Sensor  - Circuit Intermittent/Erratic 
+- **Code P0ACA** (Powertrain): Hybrid Battery Temperature Sensor - Circuit
+- **Code P0ACB** (Powertrain): Hybrid Battery Temperature Sensor - Range/Performance 
+- **Code P0ACC** (Powertrain): Hybrid Battery Temperature Sensor - Circuit Low
+- **Code P0ACD** (Powertrain): Hybrid Battery Temperature Sensor - Circuit High 
+- **Code P0ACE** (Powertrain): Hybrid Battery Temperature Sensor - Circuit Intermittent/Erratic 
+- **Code P0ACF** (Powertrain): Hybrid Battery Pack Cooling Fan 3 Control Circuit/Open
+- **Code P0AD0** (Powertrain): Hybrid Battery Pack Cooling Fan 3 Performance/Stuck Off
+- **Code P0AD1** (Powertrain): Hybrid Battery Pack Cooling Fan 3 Stuck On
+- **Code P0AD2** (Powertrain): Hybrid Battery Pack Cooling Fan 3 Control Circuit Low
+- **Code P0AD3** (Powertrain): Hybrid Battery Pack Cooling Fan 3 Control Circuit High
+- **Code P0AD4** (Powertrain): Hybrid Battery Pack Air Flow System Insufficient Air Flow 
+- **Code P0AD5** (Powertrain): Hybrid Battery Pack Air Flow Valve  - Control Circuit/Open
+- **Code P0AD6** (Powertrain): Range/Performance
+- **Code P0AD7** (Powertrain): Hybrid Battery Pack Air Flow Valve  - Control Circuit Low 
+- **Code P0AD8** (Powertrain): Hybrid Battery Pack Air Flow Valve  - Control Circuit High 
+- **Code P0AD9** (Powertrain): Hybrid Battery Positive Contactor Control Circuit/Open
+- **Code P0ADA** (Powertrain): Range/Performance
+- **Code P0ADB** (Powertrain): Hybrid Battery Positive Contactor Control Circuit Low
+- **Code P0ADC** (Powertrain): Hybrid Battery Positive Contactor Control Circuit High
+- **Code P0ADD** (Powertrain): Hybrid Battery Negative Contactor Control Circuit/Open
+- **Code P0ADE** (Powertrain): Range/Performance 
+- **Code P0ADF** (Powertrain): Hybrid Battery Negative Contactor Control Circuit Low
+- **Code P0AE0** (Powertrain): Hybrid Battery Negative Contactor Control Circuit High
+- **Code P0AE1** (Powertrain): Hybrid Battery Precharge Contactor Circuit 
+- **Code P0AE2** (Powertrain): Hybrid Battery Precharge Contactor Circuit Stuck Closed 
+- **Code P0AE3** (Powertrain): Hybrid Battery Precharge Contactor Circuit Stuck Open 
+- **Code P0AE4** (Powertrain): Hybrid Battery Precharge Contactor Control Circuit
+- **Code P0AE5** (Powertrain): Range/Performance 
+- **Code P0AE6** (Powertrain): Hybrid Battery Precharge Contactor Control Circuit Low
+- **Code P0AE7** (Powertrain): Hybrid Battery Precharge Contactor Control Circuit High
+- **Code P0AE8** (Powertrain): Hybrid Battery Temperature Sensor - Circuit 
+- **Code P0AE9** (Powertrain): Hybrid Battery Temperature Sensor - Range/Performance
+- **Code P0AEA** (Powertrain): Hybrid Battery Temperature Sensor - Circuit Low
+- **Code P0AEB** (Powertrain): Hybrid Battery Temperature Sensor - Circuit High
+- **Code P0AEC** (Powertrain): Hybrid Battery Temperature Sensor - Circuit Intermittent/Erratic
+- **Code P0AED** (Powertrain): Drive Motor Inverter Temperature Sensor  - Circuit 
+- **Code P0AEE** (Powertrain): Range/Performance
+- **Code P0AEF** (Powertrain): Drive Motor Inverter Temperature Sensor  - Circuit Low
+- **Code P0AF0** (Powertrain): Drive Motor Inverter Temperature Sensor  - Circuit High
+- **Code P0AF1** (Powertrain): Intermittent/Erratic
+- **Code P0AF2** (Powertrain): Drive Motor Inverter Temperature Sensor  - Circuit
+- **Code P0AF3** (Powertrain): Range/Performance
+- **Code P0AF4** (Powertrain): Drive Motor Inverter Temperature Sensor  - Circuit Low
+- **Code P0AF5** (Powertrain): Drive Motor Inverter Temperature Sensor  - Circuit High
+- **Code P0AF6** (Powertrain): Intermittent/Erratic 
+- **Code P0AF7** (Powertrain): 14 Volt Power Module Internal Temperature Too High
+- **Code P0AF8** (Powertrain): Hybrid Battery System Voltage
+- **Code P0AF9** (Powertrain): Hybrid Battery System Voltage Unstable 
+- **Code P0AFA** (Powertrain): Hybrid Battery System Voltage Low 
+- **Code P0AFB** (Powertrain): Hybrid Battery System Voltage High
+- **Code P0AFC** (Powertrain): Hybrid Battery Pack Sensor Module
+- **Code P0AFD** (Powertrain): Hybrid Battery Pack Temperature Too Low
+- **Code P0AFE** (Powertrain): Conversion 
+- **Code P0AFF** (Powertrain): System Voltage Too Low for Voltage Step Down Conversion
+- **Code P0B00** (Powertrain): Auxiliary Transmission Fluid Pump Motor Phase U Current
+- **Code P0B01** (Powertrain): Auxiliary Transmission Fluid Pump Motor Phase U Current Low 
+- **Code P0B02** (Powertrain): Auxiliary Transmission Fluid Pump Motor Phase U Current High
+- **Code P0B03** (Powertrain): Auxiliary Transmission Fluid Pump Motor Phase V Current 
+- **Code P0B04** (Powertrain): Auxiliary Transmission Fluid Pump Motor Phase V Current Low 
+- **Code P0B05** (Powertrain): Auxiliary Transmission Fluid Pump Motor Phase V Current High
+- **Code P0B06** (Powertrain): Auxiliary Transmission Fluid Pump Motor Phase W Current 
+- **Code P0B07** (Powertrain): Auxiliary Transmission Fluid Pump Motor Phase W Current Low
+- **Code P0B08** (Powertrain): Auxiliary Transmission Fluid Pump Motor Phase W Current High
+- **Code P0B09** (Powertrain): Auxiliary Transmission Fluid Pump Motor Supply Voltage Circuit/Open
+- **Code P0B0A** (Powertrain): Auxiliary Transmission Fluid Pump Motor Supply Voltage Circuit Low
+- **Code P0B0B** (Powertrain): Auxiliary Transmission Fluid Pump Motor Supply Voltage Circuit High
+- **Code P0B0C** (Powertrain): Auxiliary Transmission Fluid Pump Hydraulic Leakage
+- **Code P0B0D** (Powertrain): Auxiliary Transmission Fluid Pump Motor Control Module
+- **Code P0B0E** (Powertrain): Hybrid Battery Pack Current Sensor  - Circuit 
+- **Code P0B0F** (Powertrain): Hybrid Battery Pack Current Sensor  - Circuit Range/Performance 
+- **Code P0B10** (Powertrain): Hybrid Battery Pack Current Sensor  - Circuit Low 
+- **Code P0B11** (Powertrain): Hybrid Battery Pack Current Sensor  - Circuit High
+- **Code P0B12** (Powertrain): Hybrid Battery Pack Current Sensor  - Circuit Intermittent/Erratic 
+- **Code P0B13** (Powertrain): Hybrid Battery Pack Current Sensor   - Correlation 
+- **Code P0B14** (Powertrain): Hybrid Battery Pack Voltage Sense  - Circuit 
+- **Code P0B15** (Powertrain): Hybrid Battery Pack Voltage Sense  - Circuit Range/Performance 
+- **Code P0B16** (Powertrain): Hybrid Battery Pack Voltage Sense  - Circuit Low 
+- **Code P0B17** (Powertrain): Hybrid Battery Pack Voltage Sense  - Circuit High 
+- **Code P0B18** (Powertrain): Hybrid Battery Pack Voltage Sense  - Circuit Intermittent/Erratic
+- **Code P0B19** (Powertrain): Hybrid Battery Pack Voltage Sense - Circuit
+- **Code P0B1A** (Powertrain): Hybrid Battery Pack Voltage Sense - Circuit Range/Performance
+- **Code P0B1B** (Powertrain): Hybrid Battery Pack Voltage Sense - Circuit Low 
+- **Code P0B1C** (Powertrain): Hybrid Battery Pack Voltage Sense - Circuit High
+- **Code P0B1D** (Powertrain): Hybrid Battery Pack Voltage Sense - Circuit Intermittent/Erratic
+- **Code P0B1E** (Powertrain): Hybrid Battery Pack Voltage Sense - Circuit
+- **Code P0B1F** (Powertrain): Hybrid Battery Pack Voltage Sense - Circuit Range/Performance
+- **Code P0B20** (Powertrain): Hybrid Battery Pack Voltage Sense - Circuit Low 
+- **Code P0B21** (Powertrain): Hybrid Battery Pack Voltage Sense - Circuit High 
+- **Code P0B22** (Powertrain): Hybrid Battery Pack Voltage Sense - Circuit Intermittent/Erratic 
+- **Code P0B23** (Powertrain): Hybrid Battery  - Voltage 
+- **Code P0B24** (Powertrain): Hybrid Battery  - Voltage Unstable
+- **Code P0B25** (Powertrain): Hybrid Battery  - Voltage Low 
+- **Code P0B26** (Powertrain): Hybrid Battery  - Voltage High 
+- **Code P0B27** (Powertrain): Hybrid Battery  - Voltage 
+- **Code P0B28** (Powertrain): Hybrid Battery  - Voltage Unstable
+- **Code P0B29** (Powertrain): Hybrid Battery  - Voltage Low 
+- **Code P0B2A** (Powertrain): Hybrid Battery  - Voltage High
+- **Code P0B2B** (Powertrain): Hybrid Battery - Voltage
+- **Code P0B2C** (Powertrain): Hybrid Battery - Voltage Unstable
+- **Code P0B2D** (Powertrain): Hybrid Battery - Voltage Low
+- **Code P0B2E** (Powertrain): Hybrid Battery - Voltage High
+- **Code P0B2F** (Powertrain): Hybrid Battery - Voltage
+- **Code P0B30** (Powertrain): Hybrid Battery - Voltage Unstable 
+- **Code P0B31** (Powertrain): Hybrid Battery - Voltage Low
+- **Code P0B32** (Powertrain): Hybrid Battery - Voltage High 
+- **Code P0B33** (Powertrain): High Voltage Service Disconnect Circuit
+- **Code P0B34** (Powertrain): High Voltage Service Disconnect Circuit Performance
+- **Code P0B35** (Powertrain): High Voltage Service Disconnect Circuit Low 
+- **Code P0B36** (Powertrain): High Voltage Service Disconnect Circuit High 
+- **Code P0B37** (Powertrain): High Voltage Service Disconnect Open 
+- **Code P0B38** (Powertrain): Motor Electronics Coolant Pump  - Control Circuit/Open 
+- **Code P0B39** (Powertrain): Motor Electronics Coolant Pump  - Control Circuit Low
+- **Code P0B3A** (Powertrain): Motor Electronics Coolant Pump  - Control Circuit High
+- **Code P0B3B** (Powertrain): Hybrid Battery Voltage Sense  - Circuit
+- **Code P0B3C** (Powertrain): Hybrid Battery Voltage Sense  - Circuit Range/Performance
+- **Code P0B3D** (Powertrain): Hybrid Battery Voltage Sense  - Circuit Low 
+- **Code P0B3E** (Powertrain): Hybrid Battery Voltage Sense  - Circuit High 
+- **Code P0B3F** (Powertrain): Hybrid Battery Voltage Sense  - Circuit Intermittent/Erratic
+- **Code P0B40** (Powertrain): Hybrid Battery Voltage Sense  - Circuit 
+- **Code P0B41** (Powertrain): Hybrid Battery Voltage Sense  - Circuit Range/Performance 
+- **Code P0B42** (Powertrain): Hybrid Battery Voltage Sense  - Circuit Low 
+- **Code P0B43** (Powertrain): Hybrid Battery Voltage Sense  - Circuit High
+- **Code P0B44** (Powertrain): Hybrid Battery Voltage Sense  - Circuit Intermittent/Erratic 
+- **Code P0B45** (Powertrain): Hybrid Battery Voltage Sense - Circuit
+- **Code P0B46** (Powertrain): Hybrid Battery Voltage Sense - Circuit Range/Performance 
+- **Code P0B47** (Powertrain): Hybrid Battery Voltage Sense - Circuit Low
+- **Code P0B48** (Powertrain): Hybrid Battery Voltage Sense - Circuit High 
+- **Code P0B49** (Powertrain): Hybrid Battery Voltage Sense - Circuit Intermittent/Erratic 
+- **Code P0B4A** (Powertrain): Hybrid Battery Voltage Sense - Circuit 
+- **Code P0B4B** (Powertrain): Hybrid Battery Voltage Sense - Circuit Range/Performance
+- **Code P0B4C** (Powertrain): Hybrid Battery Voltage Sense - Circuit Low 
+- **Code P0B4D** (Powertrain): Hybrid Battery Voltage Sense - Circuit High
+- **Code P0B4E** (Powertrain): Hybrid Battery Voltage Sense - Circuit Intermittent/Erratic
+- **Code P0B4F** (Powertrain): Hybrid Battery Voltage Sense - Circuit 
+- **Code P0B50** (Powertrain): Hybrid Battery Voltage Sense - Circuit Range/Performance
+- **Code P0B51** (Powertrain): Hybrid Battery Voltage Sense - Circuit Low
+- **Code P0B52** (Powertrain): Hybrid Battery Voltage Sense - Circuit High 
+- **Code P0B53** (Powertrain): Hybrid Battery Voltage Sense - Circuit Intermittent/Erratic
+- **Code P0B54** (Powertrain): Hybrid Battery Voltage Sense - Circuit 
+- **Code P0B55** (Powertrain): Hybrid Battery Voltage Sense - Circuit Range/Performance
+- **Code P0B56** (Powertrain): Hybrid Battery Voltage Sense - Circuit Low 
+- **Code P0B57** (Powertrain): Hybrid Battery Voltage Sense - Circuit High
+- **Code P0B58** (Powertrain): Hybrid Battery Voltage Sense - Circuit Intermittent/Erratic 
+- **Code P0B59** (Powertrain): Hybrid Battery Voltage Sense - Circuit 
+- **Code P0B5A** (Powertrain): Hybrid Battery Voltage Sense - Circuit Range/Performance 
+- **Code P0B5B** (Powertrain): Hybrid Battery Voltage Sense - Circuit Low 
+- **Code P0B5C** (Powertrain): Hybrid Battery Voltage Sense - Circuit High
+- **Code P0B5D** (Powertrain): Hybrid Battery Voltage Sense - Circuit Intermittent/Erratic
+- **Code P0B5E** (Powertrain): Hybrid Battery Voltage Sense - Circuit 
+- **Code P0B5F** (Powertrain): Hybrid Battery Voltage Sense - Circuit Range/Performance 
+- **Code P0B60** (Powertrain): Hybrid Battery Voltage Sense - Circuit Low 
+- **Code P0B61** (Powertrain): Hybrid Battery Voltage Sense - Circuit High
+- **Code P0B62** (Powertrain): Hybrid Battery Voltage Sense - Circuit Intermittent/Erratic 
+- **Code P0B63** (Powertrain): Hybrid Battery Voltage Sense - Circuit
+- **Code P0B64** (Powertrain): Hybrid Battery Voltage Sense - Circuit Range/Performance 
+- **Code P0B65** (Powertrain): Hybrid Battery Voltage Sense - Circuit Low 
+- **Code P0B66** (Powertrain): Hybrid Battery Voltage Sense - Circuit High
+- **Code P0B67** (Powertrain): Hybrid Battery Voltage Sense - Circuit Intermittent/Erratic
+- **Code P0B68** (Powertrain): Hybrid Battery Voltage Sense - Circuit 
+- **Code P0B69** (Powertrain): Hybrid Battery Voltage Sense - Circuit Range/Performance
+- **Code P0B6A** (Powertrain): Hybrid Battery Voltage Sense - Circuit Low 
+- **Code P0B6B** (Powertrain): Hybrid Battery Voltage Sense - Circuit High 
+- **Code P0B6C** (Powertrain): Hybrid Battery Voltage Sense - Circuit Intermittent/Erratic 
+- **Code P0B6D** (Powertrain): Hybrid Battery Voltage Sense - Circuit 
+- **Code P0B6E** (Powertrain): Hybrid Battery Voltage Sense - Circuit Range/Performance 
+- **Code P0B6F** (Powertrain): Hybrid Battery Voltage Sense - Circuit Low 
+- **Code P0B70** (Powertrain): Hybrid Battery Voltage Sense - Circuit High
+- **Code P0B71** (Powertrain): Hybrid Battery Voltage Sense - Circuit Intermittent/Erratic 
+- **Code P0B72** (Powertrain): Hybrid Battery Voltage Sense - Circuit 
+- **Code P0B73** (Powertrain): Hybrid Battery Voltage Sense - Circuit Range/Performance
+- **Code P0B74** (Powertrain): Hybrid Battery Voltage Sense - Circuit Low 
+- **Code P0B75** (Powertrain): Hybrid Battery Voltage Sense - Circuit High
+- **Code P0B76** (Powertrain): Hybrid Battery Voltage Sense - Circuit Intermittent/Erratic 
+- **Code P0B77** (Powertrain): Hybrid Battery Voltage Sense - Circuit 
+- **Code P0B78** (Powertrain): Hybrid Battery Voltage Sense - Circuit Range/Performance 
+- **Code P0B79** (Powertrain): Hybrid Battery Voltage Sense - Circuit Low 
+- **Code P0B7A** (Powertrain): Hybrid Battery Voltage Sense - Circuit High
+- **Code P0B7B** (Powertrain): Hybrid Battery Voltage Sense - Circuit Intermittent/Erratic 
+- **Code P0B7C** (Powertrain): Hybrid Battery Voltage Sense - Circuit 
+- **Code P0B7D** (Powertrain): Hybrid Battery Voltage Sense - Circuit Range/Performance 
+- **Code P0B7E** (Powertrain): Hybrid Battery Voltage Sense - Circuit Low 
+- **Code P0B7F** (Powertrain): Hybrid Battery Voltage Sense - Circuit High 
+- **Code P0B80** (Powertrain): Hybrid Battery Voltage Sense - Circuit Intermittent/Erratic
+- **Code P0B81** (Powertrain): Hybrid Battery Voltage Sense - Circuit
+- **Code P0B82** (Powertrain): Hybrid Battery Voltage Sense - Circuit Range/Performance
+- **Code P0B83** (Powertrain): Hybrid Battery Voltage Sense - Circuit Low
+- **Code P0B84** (Powertrain): Hybrid Battery Voltage Sense - Circuit High 
+- **Code P0B85** (Powertrain): Hybrid Battery Voltage Sense - Circuit Intermittent/Erratic
+- **Code P0B86** (Powertrain): Hybrid Battery Voltage Sense - Circuit
+- **Code P0B87** (Powertrain): Hybrid Battery Voltage Sense - Circuit Range/Performance
+- **Code P0B88** (Powertrain): Hybrid Battery Voltage Sense - Circuit Low 
+- **Code P0B89** (Powertrain): Hybrid Battery Voltage Sense - Circuit High 
+- **Code P0B8A** (Powertrain): Hybrid Battery Voltage Sense - Circuit Intermittent/Erratic
+- **Code P0B8B** (Powertrain): Hybrid Battery Voltage Sense - Circuit
+- **Code P0B8C** (Powertrain): Hybrid Battery Voltage Sense - Circuit Range/Performance
+- **Code P0B8D** (Powertrain): Hybrid Battery Voltage Sense - Circuit Low
+- **Code P0B8E** (Powertrain): Hybrid Battery Voltage Sense - Circuit High 
+- **Code P0B8F** (Powertrain): Hybrid Battery Voltage Sense - Circuit Intermittent/Erratic 
+- **Code P0B90** (Powertrain): Hybrid Battery Voltage Sense - Circuit 
+- **Code P0B91** (Powertrain): Hybrid Battery Voltage Sense - Circuit Range/Performance 
+- **Code P0B92** (Powertrain): Hybrid Battery Voltage Sense - Circuit Low 
+- **Code P0B93** (Powertrain): Hybrid Battery Voltage Sense - Circuit High 
+- **Code P0B94** (Powertrain): Hybrid Battery Voltage Sense - Circuit Intermittent/Erratic 
+- **Code P0B95** (Powertrain): Hybrid Battery Voltage Sense - Circuit
+- **Code P0B96** (Powertrain): Hybrid Battery Voltage Sense - Circuit Range/Performance
+- **Code P0B97** (Powertrain): Hybrid Battery Voltage Sense - Circuit Low 
+- **Code P0B98** (Powertrain): Hybrid Battery Voltage Sense - Circuit High 
+- **Code P0B99** (Powertrain): Hybrid Battery Voltage Sense - Circuit Intermittent/Erratic 
+- **Code P0B9A** (Powertrain): Hybrid Battery Voltage Sense - Circuit
+- **Code P0B9B** (Powertrain): Hybrid Battery Voltage Sense - Circuit Range/Performance 
+- **Code P0B9C** (Powertrain): Hybrid Battery Voltage Sense - Circuit Low 
+- **Code P0B9D** (Powertrain): Hybrid Battery Voltage Sense - Circuit High
+- **Code P0B9E** (Powertrain): Hybrid Battery Voltage Sense - Circuit Intermittent/Erratic 
+- **Code P0B9F** (Powertrain): Hybrid Battery Voltage Sense - Circuit 
+- **Code P0BA0** (Powertrain): Hybrid Battery Voltage Sense - Circuit Range/Performance 
+- **Code P0BA1** (Powertrain): Hybrid Battery Voltage Sense - Circuit Low
+- **Code P0BA2** (Powertrain): Hybrid Battery Voltage Sense - Circuit High 
+- **Code P0BA3** (Powertrain): Hybrid Battery Voltage Sense - Circuit Intermittent/Erratic 
+- **Code P0BA4** (Powertrain): Hybrid Battery Voltage Sense - Circuit
+- **Code P0BA5** (Powertrain): Hybrid Battery Voltage Sense - Circuit Range/Performance
+- **Code P0BA6** (Powertrain): Hybrid Battery Voltage Sense - Circuit Low 
+- **Code P0BA7** (Powertrain): Hybrid Battery Voltage Sense - Circuit High
+- **Code P0BA8** (Powertrain): Hybrid Battery Voltage Sense - Circuit Intermittent/Erratic 
+- **Code P0BA9** (Powertrain): Hybrid Battery Voltage Sense - Circuit
+- **Code P0BAA** (Powertrain): Hybrid Battery Voltage Sense - Circuit Range/Performance
+- **Code P0BAB** (Powertrain): Hybrid Battery Voltage Sense - Circuit Low
+- **Code P0BAC** (Powertrain): Hybrid Battery Voltage Sense - Circuit High 
+- **Code P0BAD** (Powertrain): Hybrid Battery Voltage Sense - Circuit Intermittent/Erratic 
+- **Code P0BAE** (Powertrain): Hybrid Battery Voltage Sense - Circuit
+- **Code P0BAF** (Powertrain): Hybrid Battery Voltage Sense - Circuit Range/Performance
+- **Code P0BB0** (Powertrain): Hybrid Battery Voltage Sense - Circuit Low
+- **Code P0BB1** (Powertrain): Hybrid Battery Voltage Sense - Circuit High
+- **Code P0BB2** (Powertrain): Hybrid Battery Voltage Sense - Circuit Intermittent/Erratic
+- **Code P0BB3** (Powertrain): Hybrid Battery Voltage Sense - Circuit
+- **Code P0BB4** (Powertrain): Hybrid Battery Voltage Sense - Circuit Range/Performance 
+- **Code P0BB5** (Powertrain): Hybrid Battery Voltage Sense - Circuit Low 
+- **Code P0BB6** (Powertrain): Hybrid Battery Voltage Sense - Circuit High 
+- **Code P0BB7** (Powertrain): Hybrid Battery Voltage Sense - Circuit Intermittent/Erratic 
+- **Code P0BB8** (Powertrain): Hybrid Battery Voltage Sense - Circuit
+- **Code P0BB9** (Powertrain): Hybrid Battery Voltage Sense - Circuit Range/Performance 
+- **Code P0BBA** (Powertrain): Hybrid Battery Voltage Sense - Circuit Low 
+- **Code P0BBB** (Powertrain): Hybrid Battery Voltage Sense - Circuit High
+- **Code P0BBC** (Powertrain): Hybrid Battery Voltage Sense - Circuit Intermittent/Erratic 
+- **Code P0BBD** (Powertrain): Hybrid Battery Pack Voltage Variation Exceeded Limit 
+- **Code P0BBE** (Powertrain): Hybrid Battery Pack Voltage Variation
+- **Code P0BBF** (Powertrain): Hybrid Battery Pack Cooling Fan Supply Voltage Circuit/Open 
+- **Code P0BC0** (Powertrain): Hybrid Battery Pack Cooling Fan Supply Voltage Circuit Low 
+- **Code P0BC1** (Powertrain): Hybrid Battery Pack Cooling Fan Supply Voltage Circuit High
+- **Code P0BC2** (Powertrain): Hybrid Battery Temperature Sensor - Circuit 
+- **Code P0BC3** (Powertrain): Hybrid Battery Temperature Sensor - Range/Performance
+- **Code P0BC4** (Powertrain): Hybrid Battery Temperature Sensor - Circuit Low 
+- **Code P0BC5** (Powertrain): Hybrid Battery Temperature Sensor - Circuit High
+- **Code P0BC6** (Powertrain): Hybrid Battery Temperature Sensor - Circuit Intermittent/Erratic 
+- **Code P0BC7** (Powertrain): Hybrid Battery Pack Cooling Fan Sense Circuit/Open
+- **Code P0BC8** (Powertrain): Hybrid Battery Pack Cooling Fan Sense Range/Performance 
+- **Code P0BC9** (Powertrain): Hybrid Battery Pack Cooling Fan Sense Circuit Low 
+- **Code P0BCA** (Powertrain): Hybrid Battery Pack Cooling Fan Sense Circuit High 
+- **Code P0BCB** (Powertrain): Hybrid Battery Pack Cooling Fan Sense Circuit Intermittent/Erratic
+- **Code P0BCC** (Powertrain): Generator Inverter Temperature Sensor Circuit
+- **Code P0BCD** (Powertrain): Generator Inverter Temperature Sensor Circuit Range/Performance 
+- **Code P0BCE** (Powertrain): Generator Inverter Temperature Sensor Circuit Low 
+- **Code P0BCF** (Powertrain): Generator Inverter Temperature Sensor Circuit High 
+- **Code P0BD0** (Powertrain): Generator Inverter Temperature Sensor Circuit Intermittent/Erratic 
+- **Code P0BD1** (Powertrain): Drive Motor Inverter Temperature Sensor - Circuit
+- **Code P0BD2** (Powertrain): Drive Motor Inverter Temperature Sensor - Circuit Range/Performance
+- **Code P0BD3** (Powertrain): Drive Motor Inverter Temperature Sensor - Circuit Low 
+- **Code P0BD4** (Powertrain): Drive Motor Inverter Temperature Sensor - Circuit High 
+- **Code P0BD5** (Powertrain): Drive Motor Inverter Temperature Sensor - Circuit Intermittent/Erratic
+- **Code P0BD6** (Powertrain): Drive Motor Inverter Temperature Sensor - Circuit
+- **Code P0BD7** (Powertrain): Drive Motor Inverter Temperature Sensor - Circuit Range/Performance 
+- **Code P0BD8** (Powertrain): Drive Motor Inverter Temperature Sensor - Circuit Low
+- **Code P0BD9** (Powertrain): Drive Motor Inverter Temperature Sensor - Circuit High
+- **Code P0BDA** (Powertrain): Drive Motor Inverter Temperature Sensor - Circuit Intermittent/Erratic
+- **Code P0BDB** (Powertrain): Drive Motor Inverter Temperature Sensor - Circui
+- **Code P0BDC** (Powertrain): Drive Motor Inverter Temperature Sensor - Circuit Range/Performance 
+- **Code P0BDD** (Powertrain): Drive Motor Inverter Temperature Sensor - Circuit Low
+- **Code P0BDE** (Powertrain): Drive Motor Inverter Temperature Sensor - Circuit High 
+- **Code P0BDF** (Powertrain): Drive Motor Inverter Temperature Sensor - Circuit Intermittent/Erratic
+- **Code P0BE0** (Powertrain): Drive Motor Inverter Temperature Sensor - Circuit 
+- **Code P0BE1** (Powertrain): Drive Motor Inverter Temperature Sensor - Circuit Range/Performance 
+- **Code P0BE2** (Powertrain): Drive Motor Inverter Temperature Sensor - Circuit Low 
+- **Code P0BE3** (Powertrain): Drive Motor Inverter Temperature Sensor - Circuit High
+- **Code P0BE4** (Powertrain): Drive Motor Inverter Temperature Sensor - Circuit Intermittent/Erratic
+- **Code P0BE5** (Powertrain): Drive Motor  - Phase U Current Sensor Circuit
+- **Code P0BE6** (Powertrain): Drive Motor  - Phase U Current Sensor Circuit Range/Performance
+- **Code P0BE7** (Powertrain): Drive Motor  - Phase U Current Sensor Circuit Low 
+- **Code P0BE8** (Powertrain): Drive Motor  - Phase U Current Sensor Circuit High
+- **Code P0BE9** (Powertrain): Drive Motor  - Phase V Current Sensor Circuit
+- **Code P0BEA** (Powertrain): Drive Motor  - Phase V Current Sensor Circuit Range/Performance 
+- **Code P0BEB** (Powertrain): Drive Motor  - Phase V Current Sensor Circuit Low
+- **Code P0BEC** (Powertrain): Drive Motor  - Phase V Current Sensor Circuit High
+- **Code P0BED** (Powertrain): Drive Motor  - Phase W Current Sensor Circuit
+- **Code P0BEE** (Powertrain): Drive Motor  - Phase W Current Sensor Circuit Range/Performance 
+- **Code P0BEF** (Powertrain): Drive Motor  - Phase W Current Sensor Circuit Low
+- **Code P0BF0** (Powertrain): Drive Motor  - Phase W Current Sensor Circuit High 
+- **Code P0BF1** (Powertrain): Drive Motor  - Phase U Current Sensor Circuit 
+- **Code P0BF2** (Powertrain): Drive Motor  - Phase U Current Sensor Circuit Range/Performance 
+- **Code P0BF3** (Powertrain): Drive Motor  - Phase U Current Sensor Circuit Low
+- **Code P0BF4** (Powertrain): Drive Motor  - Phase U Current Sensor Circuit High
+- **Code P0BF5** (Powertrain): Drive Motor  - Phase V Current Sensor Circuit 
+- **Code P0BF6** (Powertrain): Drive Motor  - Phase V Current Sensor Circuit Range/Performance
+- **Code P0BF7** (Powertrain): Drive Motor  - Phase V Current Sensor Circuit Low 
+- **Code P0BF8** (Powertrain): Drive Motor  - Phase V Current Sensor Circuit High 
+- **Code P0BF9** (Powertrain): Drive Motor  - Phase W Current Sensor Circuit
+- **Code P0BFA** (Powertrain): Drive Motor  - Phase W Current Sensor Circuit Range/Performance 
+- **Code P0BFB** (Powertrain): Drive Motor  - Phase W Current Sensor Circuit Low 
+- **Code P0BFC** (Powertrain): Drive Motor  - Phase W Current Sensor Circuit High 
+- **Code P0BFD** (Powertrain): Drive Motor  - Phase U-V-W Current Sensor Correlation
+- **Code P0BFE** (Powertrain): Drive Motor  - Phase U-V-W Current Sensor Correlation 
+- **Code P0BFF** (Powertrain): Drive Motor  - Current
+- **Code P0C00** (Powertrain): Drive Motor  - Current Low 
+- **Code P0C01** (Powertrain): Drive Motor  - Current High P0C02 Drive Motor  - Current
+- **Code P0C03** (Powertrain): Drive Motor  - Current Low 
+- **Code P0C04** (Powertrain): Drive Motor  - Current High 
+- **Code P0C05** (Powertrain): Drive Motor  - Phase U-V-W Circuit/Open 
+- **Code P0C06** (Powertrain): Drive Motor  - Phase U-V-W Circuit Low
+- **Code P0C07** (Powertrain): Drive Motor  - Phase U-V-W Circuit High
+- **Code P0C08** (Powertrain): Drive Motor  - Phase U-V-W Circuit/Open 
+- **Code P0C09** (Powertrain): Drive Motor  - Phase U-V-W Circuit Low
+- **Code P0C0A** (Powertrain): Drive Motor  - Phase U-V-W Circuit High
+- **Code P0C0B** (Powertrain): Drive Motor  - Inverter Power Supply Circuit/Open
+- **Code P0C0C** (Powertrain): Drive Motor  - Inverter Power Supply Circuit Low
+- **Code P0C0D** (Powertrain): Drive Motor  - Inverter Power Supply Circuit High
+- **Code P0C0E** (Powertrain): Drive Motor  - Inverter Power Supply Circuit/Open 
+- **Code P0C0F** (Powertrain): Drive Motor  - Inverter Power Supply Circuit Low 
+- **Code P0C10** (Powertrain): Drive Motor  - Inverter Power Supply Circuit High 
+- **Code P0C11** (Powertrain): Drive Motor  - Inverter Phase U Over Temperature 
+- **Code P0C12** (Powertrain): Drive Motor  - Inverter Phase V Over Temperature
+- **Code P0C13** (Powertrain): Drive Motor  - Inverter Phase W Over Temperature
+- **Code P0C14** (Powertrain): Drive Motor  - Inverter Phase U Over Temperature
+- **Code P0C15** (Powertrain): Drive Motor  - Inverter Phase V Over Temperature
+- **Code P0C16** (Powertrain): Drive Motor  - Inverter Phase W Over Temperature
+- **Code P0C17** (Powertrain): Drive Motor  - Position Sensor Not Learned 
+- **Code P0C18** (Powertrain): Drive Motor  - Position Sensor Not Learned
+- **Code P0C19** (Powertrain): Drive Motor  - Torque Delivered Performance
+- **Code P0C1A** (Powertrain): Drive Motor  - Torque Delivered Performance
+- **Code P0C1B** (Powertrain): Auxiliary Transmission Fluid Pump Control Module Internal Temperature Too High 
+- **Code P0C1C** (Powertrain): Auxiliary Transmission Fluid Pump Control Module Internal Temperature Sensor Circuit 
+- **Code P0C1D** (Powertrain): Auxiliary Transmission Fluid Pump Control Module Internal Temperature Sensor Circuit Range/Performance 
+- **Code P0C1E** (Powertrain): Auxiliary Transmission Fluid Pump Control Module Internal Temperature Sensor Circuit Low
+- **Code P0C1F** (Powertrain): Auxiliary Transmission Fluid Pump Control Module Internal Temperature Sensor Circuit High 
+- **Code P0C20** (Powertrain): Auxiliary Transmission Fluid Pump Phase U-V-W Circuit/Open 
+- **Code P0C21** (Powertrain): Auxiliary Transmission Fluid Pump Phase U-V-W Circuit Low
+- **Code P0C22** (Powertrain): Auxiliary Transmission Fluid Pump Phase U-V-W Circuit High 
+- **Code P0C23** (Powertrain): Auxiliary Transmission Fluid Pump Control Module Circuit/Open
+- **Code P0C24** (Powertrain): Auxiliary Transmission Fluid Pump Control Module Circuit Low 
+- **Code P0C25** (Powertrain): Auxiliary Transmission Fluid Pump Control Module Circuit High
+- **Code P0C26** (Powertrain): Auxiliary Transmission Fluid Pump Motor Current 
+- **Code P0C27** (Powertrain): Auxiliary Transmission Fluid Pump Motor Current Low
+- **Code P0C28** (Powertrain): Auxiliary Transmission Fluid Pump Motor Current High 
+- **Code P0C29** (Powertrain): Auxiliary Transmission Fluid Pump Driver Circuit Performance 
+- **Code P0C2A** (Powertrain): Auxiliary Transmission Fluid Pump Motor Stalled 
+- **Code P0C2B** (Powertrain): Auxiliary Transmission Fluid Pump Control Module Feedback Signal
+- **Code P0C2C** (Powertrain): Auxiliary Transmission Fluid Pump Control Module Feedback Signal Range/Performance
+- **Code P0C2D** (Powertrain): Auxiliary Transmission Fluid Pump Control Module Feedback Signal Low
+- **Code P0C2E** (Powertrain): Auxiliary Transmission Fluid Pump Control Module Feedback Signal High 
+- **Code P0C2F** (Powertrain): Internal Control Module Drive Motor/Generator - Engine Speed Sensor Performance
+- **Code P0C30** (Powertrain): Hybrid Battery Pack State of Charge High
+- **Code P0C31** (Powertrain): Inverter  - Cooling System Performance
+- **Code P0C32** (Powertrain): Hybrid Battery Cooling System Performance
+- **Code P0C33** (Powertrain): Hybrid Battery Temperature Sensor - Circuit 
+- **Code P0C34** (Powertrain): Hybrid Battery Temperature Sensor - Circuit Range/Performance 
+- **Code P0C35** (Powertrain): Hybrid Battery Temperature Sensor - Circuit Low
+- **Code P0C36** (Powertrain): Hybrid Battery Temperature Sensor - Circuit High
+- **Code P0C37** (Powertrain): Hybrid Battery Temperature Sensor - Circuit Intermittent/Erratic
+- **Code P0C38** (Powertrain): DC/DC Converter Temperature Sensor  - Circuit 
+- **Code P0C39** (Powertrain): DC/DC Converter Temperature Sensor  - Range/Performance
+- **Code P0C3A** (Powertrain): DC/DC Converter Temperature Sensor  - Low
+- **Code P0C3B** (Powertrain): DC/DC Converter Temperature Sensor  - High 
+- **Code P0C3C** (Powertrain): DC/DC Converter Temperature Sensor  - Intermittent/Erratic
+- **Code P0C3D** (Powertrain): DC/DC Converter Temperature Sensor  - Circuit 
+- **Code P0C3E** (Powertrain): DC/DC Converter Temperature Sensor  - Range/Performance
+- **Code P0C3F** (Powertrain): DC/DC Converter Temperature Sensor  - Low
+- **Code P0C40** (Powertrain): DC/DC Converter Temperature Sensor  - High
+- **Code P0C41** (Powertrain): DC/DC Converter Temperature Sensor  - Intermittent/Erratic 
+- **Code P0C42** (Powertrain): Hybrid Battery Pack Coolant Temperature Sensor Circuit 
+- **Code P0C43** (Powertrain): Hybrid Battery Pack Coolant Temperature Sensor Circuit Range/Performance
+- **Code P0C44** (Powertrain): Hybrid Battery Pack Coolant Temperature Sensor Circuit Low 
+- **Code P0C45** (Powertrain): Hybrid Battery Pack Coolant Temperature Sensor Circuit High
+- **Code P0C46** (Powertrain): Hybrid Battery Pack Coolant Temperature Sensor Circuit Intermittent/Erratic
+- **Code P0C47** (Powertrain): Hybrid Battery Pack Coolant Pump Control Circuit/Open
+- **Code P0C48** (Powertrain): Hybrid Battery Pack Coolant Pump Control Circuit Low 
+- **Code P0C49** (Powertrain): Hybrid Battery Pack Coolant Pump Control Circuit High
+- **Code P0C4A** (Powertrain): Hybrid Battery Pack Coolant Pump Control Performance
+- **Code P0C4B** (Powertrain): Hybrid Battery Pack Coolant Pump Supply Voltage Circuit/Open 
+- **Code P0C4C** (Powertrain): Hybrid Battery Pack Coolant Pump Supply Voltage Circuit Low
+- **Code P0C4D** (Powertrain): Hybrid Battery Pack Coolant Pump Supply Voltage Circuit High 
+- **Code P0C4E** (Powertrain): Drive Motor  - Position Exceeded Learning Limit 
+- **Code P0C4F** (Powertrain): Drive Motor  - Position Exceeded Learning Limit
+- **Code P0C50** (Powertrain): Drive Motor  - Position Sensor Circuit  - 
+- **Code P0C51** (Powertrain): Drive Motor  - Position Sensor Circuit  - Range/Performance
+- **Code P0C52** (Powertrain): Drive Motor  - Position Sensor Circuit  - Low
+- **Code P0C53** (Powertrain): Drive Motor  - Position Sensor Circuit  - High 
+- **Code P0C54** (Powertrain): Drive Motor  - Position Sensor Circuit  - Intermittent/Erratic
+- **Code P0C55** (Powertrain): Drive Motor  - Position Sensor Circuit  -
+- **Code P0C56** (Powertrain): Drive Motor  - Position Sensor Circuit  - Range/Performance 
+- **Code P0C57** (Powertrain): Drive Motor  - Position Sensor Circuit  - Low
+- **Code P0C58** (Powertrain): Drive Motor  - Position Sensor Circuit  - High 
+- **Code P0C59** (Powertrain): Drive Motor  - Position Sensor Circuit  - Intermittent/Erratic
+- **Code P0C5A** (Powertrain): Drive Motor  - Position Sensor Circuit  -
+- **Code P0C5B** (Powertrain): Drive Motor  - Position Sensor Circuit  - Range/Performance
+- **Code P0C5C** (Powertrain): Drive Motor  - Position Sensor Circuit  - Low
+- **Code P0C5D** (Powertrain): Drive Motor  - Position Sensor Circuit  - High
+- **Code P0C5E** (Powertrain): Drive Motor  - Position Sensor Circuit  - Intermittent/Erratic 
+- **Code P0C5F** (Powertrain): Drive Motor  - Position Sensor Circuit  -
+- **Code P0C60** (Powertrain): Drive Motor  - Position Sensor Circuit  - Range/Performance 
+- **Code P0C61** (Powertrain): Drive Motor  - Position Sensor Circuit  - Low
+- **Code P0C62** (Powertrain): Drive Motor  - Position Sensor Circuit  - High 
+- **Code P0C63** (Powertrain): Drive Motor  - Position Sensor Circuit  - Intermittent/Erratic 
+- **Code P0C64** (Powertrain): Generator Position Sensor Circuit  -
+- **Code P0C65** (Powertrain): Generator Position Sensor Circuit  - Range/Performance
+- **Code P0C66** (Powertrain): Generator Position Sensor Circuit  - Low
+- **Code P0C67** (Powertrain): Generator Position Sensor Circuit  - High
+- **Code P0C68** (Powertrain): Generator Position Sensor Circuit  - Intermittent/Erratic
+- **Code P0C69** (Powertrain): Generator Position Sensor Circuit  - 
+- **Code P0C6A** (Powertrain): Generator Position Sensor Circuit  - Range/Performance
+- **Code P0C6B** (Powertrain): Generator Position Sensor Circuit  - Low
+- **Code P0C6C** (Powertrain): Generator Position Sensor Circuit  - High 
+- **Code P0C6D** (Powertrain): Generator Position Sensor Circuit  - Intermittent/Erratic
+- **Code P0C6E** (Powertrain): Hybrid Battery Temperature Sensor  - Correlation
+- **Code P0C6F** (Powertrain): Hybrid Battery Temperature Sensor  - Correlation
+- **Code P0C70** (Powertrain): Hybrid Battery Temperature Sensor - Correlation
+- **Code P0C71** (Powertrain): Hybrid Battery Temperature Sensor - Correlation
+- **Code P0C72** (Powertrain): Hybrid Battery Temperature Sensor - Correlation
+- **Code P0C73** (Powertrain): Motor Electronics Coolant Pump  - Control Performance
+- **Code P0C74** (Powertrain): Motor Electronics Coolant Pump  - Control Performance 
+- **Code P0C75** (Powertrain): Hybrid Battery System Discharge Time Too Short
+- **Code P0C76** (Powertrain): Hybrid Battery System Discharge Time Too Long
+- **Code P0C77** (Powertrain): Hybrid Battery System Precharge Time Too Short
+- **Code P0C78** (Powertrain): Hybrid Battery System Precharge Time Too Long
+- **Code P0C79** (Powertrain): Drive Motor  - Inverter Voltage Too High
+- **Code P0C7A** (Powertrain): Drive Motor  - Inverter Voltage Too High 
+- **Code P0C7B** (Powertrain): Generator Inverter Voltage Too High
+- **Code P0C7C** (Powertrain): Hybrid Battery Temperature Sensor - Circuit 
+- **Code P0C7D** (Powertrain): Hybrid Battery Temperature Sensor - Range/Performance
+- **Code P0C7E** (Powertrain): Hybrid Battery Temperature Sensor - Circuit Low
+- **Code P0C7F** (Powertrain): Hybrid Battery Temperature Sensor - Circuit High
+- **Code P0C80** (Powertrain): Hybrid Battery Temperature Sensor - Circuit Intermittent/Erratic
+- **Code P0C81** (Powertrain): Hybrid Battery Temperature Sensor - Circuit
+- **Code P0C82** (Powertrain): Hybrid Battery Temperature Sensor - Range/Performance
+- **Code P0C83** (Powertrain): Hybrid Battery Temperature Sensor - Circuit Low 
+- **Code P0C84** (Powertrain): Hybrid Battery Temperature Sensor - Circuit High
+- **Code P0C85** (Powertrain): Hybrid Battery Temperature Sensor - Circuit Intermittent/Erratic
+- **Code P0C86** (Powertrain): Hybrid Battery Temperature Sensor - Correlation 
+- **Code P0C87** (Powertrain): Hybrid Battery Temperature Sensor - Correlation
+- **Code P1000** (Powertrain): OBDII monitor status
+- **Code P1105** (Powertrain): Dual alternator upper fault (monitor)
+- **Code P1106** (Powertrain): Dual alternator lower fault (control)
+- **Code P1107** (Powertrain): Dual alternator lower circuit malf. (control)
+- **Code P1108** (Powertrain): Dual alternator BATT lamp ckt. malf.
+- **Code P1118** (Powertrain): Manifold air temp sensor out of range low
+- **Code P1119** (Powertrain): Manifold air temp sensor out of range high
+- **Code P1139** (Powertrain): Water in fuel lamp circuit malfunction
+- **Code P1140** (Powertrain): Water in fuel condition
+- **Code P1184** (Powertrain): Engine oil temp out of self test range
+- **Code P1209** (Powertrain): ICP system fault
+- **Code P1210** (Powertrain): ICP above expected level
+- **Code P1211** (Powertrain): ICP pressure above/below desired
+- **Code P1212** (Powertrain): ICP voltage not at expected level
+- **Code P1218** (Powertrain): CID stuck high
+- **Code P1219** (Powertrain): CID stuck low
+- **Code P1247** (Powertrain): Turbo boost pressure low
+- **Code P1248** (Powertrain): Turbo boost pressure not detected
+- **Code P1249** (Powertrain): Waste gate steady state failure
+- **Code P1260** (Powertrain): Electronic positive anti-theft system failure
+- **Code P1261** (Powertrain): High to low side short Cylinder  #1
+- **Code P1262** (Powertrain): High to low side short Cylinder  #2
+- **Code P1262** (Powertrain): High to low side short Cylinder  #3
+- **Code P1263** (Powertrain): High to low side short Cylinder  #3
+- **Code P1264** (Powertrain): High to low side short Cylinder  #4
+- **Code P1265** (Powertrain): High to low side short Cylinder  #5
+- **Code P1266** (Powertrain): High to low side short Cylinder  #6
+- **Code P1267** (Powertrain): High to low side short Cylinder  #7
+- **Code P1268** (Powertrain): High to low side short Cylinder  #8
+- **Code P1271** (Powertrain): High to low side open Cylinder  #1
+- **Code P1272** (Powertrain): High to low side open Cylinder  #2
+- **Code P1273** (Powertrain): High to low side open Cylinder  #3
+- **Code P1274** (Powertrain): High to low side open Cylinder  #4
+- **Code P1275** (Powertrain): High to low side open Cylinder  #5
+- **Code P1276** (Powertrain): High to low side open Cylinder  #6
+- **Code P1277** (Powertrain): High to low side open Cylinder  #7
+- **Code P1278** (Powertrain): High to low side open Cylinder  #8
+- **Code P1280** (Powertrain): ICP circuit out of range low
+- **Code P1281** (Powertrain): ICP circuit out of range high
+- **Code P1282** (Powertrain): Excessive ICP pressure
+- **Code P1283** (Powertrain): IPR circuit failure
+- **Code P1284** (Powertrain): ICP failure aborts KOER CCT test
+- **Code P1291** (Powertrain): High side # 1 (right) short to grd. or B+
+- **Code P1292** (Powertrain): High side # 2 (left) short to grd. or B+
+- **Code P1293** (Powertrain): High side open bank No. 1 (right)
+- **Code P1294** (Powertrain): High side open bank No. 2 (left)
+- **Code P1295** (Powertrain): Multiple faults on bank No. 1 (right)
+- **Code P1296** (Powertrain): Multiple faults on bank No. 2 (left)
+- **Code P1297** (Powertrain): High sides shorted together
+- **Code P1298** (Powertrain): IDM failure
+- **Code P1316** (Powertrain): Injector circuit/IDM codes detected
+- **Code P1391** (Powertrain): Glow plug circuit low input, bank #1 (right)
+- **Code P1393** (Powertrain): Glow plug circuit low input, bank #2 (left)
+- **Code P1395** (Powertrain): Glow plug monitor fault, bank #1
+- **Code P1396** (Powertrain): Glow plug monitor fault, bank #2
+- **Code P1397** (Powertrain): System voltage out of self test range
+- **Code P1464** (Powertrain): A/C on during KOER CCT test
+- **Code P1501** (Powertrain): Vehicle moved during testing
+- **Code P1502** (Powertrain): Invalid test APCM functioning
+- **Code P1531** (Powertrain): Invalid test accelerator pedal movement
+- **Code P1536** (Powertrain): Parking brake applied fail
+- **Code P1660** (Powertrain): OCC signal high
+- **Code P1661** (Powertrain): OCC signal low
+- **Code P1662** (Powertrain): IDM EN circuit failure
+- **Code P1663** (Powertrain): FDCS circuit failure
+- **Code P1667** (Powertrain): CID circuit failure
+- **Code P1668** (Powertrain): PCM/IDM diag. communication error
+- **Code P1670** (Powertrain): EF signal not detected
+- **Code P1690** (Powertrain): Waste gate failure
+- **Code P1702** (Powertrain): TRS sensor intermittent circuit malfunction
+- **Code P1704** (Powertrain): Digital TRS failed to transition state
+- **Code P1705** (Powertrain): TR sensor out of self-test range
+- **Code P1711** (Powertrain): TFT sensor out of self-test range
+- **Code P1713** (Powertrain): TFT stuck in range low below 50F
+- **Code P1714** (Powertrain): Shift solenoid 1 inductive
+- **Code P1715** (Powertrain): Shift solenoid 2 inductive
+- **Code P1718** (Powertrain): TFT stuck in range high above 250F
+- **Code P1728** (Powertrain): Transmission slip error
+- **Code P1729** (Powertrain): 4×4 Low switch error
+- **Code P1744** (Powertrain): Converter not functioning
+- **Code P1746** (Powertrain): EPC solenoid open circuit
+- **Code P1747** (Powertrain): EPC solenoid short circuit
+- **Code P1754** (Powertrain): Coast clutch solenoid ckt. malfunction
+- **Code P1760** (Powertrain): EPC solenoid short intermittent
+- **Code P1780** (Powertrain): TCS circuit of out self-test range
+- **Code P1781** (Powertrain): 4×4 Low circuit out of self-test range
+- **Code P1783** (Powertrain): Transmission overtemperature condition
+- **Code P1902** (Powertrain): Kickdown solenoid relay control circuit failure
+- **Code P1903** (Powertrain): Kickdown solenoid circuit low voltage
+- **Code P1904** (Powertrain): Kickdown solenoid circuit high voltage
+- **Code P2000** (Powertrain): NOx Adsorber Efficiency Below Threshold Bank 1
+- **Code P2001** (Powertrain): NOx Adsorber Efficiency Below Threshold Bank 2
+- **Code P2002** (Powertrain): Diesel Particulate Filter Efficiency Below Threshold Bank 1
+- **Code P2003** (Powertrain): Diesel Particulate Filter Efficiency Below Threshold Bank 2
+- **Code P2004** (Powertrain): Intake Manifold Runner Control Stuck Open Bank 1
+- **Code P2005** (Powertrain): Intake Manifold Runner Control Stuck Open Bank 2
+- **Code P2006** (Powertrain): Intake Manifold Runner Control Stuck Closed Bank 1
+- **Code P2007** (Powertrain): Intake Manifold Runner Control Stuck Closed Bank 2
+- **Code P2008** (Powertrain): Intake Manifold Runner Control Circuit/Open Bank 1
+- **Code P2009** (Powertrain): Intake Manifold Runner Control Circuit Low Bank 1
+- **Code P200A** (Powertrain): Intake Manifold Runner Performance Bank 1
+- **Code P200B** (Powertrain): Intake Manifold Runner Performance Bank 2
+- **Code P200C** (Powertrain): Diesel Particulate Filter Over Temperature Bank 1
+- **Code P200D** (Powertrain): Diesel Particulate Filter Over Temperature Bank 2
+- **Code P200E** (Powertrain): Catalyst System Over Temperature Bank 1
+- **Code P200F** (Powertrain): Catalyst System Over Temperature Bank 2
+- **Code P2010** (Powertrain): Intake Manifold Runner Control Circuit High Bank 1
+- **Code P2011** (Powertrain): Intake Manifold Runner Control Circuit/Open Bank 2
+- **Code P2012** (Powertrain): Intake Manifold Runner Control Circuit Low Bank 2
+- **Code P2013** (Powertrain): Intake Manifold Runner Control Circuit High Bank 2
+- **Code P2014** (Powertrain): Intake Manifold Runner Position Sensor/Switch Circuit Bank 1
+- **Code P2015** (Powertrain): Intake Manifold Runner Position Sensor/Switch Circuit Range/Performance Bank 1
+- **Code P2016** (Powertrain): Intake Manifold Runner Position Sensor/Switch Circuit Low Bank 1
+- **Code P2017** (Powertrain): Intake Manifold Runner Position Sensor/Switch Circuit High Bank 1
+- **Code P2018** (Powertrain): Intake Manifold Runner Position Sensor/Switch Circuit Intermittent Bank 1
+- **Code P2019** (Powertrain): Intake Manifold Runner Position Sensor/Switch Circuit Bank 2
+- **Code P201A** (Powertrain): Reductant Injection Valve Circuit Range/Performance Bank 2 Unit 1
+- **Code P2020** (Powertrain): Intake Manifold Runner Position Sensor/Switch Circuit Range/Performance Bank 2
+- **Code P2021** (Powertrain): Intake Manifold Runner Position Sensor/Switch Circuit Low Bank 2
+- **Code P2022** (Powertrain): Intake Manifold Runner Position Sensor/Switch Circuit High Bank 2
+- **Code P2023** (Powertrain): Intake Manifold Runner Position Sensor/Switch Circuit Intermittent Bank 2
+- **Code P2024** (Powertrain): Evaporative Emissions (EVAP) Fuel Vapor Temperature Sensor Circuit
+- **Code P2025** (Powertrain): Evaporative Emissions (EVAP) Fuel Vapor Temperature Sensor Performance
+- **Code P2026** (Powertrain): Evaporative Emissions (EVAP) Fuel Vapor Temperature Sensor Circuit Low Voltage
+- **Code P2027** (Powertrain): Evaporative Emissions (EVAP) Fuel Vapor Temperature Sensor Circuit High Voltage
+- **Code P2028** (Powertrain): Evaporative Emissions (EVAP) Fuel Vapor Temperature Sensor Circuit Intermittent
+- **Code P2029** (Powertrain): Fuel Fired Heater Disabled
+- **Code P202A** (Powertrain): Reductant Tank Heater Control Circuit/Open
+- **Code P202B** (Powertrain): Reductant Tank Heater Control Circuit Low
+- **Code P202C** (Powertrain): Reductant Tank Heater Control Circuit High
+- **Code P202D** (Powertrain): Reductant Leakage
+- **Code P202E** (Powertrain): Reductant Injection Valve Circuit Range/Performance Bank 1 Unit 1
+- **Code P202F** (Powertrain): Reductant/Regeneration Supply Control Circuit Range/Performance
+- **Code P2030** (Powertrain): Fuel Fired Heater Performance
+- **Code P2031** (Powertrain): Exhaust Gas Temperature Sensor Circuit Bank 1 Sensor 2
+- **Code P2032** (Powertrain): Exhaust Gas Temperature Sensor Circuit Low Bank 1 Sensor 2
+- **Code P2033** (Powertrain): Exhaust Gas Temperature Sensor Circuit High Bank 1 Sensor 2
+- **Code P2034** (Powertrain): Exhaust Gas Temperature Sensor Circuit Bank 2 Sensor 2
+- **Code P2035** (Powertrain): Exhaust Gas Temperature Sensor Circuit Low Bank 2 Sensor 2
+- **Code P2036** (Powertrain): Exhaust Gas Temperature Sensor Circuit High Bank 2 Sensor 2
+- **Code P2037** (Powertrain): Reductant Injection Air Pressure Sensor  - Circuit
+- **Code P2038** (Powertrain): Reductant Injection Air Pressure Sensor  - Circuit Range/Performance
+- **Code P2039** (Powertrain): Reductant Injection Air Pressure Sensor  - Circuit Low
+- **Code P203A** (Powertrain): Reductant Level Sensor Circuit
+- **Code P203B** (Powertrain): Reductant Level Sensor Circuit Range/Performance
+- **Code P203C** (Powertrain): Reductant Level Sensor Circuit Low
+- **Code P203D** (Powertrain): Reductant Level Sensor Circuit High
+- **Code P203E** (Powertrain): Reductant Level Sensor Circuit Intermittent/Erratic
+- **Code P203F** (Powertrain): Reductant Level Too Low
+- **Code P2040** (Powertrain): Reductant Injection Air Pressure Sensor  - Circuit High
+- **Code P2041** (Powertrain): Reductant Injection Air Pressure Sensor  - Circuit Intermittent
+- **Code P2042** (Powertrain): Reductant Temperature Sensor Circuit
+- **Code P2043** (Powertrain): Reductant Temperature Sensor Circuit Range/Performance
+- **Code P2044** (Powertrain): Reductant Temperature Sensor Circuit Low
+- **Code P2045** (Powertrain): Reductant Temperature Sensor Circuit High
+- **Code P2046** (Powertrain): Reductant Temperature Sensor Circuit Intermittent
+- **Code P2047** (Powertrain): Reductant Injection Valve Circuit/Open Bank 1 Unit 1
+- **Code P2048** (Powertrain): Reductant Injection Valve Circuit Low Bank 1 Unit 1
+- **Code P2049** (Powertrain): Reductant Injection Valve Circuit High Bank 1 Unit 1
+- **Code P204A** (Powertrain): Reductant Pressure Sensor Circuit
+- **Code P204B** (Powertrain): Reductant Pressure Sensor Circuit Range/Performance
+- **Code P204C** (Powertrain): Reductant Pressure Sensor Circuit Low
+- **Code P204D** (Powertrain): Reductant Pressure Sensor Circuit High
+- **Code P204E** (Powertrain): Reductant Pressure Sensor Circuit Intermittent/Erratic
+- **Code P204F** (Powertrain): Reductant System Performance Bank 1
+- **Code P2050** (Powertrain): Reductant Injection Valve Circuit/Open Bank 2 Unit 1
+- **Code P2051** (Powertrain): Reductant Injection Valve Circuit Low Bank 2 Unit 1
+- **Code P2052** (Powertrain): Reductant Injection Valve Circuit High Bank 2 Unit 1
+- **Code P2053** (Powertrain): Reductant Injection Valve Circuit/Open Bank 1 Unit 2
+- **Code P2054** (Powertrain): Reductant Injection Valve Circuit Low Bank 1 Unit 2
+- **Code P2055** (Powertrain): Reductant Injection Valve Circuit High Bank 1 Unit 2
+- **Code P2056** (Powertrain): Reductant Injection Valve Circuit/Open Bank 2 Unit 2
+- **Code P2057** (Powertrain): Reductant Injection Valve Circuit Low Bank 2 Unit 2
+- **Code P2058** (Powertrain): Reductant Injection Valve Circuit High Bank 2 Unit 2
+- **Code P2059** (Powertrain): Reductant Injection Air Pump Control Circuit/Open
+- **Code P205A** (Powertrain): Reductant Tank Temperature Sensor Circuit
+- **Code P205B** (Powertrain): Reductant Tank Temperature Sensor Circuit Range/Performance
+- **Code P205C** (Powertrain): Reductant Tank Temperature Sensor Circuit Low
+- **Code P205D** (Powertrain): Reductant Tank Temperature Sensor Circuit High
+- **Code P205E** (Powertrain): Reductant Tank Temperature Sensor Circuit Intermittent/Erratic
+- **Code P205F** (Powertrain): Reductant System Performance Bank 2
+- **Code P2060** (Powertrain): Reductant Injection Air Pump Control Circuit Low
+- **Code P2061** (Powertrain): Reductant Injection Air Pump Control Circuit High
+- **Code P2062** (Powertrain): Reductant/Regeneration Supply Control Circuit/Open
+- **Code P2063** (Powertrain): Reductant/Regeneration Supply Control Circuit Low
+- **Code P2064** (Powertrain): Reductant/Regeneration Supply Control Circuit High
+- **Code P2065** (Powertrain): Fuel Level Sensor  - Circuit
+- **Code P2066** (Powertrain): Fuel Level Sensor  - Circuit Performance
+- **Code P2067** (Powertrain): Fuel Level Sensor  - Circuit Low
+- **Code P2068** (Powertrain): Fuel Level Sensor  - Circuit High
+- **Code P2069** (Powertrain): Fuel Level Sensor  - Circuit Intermittent
+- **Code P206A** (Powertrain): Reductant Quality Sensor Circuit
+- **Code P206B** (Powertrain): Reductant Quality Sensor Circuit Range/Performance
+- **Code P206C** (Powertrain): Reductant Quality Sensor Circuit Low
+- **Code P206D** (Powertrain): Reductant Quality Sensor Circuit High
+- **Code P206E** (Powertrain): Intake Manifold Tuning (IMT) Valve Stuck Open Bank 2
+- **Code P206F** (Powertrain): Intake Manifold Tuning (IMT) Valve Stuck Closed Bank 2
+- **Code P2070** (Powertrain): Intake Manifold Tuning (IMT) Valve Stuck Open Bank 1
+- **Code P2071** (Powertrain): Intake Manifold Tuning (IMT) Valve Stuck Closed Bank 1
+- **Code P2072** (Powertrain): Throttle Actuator Control System - Ice Blockage
+- **Code P2073** (Powertrain): Manifold Absolute Pressure/Mass Air Flow - Throttle Position Correlation at Idle
+- **Code P2074** (Powertrain): Manifold Absolute Pressure/Mass Air Flow - Throttle Position Correlation at Higher Load
+- **Code P2075** (Powertrain): Intake Manifold Tuning (IMT) Valve Position Sensor/Switch Circuit Bank 1
+- **Code P2076** (Powertrain): Intake Manifold Tuning (IMT) Valve Position Sensor/Switch Circuit Range/Performance Bank 1
+- **Code P2077** (Powertrain): Intake Manifold Tuning (IMT) Valve Position Sensor/Switch Circuit Low Bank 1
+- **Code P2078** (Powertrain): Intake Manifold Tuning (IMT) Valve Position Sensor/Switch Circuit High Bank 1
+- **Code P2079** (Powertrain): Intake Manifold Tuning (IMT) Valve Position Sensor/Switch Circuit Intermittent Bank 1
+- **Code P207A** (Powertrain): Intake Manifold Tuning (IMT) Valve Position Sensor/Switch Circuit Bank 2
+- **Code P207B** (Powertrain): Intake Manifold Tuning (IMT) Valve Position Sensor/Switch Circuit Range/Performance Bank 2
+- **Code P207C** (Powertrain): Intake Manifold Tuning (IMT) Valve Position Sensor/Switch Circuit Low Bank 2
+- **Code P207D** (Powertrain): Intake Manifold Tuning (IMT) Valve Position Sensor/Switch Circuit High Bank 2
+- **Code P207E** (Powertrain): Intake Manifold Tuning (IMT) Valve Position Sensor/Switch Circuit Intermittent Bank 2
+- **Code P207F** (Powertrain): Reductant Quality Performance
+- **Code P2080** (Powertrain): Exhaust Gas Temperature Sensor Circuit Range/Performance Bank 1 Sensor 1
+- **Code P2081** (Powertrain): Exhaust Gas Temperature Sensor Circuit Intermittent Bank 1 Sensor 1
+- **Code P2082** (Powertrain): Exhaust Gas Temperature Sensor Circuit Range/Performance Bank 2 Sensor 1
+- **Code P2083** (Powertrain): Exhaust Gas Temperature Sensor Circuit Intermittent Bank 2 Sensor 1
+- **Code P2084** (Powertrain): Exhaust Gas Temperature Sensor Circuit Range/Performance Bank 1 Sensor 2
+- **Code P2085** (Powertrain): Exhaust Gas Temperature Sensor Circuit Intermittent Bank 1 Sensor 2
+- **Code P2086** (Powertrain): Exhaust Gas Temperature Sensor Circuit Range/Performance Bank 2 Sensor 2
+- **Code P2087** (Powertrain): Exhaust Gas Temperature Sensor Circuit Intermittent Bank 2 Sensor 2
+- **Code P2088** (Powertrain): A Camshaft Position Actuator Control Circuit Low Bank 1
+- **Code P2089** (Powertrain): A Camshaft Position Actuator Control Circuit High Bank 1
+- **Code P208A** (Powertrain): Reductant Pump Control Circuit/Open
+- **Code P208B** (Powertrain): Reductant Pump Control Range/Performance
+- **Code P208C** (Powertrain): Reductant Pump Control Circuit Low
+- **Code P208D** (Powertrain): Reductant Pump Control Circuit High
+- **Code P208E** (Powertrain): Reductant Injection Valve Stuck Closed Bank 1 Unit 1
+- **Code P208F** (Powertrain): Reductant Injection Valve Stuck Closed Bank 2 Unit 1
+- **Code P2090** (Powertrain): B Camshaft Position Actuator Control Circuit Low Bank 1
+- **Code P2091** (Powertrain): B Camshaft Position Actuator Control Circuit High Bank 1
+- **Code P2092** (Powertrain): A Camshaft Position Actuator Control Circuit Low Bank 2
+- **Code P2093** (Powertrain): A Camshaft Position Actuator Control Circuit High Bank 2
+- **Code P2094** (Powertrain): B Camshaft Position Actuator Control Circuit Low Bank 2
+- **Code P2095** (Powertrain): B Camshaft Position Actuator Control Circuit High Bank 2
+- **Code P2096** (Powertrain): Post Catalyst Fuel Trim System Too Lean Bank 1
+- **Code P2097** (Powertrain): Post Catalyst Fuel Trim System Too Rich Bank 1
+- **Code P2098** (Powertrain): Post Catalyst Fuel Trim System Too Lean Bank 2
+- **Code P2099** (Powertrain): Post Catalyst Fuel Trim System Too Rich Bank 2
+- **Code P209A** (Powertrain): Reductant Injection Air Pressure Sensor  - Circuit
+- **Code P209B** (Powertrain): Reductant Injection Air Pressure Sensor  - Circuit Range/Performance
+- **Code P209C** (Powertrain): Reductant Injection Air Pressure Sensor  - Circuit Low
+- **Code P209D** (Powertrain): Reductant Injection Air Pressure Sensor  - Circuit High
+- **Code P209E** (Powertrain): Reductant Injection Air Pressure Sensor  - Correlation
+- **Code P209F** (Powertrain): Reductant Tank Heater Control Circuit Performance
+- **Code P20A0** (Powertrain): Reductant Purge Control Valve Circuit /Open
+- **Code P20A1** (Powertrain): Reductant Purge Control Valve Performance
+- **Code P20A2** (Powertrain): Reductant Purge Control Valve Circuit Low
+- **Code P20A3** (Powertrain): Reductant Purge Control Valve Circuit High
+- **Code P20A4** (Powertrain): Reductant Purge Control Valve Stuck Open
+- **Code P20A5** (Powertrain): Reductant Purge Control Valve Stuck Closed
+- **Code P20A6** (Powertrain): Reductant Injection Air Pressure Control Valve Circuit/Open
+- **Code P20A7** (Powertrain): Reductant Injection Air Pressure Control Valve Performance
+- **Code P20A8** (Powertrain): Reductant Injection Air Pressure Control Valve Circuit Low
+- **Code P20A9** (Powertrain): Reductant Injection Air Pressure Control Valve Circuit High
+- **Code P20AA** (Powertrain): Reductant Injection Air Pressure Control Valve Stuck Open
+- **Code P20AB** (Powertrain): Reductant Injection Air Pressure Control Valve Stuck Closed
+- **Code P20AC** (Powertrain): Reductant Metering Unit Temperature Sensor Circuit
+- **Code P20AD** (Powertrain): Reductant Metering Unit Temperature Sensor Circuit Range/Performance
+- **Code P20AE** (Powertrain): Reductant Metering Unit Temperature Sensor Circuit Low
+- **Code P20AF** (Powertrain): Reductant Metering Unit Temperature Sensor Circuit High
+- **Code P20B0** (Powertrain): Reductant Metering Unit Temperature Sensor Circuit Intermittent/Erratic
+- **Code P20B1** (Powertrain): Reductant Heater Coolant Control Valve Circuit/Open
+- **Code P20B2** (Powertrain): Reductant Heater Coolant Control Valve Performance
+- **Code P20B3** (Powertrain): Reductant Heater Coolant Control Valve Circuit Low
+- **Code P20B4** (Powertrain): Reductant Heater Coolant Control Valve Circuit High
+- **Code P20B5** (Powertrain): Reductant Metering Unit Heater Control Circuit/Open
+- **Code P20B6** (Powertrain): Reductant Metering Unit Heater Control Circuit Performance
+- **Code P20B7** (Powertrain): Reductant Metering Unit Heater Control Circuit Low
+- **Code P20B8** (Powertrain): Reductant Metering Unit Heater Control Circuit High
+- **Code P20B9** (Powertrain): Reductant Heater  - Control Circuit/Open
+- **Code P20BA** (Powertrain): Reductant Heater  - Control Circuit Performance
+- **Code P20BB** (Powertrain): Reductant Heater  - Control Circuit Low
+- **Code P20BC** (Powertrain): Reductant Heater  - Control Circuit High
+- **Code P20BD** (Powertrain): Reductant Heater  - Control Circuit/Open
+- **Code P20BE** (Powertrain): Reductant Heater  - Control Circuit Performance
+- **Code P20BF** (Powertrain): Reductant Heater  - Control Circuit Low
+- **Code P20C0** (Powertrain): Reductant Heater  - Control Circuit High
+- **Code P20C1** (Powertrain): Reductant Heater - Control Circuit/Open
+- **Code P20C2** (Powertrain): Reductant Heater - Control Circuit Performance
+- **Code P20C3** (Powertrain): Reductant Heater - Control Circuit Low
+- **Code P20C4** (Powertrain): Reductant Heater - Control Circuit High
+- **Code P20C5** (Powertrain): Reductant Heater - Control Circuit/Open
+- **Code P20C6** (Powertrain): Reductant Heater - Control Circuit Performance
+- **Code P20C7** (Powertrain): Reductant Heater - Control Circuit Low
+- **Code P20C8** (Powertrain): Reductant Heater - Control Circuit High
+- **Code P20C9** (Powertrain): Reductant Control Module Requested MIL Illumination
+- **Code P20CA** (Powertrain): Reductant Injection Air Pressure Leakage
+- **Code P20CB** (Powertrain): Exhaust Aftertreatment Fuel Injector  - Control Circuit/Open
+- **Code P20CC** (Powertrain): Exhaust Aftertreatment Fuel Injector  - Control Performance
+- **Code P20CD** (Powertrain): Exhaust Aftertreatment Fuel Injector  - Control Circuit Low
+- **Code P20CE** (Powertrain): Exhaust Aftertreatment Fuel Injector  - Control Circuit High
+- **Code P20CF** (Powertrain): Exhaust Aftertreatment Fuel Injector  - Stuck Open
+- **Code P20D0** (Powertrain): Exhaust Aftertreatment Fuel Injector  - Stuck Closed
+- **Code P20D1** (Powertrain): Exhaust Aftertreatment Fuel Injector  - Control Circuit/Open
+- **Code P20D2** (Powertrain): Exhaust Aftertreatment Fuel Injector  - Control Performance
+- **Code P20D3** (Powertrain): Exhaust Aftertreatment Fuel Injector  - Control Circuit Low
+- **Code P20D4** (Powertrain): Exhaust Aftertreatment Fuel Injector  - Control Circuit High
+- **Code P20D5** (Powertrain): Exhaust Aftertreatment Fuel Injector  - Stuck Open
+- **Code P20D6** (Powertrain): Exhaust Aftertreatment Fuel Injector  - Stuck Closed
+- **Code P20D7** (Powertrain): Exhaust Aftertreatment Fuel Supply Control Circuit/Open
+- **Code P20D8** (Powertrain): Exhaust Aftertreatment Fuel Supply Control Performance
+- **Code P20D9** (Powertrain): Exhaust Aftertreatment Fuel Supply Control Circuit Low
+- **Code P20DA** (Powertrain): Exhaust Aftertreatment Fuel Supply Control Circuit High
+- **Code P20DB** (Powertrain): Exhaust Aftertreatment Fuel Supply Control Stuck Open
+- **Code P20DC** (Powertrain): Exhaust Aftertreatment Fuel Supply Control Stuck Closed
+- **Code P20DD** (Powertrain): Exhaust Aftertreatment Fuel Pressure Sensor Circuit
+- **Code P20DE** (Powertrain): Exhaust Aftertreatment Fuel Pressure Sensor Circuit Range/Performance
+- **Code P20DF** (Powertrain): Exhaust Aftertreatment Fuel Pressure Sensor Circuit Low
+- **Code P20E0** (Powertrain): Exhaust Aftertreatment Fuel Pressure Sensor Circuit High
+- **Code P20E1** (Powertrain): Exhaust Aftertreatment Fuel Pressure Sensor Circuit Intermittent/Erratic
+- **Code P20E2** (Powertrain): Exhaust Gas Temperature Sensor 1/2 Correlation Bank 1
+- **Code P20E3** (Powertrain): Exhaust Gas Temperature Sensor 1/3 Correlation Bank 1
+- **Code P20E4** (Powertrain): Exhaust Gas Temperature Sensor 2/3 Correlation Bank 1
+- **Code P20E5** (Powertrain): Exhaust Gas Temperature Sensor 1/2 Correlation Bank 2
+- **Code P20E6** (Powertrain): Reductant Injection Air Pressure Too Low
+- **Code P20E7** (Powertrain): Reductant Injection Air Pressure Too High
+- **Code P20E8** (Powertrain): Reductant Pressure Too Low
+- **Code P20E9** (Powertrain): Reductant Pressure Too High
+- **Code P20EA** (Powertrain): Reductant Control Module Power Relay De-Energized Performance - Too Early
+- **Code P20EB** (Powertrain): Reductant Control Module Power Relay De-Energized Performance - Too Late
+- **Code P20EC** (Powertrain): SCR NOx Catalyst - Over Temperature Bank 1
+- **Code P20ED** (Powertrain): SCR NOx Pre-Catalyst - Over Temperature Bank 1
+- **Code P20EE** (Powertrain): SCR NOx Catalyst Efficiency Below Threshold Bank 1
+- **Code P20EF** (Powertrain): SCR NOx Pre- Catalyst Efficiency Below Threshold Bank 1
+- **Code P20F0** (Powertrain): SCR NOx Catalyst - Over Temperature Bank 2
+- **Code P20F1** (Powertrain): SCR NOx Pre-Catalyst - Over Temperature Bank 2
+- **Code P20F2** (Powertrain): SCR NOx Catalyst Efficiency Below Threshold Bank 2
+- **Code P20F3** (Powertrain): SCR NOx Pre- Catalyst Efficiency Below Threshold Bank 2
+- **Code P20F4** (Powertrain): Reductant Consumption To
+- **Code P20F5** (Powertrain): Reductant Consumption Too High
+- **Code P20F6** (Powertrain): Reductant Injection Valve Stuck Open Bank 1 Unit 1
+- **Code P20F7** (Powertrain): Reductant Injection Valve Stuck Open Bank 2 Unit 1
+- **Code P2100** (Powertrain): Throttle Actuator  - Control Motor Circuit/Open
+- **Code P2101** (Powertrain): Throttle Actuator  - Control Motor Circuit Range/Performance
+- **Code P2102** (Powertrain): Throttle Actuator  - Control Motor Circuit Low
+- **Code P2103** (Powertrain): Throttle Actuator  - Control Motor Circuit High
+- **Code P2104** (Powertrain): Throttle Actuator Control System - Forced Idle
+- **Code P2105** (Powertrain): Throttle Actuator Control System - Forced Engine Shutdown
+- **Code P2106** (Powertrain): Throttle Actuator Control System - Forced Limited Power
+- **Code P2107** (Powertrain): Throttle Actuator Control Module Processor
+- **Code P2108** (Powertrain): Throttle Actuator Control Module Performance
+- **Code P2109** (Powertrain): Throttle/Pedal Position Sensor  - Minimum Stop Performance
+- **Code P210A** (Powertrain): Throttle Actuator  - Control Motor Circuit/Open
+- **Code P210B** (Powertrain): Throttle Actuator  - Control Motor Circuit Range/Performance 
+- **Code P210C** (Powertrain): Throttle Actuator  - Control Motor Circuit Low 
+- **Code P210D** (Powertrain): Throttle Actuator  - Control Motor Circuit High
+- **Code P210E** (Powertrain): Throttle/Pedal Position Sensor/Switch - Voltage Correlation
+- **Code P2110** (Powertrain): Throttle Actuator Control System - Forced Limited RPM 
+- **Code P2111** (Powertrain): Throttle Actuator Control System - Stuck Open
+- **Code P2112** (Powertrain): Throttle Actuator Control System - Stuck Closed
+- **Code P2113** (Powertrain): Throttle/Pedal Position Sensor  - Minimum Stop Performance
+- **Code P2114** (Powertrain): Throttle/Pedal Position Sensor - Minimum Stop Performance
+- **Code P2115** (Powertrain): Throttle/Pedal Position Sensor - Minimum Stop Performance
+- **Code P2116** (Powertrain): Throttle/Pedal Position Sensor - Minimum Stop Performance
+- **Code P2117** (Powertrain): Throttle/Pedal Position Sensor - Minimum Stop Performance
+- **Code P2118** (Powertrain): Throttle Actuator Control Motor Current Range/Performance
+- **Code P2119** (Powertrain): Throttle Actuator Control Throttle Body Range/Performance
+- **Code P2120** (Powertrain): Throttle/Pedal Position Sensor/Switch - Circuit
+- **Code P2121** (Powertrain): Throttle/Pedal Position Sensor/Switch - Circuit Range/Performance
+- **Code P2122** (Powertrain): Throttle/Pedal Position Sensor/Switch - Circuit Low
+- **Code P2123** (Powertrain): Throttle/Pedal Position Sensor/Switch - Circuit High
+- **Code P2124** (Powertrain): Throttle/Pedal Position Sensor/Switch - Circuit Intermittent
+- **Code P2125** (Powertrain): Throttle/Pedal Position Sensor/Switch - Circuit
+- **Code P2126** (Powertrain): Throttle/Pedal Position Sensor/Switch - Circuit Range/Performance
+- **Code P2127** (Powertrain): Throttle/Pedal Position Sensor/Switch - Circuit Low
+- **Code P2128** (Powertrain): Throttle/Pedal Position Sensor/Switch - Circuit High
+- **Code P2129** (Powertrain): Throttle/Pedal Position Sensor/Switch - Circuit Intermittent 
+- **Code P212A** (Powertrain): Throttle Position Sensor/Switch - Circuit
+- **Code P212B** (Powertrain): Throttle Position Sensor/Switch - Circuit Range/Performance
+- **Code P212C** (Powertrain): Throttle Position Sensor/Switch - Circuit Low
+- **Code P212D** (Powertrain): Throttle Position Sensor/Switch - Circuit High
+- **Code P212E** (Powertrain): Throttle Position Sensor/Switch - Circuit Intermittent
+- **Code P2130** (Powertrain): Throttle/Pedal Position Sensor/Switch - Circuit
+- **Code P2131** (Powertrain): Throttle/Pedal Position Sensor/Switch - Circuit Range/Performance
+- **Code P2132** (Powertrain): Throttle/Pedal Position Sensor/Switch - Circuit Low
+- **Code P2133** (Powertrain): Throttle/Pedal Position Sensor/Switch - Circuit High
+- **Code P2134** (Powertrain): Throttle/Pedal Position Sensor/Switch - Circuit Intermittent
+- **Code P2135** (Powertrain): Throttle/Pedal Pos Sensor/Switch A / B Voltage Correlation
+- **Code P2136** (Powertrain): Throttle/Pedal Pos Sensor/Switch A / C Voltage Correlation
+- **Code P2137** (Powertrain): Throttle/Pedal Pos Sensor/Switch B / C Voltage Correlation
+- **Code P2138** (Powertrain): Throttle/Pedal Pos Sensor/Switch D / E Voltage Correlation
+- **Code P2139** (Powertrain): Throttle/Pedal Pos Sensor/Switch D / F Voltage Correlation
+- **Code P213A** (Powertrain): Exhaust Gas Recirculation Throttle Control Circuit  - /Open 
+- **Code P213B** (Powertrain): Exhaust Gas Recirculation Throttle Control Circuit  - Range/Performance
+- **Code P213C** (Powertrain): Exhaust Gas Recirculation Throttle Control Circuit  - Low
+- **Code P213D** (Powertrain): Exhaust Gas Recirculation Throttle Control Circuit  - High
+- **Code P213E** (Powertrain): Fuel Injection System Fault - Forced Engine Shutdown
+- **Code P213F** (Powertrain): Fuel Pump System Fault - Forced Engine Shutdown
+- **Code P2140** (Powertrain): Throttle/Pedal Pos Sensor/Switch E / F Voltage Correlation
+- **Code P2141** (Powertrain): Exhaust Gas Recirculation Throttle Control Circuit  - Low
+- **Code P2142** (Powertrain): Exhaust Gas Recirculation Throttle Control Circuit  - High
+- **Code P2143** (Powertrain): Exhaust Gas Recirculation Vent Control Circuit/Open 
+- **Code P2144** (Powertrain): Exhaust Gas Recirculation Vent Control Circuit Low
+- **Code P2145** (Powertrain): Exhaust Gas Recirculation Vent Control Circuit High
+- **Code P2146** (Powertrain): Fuel Injector Group  - Supply Voltage Circuit/Open
+- **Code P2147** (Powertrain): Fuel Injector Group  - Supply Voltage Circuit Low
+- **Code P2148** (Powertrain): Fuel Injector Group  - Supply Voltage Circuit High
+- **Code P2149** (Powertrain): Fuel Injector Group  - Supply Voltage Circuit/Open
+- **Code P2150** (Powertrain): Fuel Injector Group  - Supply Voltage Circuit Low
+- **Code P2151** (Powertrain): Fuel Injector Group  - Supply Voltage Circuit High
+- **Code P2152** (Powertrain): Fuel Injector Group - Supply Voltage Circuit/Open 
+- **Code P2153** (Powertrain): Fuel Injector Group - Supply Voltage Circuit Low
+- **Code P2154** (Powertrain): Fuel Injector Group - Supply Voltage Circuit High
+- **Code P2155** (Powertrain): Fuel Injector Group - Supply Voltage Circuit/Open
+- **Code P2156** (Powertrain): Fuel Injector Group - Supply Voltage Circuit Low
+- **Code P2157** (Powertrain): Fuel Injector Group - Supply Voltage Circuit High
+- **Code P2158** (Powertrain): Vehicle Speed Sensor  - 
+- **Code P2159** (Powertrain): Vehicle Speed Sensor  - Range/Performance
+- **Code P215A** (Powertrain): Vehicle Speed - Wheel Speed Correlation
+- **Code P215B** (Powertrain): Vehicle Speed - Output Shaft Speed Correlation
+- **Code P215C** (Powertrain): Output Shaft Speed - Wheel Speed Correlation
+- **Code P2160** (Powertrain): Vehicle Speed Sensor  - Circuit Low
+- **Code P2161** (Powertrain): Vehicle Speed Sensor  - Intermittent/Erratic/High
+- **Code P2162** (Powertrain): Vehicle Speed Sensor  - Correlation 
+- **Code P2163** (Powertrain): Throttle/Pedal Position Sensor  - Maximum Stop Performance
+- **Code P2164** (Powertrain): Throttle/Pedal Position Sensor  - Maximum Stop Performance
+- **Code P2165** (Powertrain): Throttle/Pedal Position Sensor - Maximum Stop Performance
+- **Code P2166** (Powertrain): Throttle/Pedal Position Sensor - Maximum Stop Performance
+- **Code P2167** (Powertrain): Throttle/Pedal Position Sensor - Maximum Stop Performance
+- **Code P2168** (Powertrain): Throttle/Pedal Position Sensor - Maximum Stop Performance
+- **Code P2169** (Powertrain): Exhaust Pressure Regulator Vent Solenoid Control Circuit/Open
+- **Code P216A** (Powertrain): Fuel Injector Group - Supply Voltage Circuit/Open
+- **Code P216B** (Powertrain): Fuel Injector Group - Supply Voltage Circuit Low
+- **Code P216C** (Powertrain): Fuel Injector Group - Supply Voltage Circuit High
+- **Code P216D** (Powertrain): Fuel Injector Group - Supply Voltage Circuit/Open
+- **Code P216E** (Powertrain): Fuel Injector Group - Supply Voltage Circuit Low
+- **Code P216F** (Powertrain): Fuel Injector Group - Supply Voltage Circuit High
+- **Code P2170** (Powertrain): Exhaust Pressure Regulator Vent Solenoid Control Circuit Low 
+- **Code P2171** (Powertrain): Exhaust Pressure Regulator Vent Solenoid Control Circuit High 
+- **Code P2172** (Powertrain): Throttle Actuator Control System - Sudden High Air Flow Detected 
+- **Code P2173** (Powertrain): Throttle Actuator Control System - High Air Flow Detected
+- **Code P2174** (Powertrain): Throttle Actuator Control System - Sudden Low Air Flow Detected 
+- **Code P2175** (Powertrain): Throttle Actuator Control System - Low Air Flow Detected
+- **Code P2176** (Powertrain): Throttle Actuator Control System - Idle Position Not Learned
+- **Code P2177** (Powertrain): System Too Lean Off Idle Bank 1
+- **Code P2178** (Powertrain): System Too Rich Off Idle Bank 1
+- **Code P2179** (Powertrain): System Too Lean Off Idle Bank 2
+- **Code P217A** (Powertrain): Fuel Injector Group - Supply Voltage Circuit/Open
+- **Code P217B** (Powertrain): Fuel Injector Group - Supply Voltage Circuit Low
+- **Code P217C** (Powertrain): Fuel Injector Group - Supply Voltage Circuit High
+- **Code P217D** (Powertrain): Fuel Injector Group - Supply Voltage Circuit/Open
+- **Code P217E** (Powertrain): Fuel Injector Group - Supply Voltage Circuit Low
+- **Code P217F** (Powertrain): Fuel Injector Group - Supply Voltage Circuit High
+- **Code P2180** (Powertrain): System Too Rich Off Idle Bank 2
+- **Code P2181** (Powertrain): Cooling System Performance
+- **Code P2182** (Powertrain): Engine Coolant Temperature Sensor 2 Circuit
+- **Code P2183** (Powertrain): Engine Coolant Temperature Sensor 2 Circuit Range/Performance
+- **Code P2184** (Powertrain): Engine Coolant Temperature Sensor 2 Circuit Low
+- **Code P2185** (Powertrain): Engine Coolant Temperature Sensor 2 Circuit High
+- **Code P2186** (Powertrain): Engine Coolant Temperature Sensor 2 Circuit Interm/Erratic
+- **Code P2187** (Powertrain): System Too Lean at Idle Bank 1
+- **Code P2188** (Powertrain): System Too Rich at Idle Bank 1
+- **Code P2189** (Powertrain): System Too Lean at Idle Bank 2
+- **Code P2190** (Powertrain): System Too Rich at Idle Bank 2
+- **Code P2191** (Powertrain): System Too Lean at Higher Load Bank 1
+- **Code P2192** (Powertrain): System Too Rich at Higher Load Bank 1
+- **Code P2193** (Powertrain): System Too Lean at Higher Load Bank 2
+- **Code P2194** (Powertrain): System Too Rich at Higher Load Bank 2
+- **Code P2195** (Powertrain): O2 Sensor Signal Stuck Lean Bank 1 Sensor 1
+- **Code P2196** (Powertrain): O2 Sensor Signal Stuck Rich Bank 1 Sensor 1
+- **Code P2197** (Powertrain): O2 Sensor Signal Stuck Lean Bank 2 Sensor 1
+- **Code P2198** (Powertrain): O2 Sensor Signal Stuck Rich Bank 2 Sensor 1
+- **Code P2199** (Powertrain): Intake Air Temperature Sensor 1/2 Correlation
+- **Code P219A** (Powertrain): Bank 1 Air/Fuel Ratio Imbalance
+- **Code P219B** (Powertrain): Bank 2 Air/Fuel Ratio Imbalance
+- **Code P219C** (Powertrain): Cylinder #1 Imbalance Error
+- **Code P219D** (Powertrain): Cylinder #2 Imbalance Error
+- **Code P219E** (Powertrain): Cylinder #3 Imbalance Error
+- **Code P219F** (Powertrain): Cylinder #4 Imbalance Error
+- **Code P2200** (Powertrain): NOx Sensor Circuit Bank 1
+- **Code P2201** (Powertrain): NOx Sensor Circuit Range/Performance Bank 1
+- **Code P2202** (Powertrain): NOx Sensor Circuit Low Bank 1
+- **Code P2203** (Powertrain): NOx Sensor Circuit High Bank 1
+- **Code P2204** (Powertrain): NOx Sensor Circuit Intermittent Bank 1
+- **Code P2205** (Powertrain): NOx Sensor Heater Control Circuit/Open Bank 1
+- **Code P2206** (Powertrain): NOx Sensor Heater Control Circuit Low Bank 1
+- **Code P2207** (Powertrain): NOx Sensor Heater Control Circuit High Bank 1
+- **Code P2208** (Powertrain): NOx Sensor Heater Sense Circuit Bank 1
+- **Code P2209** (Powertrain): NOx Sensor Heater Sense Circuit Range/Performance Bank 1
+- **Code P2210** (Powertrain): NOx Sensor Heater Sense Circuit Low Bank 1
+- **Code P2211** (Powertrain): NOx Sensor Heater Sense Circuit High Bank 1
+- **Code P2212** (Powertrain): NOx Sensor Heater Sense Circuit Intermittent Bank 1
+- **Code P2213** (Powertrain): NOx Sensor Circuit Bank 2
+- **Code P2214** (Powertrain): NOx Sensor Circuit Range/Performance Bank 2
+- **Code P2215** (Powertrain): NOx Sensor Circuit Low Bank 2
+- **Code P2216** (Powertrain): NOx Sensor Circuit High Bank 2
+- **Code P2217** (Powertrain): NOx Sensor Circuit Intermittent Bank 2
+- **Code P2218** (Powertrain): NOx Sensor Heater Control Circuit/Open Bank 2
+- **Code P2219** (Powertrain): NOx Sensor Heater Control Circuit Low Bank 2
+- **Code P2220** (Powertrain): NOx Sensor Heater Control Circuit High Bank 2
+- **Code P2221** (Powertrain): NOx Sensor Heater Sense Circuit Bank 2
+- **Code P2222** (Powertrain): NOx Sensor Heater Sense Circuit Range/Performance Bank 2
+- **Code P2223** (Powertrain): NOx Sensor Heater Sense Circuit Low Bank 2
+- **Code P2224** (Powertrain): NOx Sensor Heater Sense Circuit High Bank 2
+- **Code P2225** (Powertrain): NOx Sensor Heater Sense Circuit Intermittent Bank 2
+- **Code P2226** (Powertrain): Barometric Pressure Sensor  - Circuit 
+- **Code P2227** (Powertrain): Barometric Pressure Sensor  - Circuit Range/Performance
+- **Code P2228** (Powertrain): Barometric Pressure Sensor  - Circuit Low
+- **Code P2229** (Powertrain): Barometric Pressure Sensor  - Circuit High
+- **Code P222A** (Powertrain): Barometric Pressure Sensor  - Circuit
+- **Code P222B** (Powertrain): Barometric Pressure Sensor  - Circuit Range/Performance
+- **Code P222C** (Powertrain): Barometric Pressure Sensor  - Circuit Low
+- **Code P222D** (Powertrain): Barometric Pressure Sensor  - Circuit High 
+- **Code P222E** (Powertrain): Barometric Pressure Sensor  - Circuit Intermittent/Erratic 
+- **Code P222F** (Powertrain): Barometric Pressure Sensor  - Correlation
+- **Code P2230** (Powertrain): Barometric Pressure Sensor  - Circuit Intermittent/Erratic
+- **Code P2231** (Powertrain): O2 Sensor Signal Circuit Shorted to Heater Circuit Bank 1 Sensor 1
+- **Code P2232** (Powertrain): O2 Sensor Signal Circuit Shorted to Heater Circuit Bank 1 Sensor 2
+- **Code P2233** (Powertrain): O2 Sensor Signal Circuit Shorted to Heater Circuit Bank 1 Sensor 3
+- **Code P2234** (Powertrain): O2 Sensor Signal Circuit Shorted to Heater Circuit Bank 2 Sensor 1
+- **Code P2235** (Powertrain): O2 Sensor Signal Circuit Shorted to Heater Circuit Bank 2 Sensor 2
+- **Code P2236** (Powertrain): O2 Sensor Signal Circuit Shorted to Heater Circuit Bank 2 Sensor 3
+- **Code P2237** (Powertrain): O2 Sensor Positive Current Control Circuit/Open Bank 1 Sensor 1
+- **Code P2238** (Powertrain): O2 Sensor Positive Current Control Circuit Low Bank 1 Sensor 1
+- **Code P2239** (Powertrain): O2 Sensor Positive Current Control Circuit High Bank 1 Sensor 1
+- **Code P2240** (Powertrain): O2 Sensor Positive Current Control Circuit/Open Bank 2 Sensor 1
+- **Code P2241** (Powertrain): O2 Sensor Positive Current Control Circuit Low Bank 2 Sensor 1
+- **Code P2242** (Powertrain): O2 Sensor Positive Current Control Circuit High Bank 2 Sensor 1
+- **Code P2243** (Powertrain): O2 Sensor Reference Voltage Circuit/Open Bank 1 Sensor 1
+- **Code P2244** (Powertrain): O2 Sensor Reference Voltage Performance Bank 1 Sensor 1
+- **Code P2245** (Powertrain): O2 Sensor Reference Voltage Circuit Low Bank 1 Sensor 1
+- **Code P2246** (Powertrain): O2 Sensor Reference Voltage Circuit High Bank 1 Sensor 1
+- **Code P2247** (Powertrain): O2 Sensor Reference Voltage Circuit/Open Bank 2 Sensor 1
+- **Code P2248** (Powertrain): O2 Sensor Reference Voltage Performance Bank 2 Sensor 1
+- **Code P2249** (Powertrain): O2 Sensor Reference Voltage Circuit Low Bank 2 Sensor 1
+- **Code P2250** (Powertrain): O2 Sensor Reference Voltage Circuit High Bank 2 Sensor 1
+- **Code P2251** (Powertrain): O2 Sensor Negative Current Control Circuit/Open Bank 1 Sensor 1
+- **Code P2252** (Powertrain): O2 Sensor Negative Current Control Circuit Low Bank 1 Sensor 1
+- **Code P2253** (Powertrain): O2 Sensor Negative Current Control Circuit High Bank 1 Sensor 1
+- **Code P2254** (Powertrain): O2 Sensor Negative Current Control Circuit/Open Bank 2 Sensor 1
+- **Code P2255** (Powertrain): O2 Sensor Negative Current Control Circuit Low Bank 2 Sensor 1
+- **Code P2256** (Powertrain): O2 Sensor Negative Current Control Circuit High Bank 2 Sensor 1
+- **Code P2257** (Powertrain): Secondary Air Injection System Control  - Circuit Low
+- **Code P2258** (Powertrain): Secondary Air Injection System Control  - Circuit High
+- **Code P2259** (Powertrain): Secondary Air Injection System Control  - Circuit Low
+- **Code P2260** (Powertrain): Secondary Air Injection System Control  - Circuit High
+- **Code P2261** (Powertrain): Turbocharger/Supercharger Bypass Valve - Mechanical 
+- **Code P2262** (Powertrain): Turbo/Super Charger Boost Pressure Not Detected – Mechanical
+- **Code P2262** (Powertrain): Turbocharger/Supercharger Boost Pressure Not Detected - Mechanical 
+- **Code P2263** (Powertrain): Turbocharger/Supercharger Boost System Performance
+- **Code P2264** (Powertrain): Water in Fuel Sensor Circuit
+- **Code P2265** (Powertrain): Water in Fuel Sensor Circuit Range/Performance
+- **Code P2266** (Powertrain): Water in Fuel Sensor Circuit Low
+- **Code P2267** (Powertrain): Water in Fuel Sensor Circuit High
+- **Code P2268** (Powertrain): Water in Fuel Sensor Circuit Intermittent
+- **Code P2269** (Powertrain): Water in Fuel Condition 
+- **Code P226A** (Powertrain): Water in Fuel Lamp Control Circuit 
+- **Code P226B** (Powertrain): Turbocharger/Supercharger Boost Pressure Too High - Mechanical
+- **Code P2270** (Powertrain): O2 Sensor Signal Biased/Stuck Lean Bank 1 Sensor 2
+- **Code P2271** (Powertrain): O2 Sensor Signal Biased/Stuck Rich Bank 1 Sensor 2
+- **Code P2272** (Powertrain): O2 Sensor Signal Biased/Stuck Lean Bank 2 Sensor 2
+- **Code P2273** (Powertrain): O2 Sensor Signal Biased/Stuck Rich Bank 2 Sensor 2
+- **Code P2274** (Powertrain): O2 Sensor Signal Biased/Stuck Lean Bank 1 Sensor 3
+- **Code P2275** (Powertrain): O2 Sensor Signal Biased/Stuck Rich Bank 1 Sensor 3
+- **Code P2276** (Powertrain): O2 Sensor Signal Biased/Stuck Lean Bank 2 Sensor 3
+- **Code P2277** (Powertrain): O2 Sensor Signal Biased/Stuck Rich Bank 2 Sensor 3
+- **Code P2278** (Powertrain): O2 Sensor Signals Swapped Bank 1 Sensor 3/Bank 2 Sensor 3
+- **Code P2279** (Powertrain): Intake Air System Leak 
+- **Code P2280** (Powertrain): Air Flow Restriction/Air Leak Between Air Filter and MAF
+- **Code P2281** (Powertrain): Air Leak Between MAF and Throttle Body
+- **Code P2282** (Powertrain): Air Leak Between Throttle Body and Intake Valves
+- **Code P2283** (Powertrain): Injector Control Pressure Sensor Circuit
+- **Code P2284** (Powertrain): Injector Control Pressure Sensor Circuit Range/Performance
+- **Code P2285** (Powertrain): Injector Control Pressure Sensor Circuit Low
+- **Code P2286** (Powertrain): Injector Control Pressure Sensor Circuit High
+- **Code P2287** (Powertrain): Injector Control Pressure Sensor Circuit Intermittent 
+- **Code P2288** (Powertrain): Injector Control Pressure Too High
+- **Code P2289** (Powertrain): Injector Control Pressure Too High - Engine Off
+- **Code P228A** (Powertrain): Fuel Pressure Regulator 1 - Forced Engine Shutdown
+- **Code P228B** (Powertrain): Fuel Pressure Regulator 2 - Forced Engine Shutdown
+- **Code P228C** (Powertrain): Fuel Pressure Regulator 1 Exceeded Control Limits - Pressure Too Low
+- **Code P228D** (Powertrain): Fuel Pressure Regulator 1 Exceeded Control Limits - Pressure Too High
+- **Code P228E** (Powertrain): Fuel Pressure Regulator 1 Exceeded Learning Limits - Too Low
+- **Code P228F** (Powertrain): Fuel Pressure Regulator 1 Exceeded Learning Limits - Too High
+- **Code P2290** (Powertrain): Injector Control Pressure Too Low
+- **Code P2291** (Powertrain): Injector Control Pressure Too Low - Engine Cranking
+- **Code P2292** (Powertrain): Injector Control Pressure Erratic
+- **Code P2293** (Powertrain): Fuel Pressure Regulator 2 Performance
+- **Code P2294** (Powertrain): Fuel Pressure Regulator 2 Control Circuit/Open
+- **Code P2295** (Powertrain): Fuel Pressure Regulator 2 Control Circuit Low
+- **Code P2296** (Powertrain): Fuel Pressure Regulator 2 Control Circuit High
+- **Code P2297** (Powertrain): O2 Sensor Out of Range During Deceleration Bank 1 Sensor 1
+- **Code P2298** (Powertrain): O2 Sensor Out of Range During Deceleration Bank 2 Sensor 1
+- **Code P2299** (Powertrain): Brake Pedal Position/Accelerator Pedal Position Incompatible 
+- **Code P229A** (Powertrain): Fuel Pressure Regulator 2 Exceeded Control Limits - Pressure Too Low
+- **Code P229B** (Powertrain): Fuel Pressure Regulator 2 Exceeded Control Limits - Pressure Too High
+- **Code P229C** (Powertrain): Fuel Pressure Regulator 2 Exceeded Learning Limits - Too Low
+- **Code P229D** (Powertrain): Fuel Pressure Regulator 2 Exceeded Learning Limits - Too High
+- **Code P2300** (Powertrain): Ignition Coil  - Primary Control Circuit Low
+- **Code P2301** (Powertrain): Ignition Coil  - Primary Control Circuit High
+- **Code P2302** (Powertrain): Ignition Coil  - Secondary Circuit
+- **Code P2303** (Powertrain): Ignition Coil  - Primary Control Circuit Low
+- **Code P2304** (Powertrain): Ignition Coil  - Primary Control Circuit High
+- **Code P2305** (Powertrain): Ignition Coil  - Secondary Circuit
+- **Code P2306** (Powertrain): Ignition Coil - Primary Control Circuit Low
+- **Code P2307** (Powertrain): Ignition Coil - Primary Control Circuit High
+- **Code P2308** (Powertrain): Ignition Coil - Secondary Circuit
+- **Code P2309** (Powertrain): Ignition Coil - Primary Control Circuit Low
+- **Code P2310** (Powertrain): Ignition Coil - Primary Control Circuit High
+- **Code P2311** (Powertrain): Ignition Coil - Secondary Circuit
+- **Code P2312** (Powertrain): Ignition Coil - Primary Control Circuit Low
+- **Code P2313** (Powertrain): Ignition Coil - Primary Control Circuit High
+- **Code P2314** (Powertrain): Ignition Coil - Secondary Circuit
+- **Code P2315** (Powertrain): Ignition Coil - Primary Control Circuit Low
+- **Code P2316** (Powertrain): Ignition Coil - Primary Control Circuit High
+- **Code P2317** (Powertrain): Ignition Coil - Secondary Circuit
+- **Code P2318** (Powertrain): Ignition Coil - Primary Control Circuit Low
+- **Code P2319** (Powertrain): Ignition Coil - Primary Control Circuit High
+- **Code P2320** (Powertrain): Ignition Coil - Secondary Circuit
+- **Code P2321** (Powertrain): Ignition Coil - Primary Control Circuit Low
+- **Code P2322** (Powertrain): Ignition Coil - Primary Control Circuit High
+- **Code P2323** (Powertrain): Ignition Coil - Secondary Circuit
+- **Code P2324** (Powertrain): Ignition Coil - Primary Control Circuit Low
+- **Code P2325** (Powertrain): Ignition Coil - Primary Control Circuit High
+- **Code P2326** (Powertrain): Ignition Coil - Secondary Circuit
+- **Code P2327** (Powertrain): Ignition Coil - Primary Control Circuit Low
+- **Code P2328** (Powertrain): Ignition Coil - Primary Control Circuit High
+- **Code P2329** (Powertrain): Ignition Coil - Secondary Circuit
+- **Code P2330** (Powertrain): Ignition Coil - Primary Control Circuit Low
+- **Code P2331** (Powertrain): Ignition Coil - Primary Control Circuit High
+- **Code P2332** (Powertrain): Ignition Coil - Secondary Circuit
+- **Code P2333** (Powertrain): Ignition Coil - Primary Control Circuit Low
+- **Code P2334** (Powertrain): Ignition Coil - Primary Control Circuit High
+- **Code P2335** (Powertrain): Ignition Coil - Secondary Circuit
+- **Code P2336** (Powertrain): Cylinder 1 Above Knock Threshold
+- **Code P2337** (Powertrain): Cylinder 2 Above Knock Threshold
+- **Code P2338** (Powertrain): Cylinder 3 Above Knock Threshold
+- **Code P2339** (Powertrain): Cylinder 4 Above Knock Threshold
+- **Code P2340** (Powertrain): Cylinder 5 Above Knock Threshold
+- **Code P2341** (Powertrain): Cylinder 6 Above Knock Threshold
+- **Code P2342** (Powertrain): Cylinder 7 Above Knock Threshold
+- **Code P2343** (Powertrain): Cylinder 8 Above Knock Threshold
+- **Code P2344** (Powertrain): Cylinder 9 Above Knock Threshold
+- **Code P2345** (Powertrain): Cylinder 10 Above Knock Threshold
+- **Code P2346** (Powertrain): Cylinder 11 Above Knock Threshold
+- **Code P2347** (Powertrain): Cylinder 12 Above Knock Threshold
+- **Code P2400** (Powertrain): Evaporative Emission System Leak Detection Pump Control Circuit/Open 
+- **Code P2401** (Powertrain): Evaporative Emission System Leak Detection Pump Control Circuit Low 
+- **Code P2402** (Powertrain): Evaporative Emission System Leak Detection Pump Control Circuit High 
+- **Code P2403** (Powertrain): Evaporative Emission System Leak Detection Pump Sense Circuit/Open 
+- **Code P2404** (Powertrain): Evaporative Emission System Leak Detection Pump Sense Circuit Range/Performance 
+- **Code P2405** (Powertrain): Evaporative Emission System Leak Detection Pump Sense Circuit Low
+- **Code P2406** (Powertrain): Evaporative Emission System Leak Detection Pump Sense Circuit High
+- **Code P2407** (Powertrain): Evaporative Emission System Leak Detection Pump Sense Circuit Intermittent/Erratic 
+- **Code P2408** (Powertrain): Fuel Cap Sensor/Switch Circuit
+- **Code P2409** (Powertrain): Fuel Cap Sensor/Switch Circuit Range/Performance 
+- **Code P240A** (Powertrain): Evaporative Emission System Leak Detection Pump Heater Control Circuit/Open 
+- **Code P240B** (Powertrain): Evaporative Emission System Leak Detection Pump Heater Control Circuit Low
+- **Code P240C** (Powertrain): Evaporative Emission System Leak Detection Pump Heater Control Circuit High
+- **Code P2410** (Powertrain): Fuel Cap Sensor/Switch Circuit Low
+- **Code P2411** (Powertrain): Fuel Cap Sensor/Switch Circuit High 
+- **Code P2412** (Powertrain): Fuel Cap Sensor/Switch Circuit Intermittent/Erratic
+- **Code P2413** (Powertrain): Exhaust Gas Recirculation System Performance
+- **Code P2414** (Powertrain): O2 Sensor Exhaust Sample Error Bank 1 Sensor 1
+- **Code P2415** (Powertrain): O2 Sensor Exhaust Sample Error Bank 2 Sensor 1
+- **Code P2416** (Powertrain): O2 Sensor Signals Swapped Bank 1 Sensor 2/Bank 1 Sensor 3
+- **Code P2417** (Powertrain): O2 Sensor Signals Swapped Bank 2 Sensor 2/Bank 2 Sensor 3
+- **Code P2418** (Powertrain): Evaporative Emission System Switching Valve Control Circuit/Open 
+- **Code P2419** (Powertrain): Evaporative Emission System Switching Valve Control Circuit Low 
+- **Code P2420** (Powertrain): Evaporative Emission System Switching Valve Control Circuit High 
+- **Code P2421** (Powertrain): Evaporative Emission System Vent Valve Stuck Open
+- **Code P2422** (Powertrain): Evaporative Emission System Vent Valve Stuck Closed 
+- **Code P2423** (Powertrain): HC Adsorption Catalyst Efficiency Below Threshold Bank 1
+- **Code P2424** (Powertrain): HC Adsorption Catalyst Efficiency Below Threshold Bank 2
+- **Code P2425** (Powertrain): Exhaust Gas Recirculation Cooling Valve Control Circuit/Open
+- **Code P2426** (Powertrain): Exhaust Gas Recirculation Cooling Valve Control Circuit Low
+- **Code P2427** (Powertrain): Exhaust Gas Recirculation Cooling Valve Control Circuit High
+- **Code P2428** (Powertrain): Exhaust Gas Temperature Too High Bank 1
+- **Code P2429** (Powertrain): Exhaust Gas Temperature Too High Bank 2
+- **Code P242A** (Powertrain): Exhaust Gas Temperature Sensor Circuit Bank 1 Sensor 3
+- **Code P242B** (Powertrain): Exhaust Gas Temperature Sensor Circuit Range/Performance Bank 1 Sensor 3
+- **Code P242C** (Powertrain): Exhaust Gas Temperature Sensor Circuit Low Bank 1 Sensor 3
+- **Code P242D** (Powertrain): Exhaust Gas Temperature Sensor Circuit High Bank 1 Sensor 3
+- **Code P242E** (Powertrain): Exhaust Gas Temperature Sensor Circuit Intermittent/Erratic Bank 1 Sensor 3
+- **Code P242F** (Powertrain): Diesel Particulate Filter Restriction - Ash Accumulation 
+- **Code P2430** (Powertrain): Secondary Air Injection System Air Flow/Pressure Sensor Circuit Bank 1
+- **Code P2431** (Powertrain): Secondary Air Injection System Air Flow/Pressure Sensor Circuit Range/Performance Bank 1
+- **Code P2432** (Powertrain): Secondary Air Injection System Air Flow/Pressure Sensor Circuit Low Bank 1
+- **Code P2433** (Powertrain): Secondary Air Injection System Air Flow/Pressure Sensor Circuit High Bank 1
+- **Code P2434** (Powertrain): Secondary Air Injection System Air Flow/Pressure Sensor Circuit Intermittent/Erratic Bank 1
+- **Code P2435** (Powertrain): Secondary Air Injection System Air Flow/Pressure Sensor Circuit Bank 2
+- **Code P2436** (Powertrain): Secondary Air Injection System Air Flow/Pressure Sensor Circuit Range/Performance Bank 2
+- **Code P2437** (Powertrain): Secondary Air Injection System Air Flow/Pressure Sensor Circuit Low Bank 2
+- **Code P2438** (Powertrain): Secondary Air Injection System Air Flow/Pressure Sensor Circuit High Bank 2
+- **Code P2439** (Powertrain): Secondary Air Injection System Air Flow/Pressure Sensor Circuit Intermittent/Erratic Bank 2
+- **Code P2440** (Powertrain): Secondary Air Injection System Switching Valve Stuck Open Bank 1
+- **Code P2441** (Powertrain): Secondary Air Injection System Switching Valve Stuck Closed Bank 1
+- **Code P2442** (Powertrain): Secondary Air Injection System Switching Valve Stuck Open Bank 2
+- **Code P2443** (Powertrain): Secondary Air Injection System Switching Valve Stuck Closed Bank 2
+- **Code P2444** (Powertrain): Secondary Air Injection System Pump Stuck On Bank 1
+- **Code P2445** (Powertrain): Secondary Air Injection System Pump Stuck Off Bank 1
+- **Code P2446** (Powertrain): Secondary Air Injection System Pump Stuck On Bank 2
+- **Code P2447** (Powertrain): Secondary Air Injection System Pump Stuck Off Bank 2
+- **Code P2448** (Powertrain): Secondary Air Injection System High Air Flow Bank 1
+- **Code P2449** (Powertrain): Secondary Air Injection System High Air Flow Bank 2
+- **Code P244A** (Powertrain): Diesel Particulate Filter Differential Pressure Too Low Bank 1
+- **Code P244B** (Powertrain): Diesel Particulate Filter Differential Pressure Too High Bank 1
+- **Code P244C** (Powertrain): Exhaust Temperature Too Low For Particulate Filter Regeneration Bank 1
+- **Code P244D** (Powertrain): Exhaust Temperature Too High For Particulate Filter Regeneration Bank 1
+- **Code P244E** (Powertrain): Exhaust Temperature Too Low For Particulate Filter Regeneration Bank 2
+- **Code P244F** (Powertrain): Exhaust Temperature Too High For Particulate Filter Regeneration Bank 2
+- **Code P2450** (Powertrain): Evaporative Emission System Switching Valve Performance/Stuck Open 
+- **Code P2451** (Powertrain): Evaporative Emission System Switching Valve Stuck Closed 
+- **Code P2452** (Powertrain): Diesel Particulate Filter Pressure Sensor  - Circuit
+- **Code P2453** (Powertrain): Diesel Particulate Filter Pressure Sensor  - Circuit Range/Performance
+- **Code P2454** (Powertrain): Diesel Particulate Filter Pressure Sensor  - Circuit Low
+- **Code P2455** (Powertrain): Diesel Particulate Filter Pressure Sensor  - Circuit High 
+- **Code P2456** (Powertrain): Diesel Particulate Filter Pressure Sensor  - Circuit Intermittent/Erratic 
+- **Code P2457** (Powertrain): Exhaust Gas Recirculation Cooling System Performance 
+- **Code P2458** (Powertrain): Diesel Particulate Filter Regeneration Duration 
+- **Code P2459** (Powertrain): Diesel Particulate Filter Regeneration Frequency 
+- **Code P245A** (Powertrain): Exhaust Gas Recirculation Cooler Bypass Control Circuit/Open 
+- **Code P245B** (Powertrain): Exhaust Gas Recirculation Cooler Bypass Control Circuit Range/Performance
+- **Code P245C** (Powertrain): Exhaust Gas Recirculation Cooler Bypass Control Circuit Low
+- **Code P245D** (Powertrain): Exhaust Gas Recirculation Cooler Bypass Control Circuit High
+- **Code P245E** (Powertrain): Diesel Particulate Filter Pressure Sensor  - Circuit 
+- **Code P245F** (Powertrain): Diesel Particulate Filter Pressure Sensor  - Circuit Range/Performance
+- **Code P2460** (Powertrain): Diesel Particulate Filter Pressure Sensor  - Circuit Low 
+- **Code P2461** (Powertrain): Diesel Particulate Filter Pressure Sensor  - Circuit High 
+- **Code P2462** (Powertrain): Diesel Particulate Filter Pressure Sensor  - Circuit Intermittent/Erratic 
+- **Code P2463** (Powertrain): Diesel Particulate Filter Restriction - Soot Accumulation
+- **Code P2464** (Powertrain): Diesel Particulate Filter Differential Pressure Too Low Bank 2
+- **Code P2465** (Powertrain): Diesel Particulate Filter Differential Pressure Too High Bank 2
+- **Code P2466** (Powertrain): Exhaust Gas Temperature Sensor Circuit Bank 2 Sensor 3
+- **Code P2467** (Powertrain): Exhaust Gas Temperature Sensor Circuit Range/Performance Bank 2 Sensor 3
+- **Code P2468** (Powertrain): Exhaust Gas Temperature Sensor Circuit Low Bank 2 Sensor 3
+- **Code P2469** (Powertrain): Exhaust Gas Temperature Sensor Circuit High Bank 2 Sensor 3
+- **Code P246A** (Powertrain): Exhaust Gas Temperature Sensor Circuit Intermittent/Erratic Bank 2 Sensor 3
+- **Code P246B** (Powertrain): Vehicle Conditions Incorrect for Diesel Particulate Filter Regeneration
+- **Code P246C** (Powertrain): Diesel Particulate Filter Restriction - Forced Limited Power
+- **Code P246D** (Powertrain): Diesel Particulate Filter Pressure Sensor   - Correlation
+- **Code P246E** (Powertrain): Exhaust Gas Temperature Sensor Circuit Bank 1 Sensor 4
+- **Code P246F** (Powertrain): Exhaust Gas Temperature Sensor Circuit Range/Performance Bank 1 Sensor 4
+- **Code P2470** (Powertrain): Exhaust Gas Temperature Sensor Circuit Low Bank 1 Sensor 4
+- **Code P2471** (Powertrain): Exhaust Gas Temperature Sensor Circuit High Bank 1 Sensor 4
+- **Code P2472** (Powertrain): Exhaust Gas Temperature Sensor Circuit Intermittent/Erratic Bank 1 Sensor 4
+- **Code P2473** (Powertrain): Exhaust Gas Temperature Sensor Circuit Bank 2 Sensor 4
+- **Code P2474** (Powertrain): Exhaust Gas Temperature Sensor Circuit Range/Performance Bank 2 Sensor 4
+- **Code P2475** (Powertrain): Exhaust Gas Temperature Sensor Circuit Low Bank 2 Sensor 4
+- **Code P2476** (Powertrain): Exhaust Gas Temperature Sensor Circuit High Bank 2 Sensor 4
+- **Code P2477** (Powertrain): Exhaust Gas Temperature Sensor Circuit Intermittent/Erratic Bank 2 Sensor 4
+- **Code P2478** (Powertrain): Exhaust Gas Temperature Out of Range Bank 1 Sensor 1
+- **Code P2479** (Powertrain): Exhaust Gas Temperature Out of Range Bank 1 Sensor 2
+- **Code P247A** (Powertrain): Exhaust Gas Temperature Out of Range Bank 1 Sensor 3
+- **Code P247B** (Powertrain): Exhaust Gas Temperature Out of Range Bank 1 Sensor 4
+- **Code P247C** (Powertrain): Exhaust Gas Temperature Out of Range Bank 2 Sensor 1
+- **Code P247D** (Powertrain): Exhaust Gas Temperature Out of Range Bank 2 Sensor 2
+- **Code P247E** (Powertrain): Exhaust Gas Temperature Out of Range Bank 2 Sensor 3
+- **Code P247F** (Powertrain): Exhaust Gas Temperature Out of Range Bank 2 Sensor 4
+- **Code P2480** (Powertrain): Exhaust Gas Temperature Sensor Circuit/Open Bank 1 Sensor 5
+- **Code P2481** (Powertrain): Exhaust Gas Temperature Sensor Circuit Low Bank 1 Sensor 5
+- **Code P2482** (Powertrain): Exhaust Gas Temperature Sensor Circuit High Bank 1 Sensor 5
+- **Code P2483** (Powertrain): Exhaust Gas Temperature Sensor Circuit Range/Performance Bank 1 Sensor 5
+- **Code P2484** (Powertrain): Exhaust Gas Temperature Sensor Circuit Intermittent/Erratic Bank 1 Sensor 5
+- **Code P2485** (Powertrain): Exhaust Gas Temperature Sensor Circuit/Open Bank 2 Sensor 5
+- **Code P2486** (Powertrain): Exhaust Gas Temperature Sensor Circuit Low Bank 2 Sensor 5
+- **Code P2487** (Powertrain): Exhaust Gas Temperature Sensor Circuit High Bank 2 Sensor 5
+- **Code P2488** (Powertrain): Exhaust Gas Temperature Sensor Circuit Range/Performance Bank 2 Sensor 5
+- **Code P2489** (Powertrain): Exhaust Gas Temperature Sensor Circuit Intermittent/Erratic Bank 2 Sensor 5
+- **Code P2500** (Powertrain): Generator Lamp/L-Terminal Circuit Low 
+- **Code P2501** (Powertrain): Generator Lamp/L-Terminal Circuit High
+- **Code P2502** (Powertrain): Charging System Voltage 
+- **Code P2503** (Powertrain): Charging System Voltage Low
+- **Code P2504** (Powertrain): Charging System Voltage High 
+- **Code P2505** (Powertrain): ECM/PCM Power Input Signal
+- **Code P2506** (Powertrain): ECM/PCM Power Input Signal Range/Performance
+- **Code P2507** (Powertrain): ECM/PCM Power Input Signal Low
+- **Code P2508** (Powertrain): ECM/PCM Power Input Signal High
+- **Code P2509** (Powertrain): ECM/PCM Power Input Signal Intermittent
+- **Code P250A** (Powertrain): Engine Oil Level Sensor Circuit 
+- **Code P250B** (Powertrain): Engine Oil Level Sensor Circuit Range/Performance
+- **Code P250C** (Powertrain): Engine Oil Level Sensor Circuit Low
+- **Code P250D** (Powertrain): Engine Oil Level Sensor Circuit High 
+- **Code P250E** (Powertrain): Engine Oil Level Sensor Circuit Intermittent/Erratic
+- **Code P250F** (Powertrain): Engine Oil Level Too Low
+- **Code P2510** (Powertrain): ECM/PCM Power Relay Sense Circuit Range/Performance
+- **Code P2511** (Powertrain): ECM/PCM Power Relay Sense Circuit Intermittent
+- **Code P2512** (Powertrain): Event Data Recorder Request Circuit/ Open
+- **Code P2513** (Powertrain): Event Data Recorder Request Circuit Low
+- **Code P2514** (Powertrain): Event Data Recorder Request Circuit High 
+- **Code P2515** (Powertrain): A/C Refrigerant Pressure Sensor  - Circuit
+- **Code P2516** (Powertrain): A/C Refrigerant Pressure Sensor  - Circuit Range/Performance
+- **Code P2517** (Powertrain): A/C Refrigerant Pressure Sensor  - Circuit Low
+- **Code P2518** (Powertrain): A/C Refrigerant Pressure Sensor  - Circuit High
+- **Code P2519** (Powertrain): A/C Request  - Circuit
+- **Code P251A** (Powertrain): PTO Enable Switch Circuit/Open
+- **Code P251B** (Powertrain): PTO Enable Switch Circuit Low
+- **Code P251C** (Powertrain): PTO Enable Switch Circuit High 
+- **Code P251D** (Powertrain): PTO Engine Shutdown Circuit/Open
+- **Code P251E** (Powertrain): PTO Engine Shutdown Circuit Low 
+- **Code P251F** (Powertrain): PTO Engine Shutdown Circuit High 
+- **Code P2520** (Powertrain): A/C Request  - Circuit Low 
+- **Code P2521** (Powertrain): A/C Request  - Circuit High
+- **Code P2522** (Powertrain): A/C Request  - Circuit
+- **Code P2523** (Powertrain): A/C Request  - Circuit Low
+- **Code P2524** (Powertrain): A/C Request  - Circuit High
+- **Code P2525** (Powertrain): Vacuum Reservoir Pressure Sensor Circuit 
+- **Code P2526** (Powertrain): Vacuum Reservoir Pressure Sensor Circuit Range/Performance 
+- **Code P2527** (Powertrain): Vacuum Reservoir Pressure Sensor Circuit Low 
+- **Code P2528** (Powertrain): Vacuum Reservoir Pressure Sensor Circuit High
+- **Code P2529** (Powertrain): Vacuum Reservoir Pressure Sensor Circuit Intermittent
+- **Code P252A** (Powertrain): Engine Oil Quality Sensor Circuit
+- **Code P252B** (Powertrain): Engine Oil Quality Sensor Circuit Range/Performance
+- **Code P252C** (Powertrain): Engine Oil Quality Sensor Circuit Low
+- **Code P252D** (Powertrain): Engine Oil Quality Sensor Circuit High
+- **Code P252E** (Powertrain): Engine Oil Quality Circuit Intermittent/Erratic
+- **Code P252F** (Powertrain): Engine Oil Level Too High
+- **Code P2530** (Powertrain): Ignition Switch Run Position Circuit
+- **Code P2531** (Powertrain): Ignition Switch Run Position Circuit Low
+- **Code P2532** (Powertrain): Ignition Switch Run Position Circuit High 
+- **Code P2533** (Powertrain): Ignition Switch Run/Start Position Circuit
+- **Code P2534** (Powertrain): Ignition Switch Run/Start Position Circuit Low
+- **Code P2535** (Powertrain): Ignition Switch Run/Start Position Circuit High
+- **Code P2536** (Powertrain): Ignition Switch Accessory Position Circuit
+- **Code P2537** (Powertrain): Ignition Switch Accessory Position Circuit Low
+- **Code P2538** (Powertrain): Ignition Switch Accessory Position Circuit High
+- **Code P2539** (Powertrain): Low Pressure Fuel System Sensor Circuit 
+- **Code P253A** (Powertrain): PTO Sense Circuit/Open
+- **Code P253B** (Powertrain): PTO Sense Circuit Range/Performance 
+- **Code P253C** (Powertrain): PTO Sense Circuit Low
+- **Code P253D** (Powertrain): PTO Sense Circuit High
+- **Code P253E** (Powertrain): PTO Sense Circuit Intermittent/Erratic 
+- **Code P253F** (Powertrain): Engine Oil Deteriorated 
+- **Code P2540** (Powertrain): Low Pressure Fuel System Sensor Circuit Range/Performance
+- **Code P2541** (Powertrain): Low Pressure Fuel System Sensor Circuit Low
+- **Code P2542** (Powertrain): Low Pressure Fuel System Sensor Circuit High 
+- **Code P2543** (Powertrain): Low Pressure Fuel System Sensor Circuit Intermittent
+- **Code P2544** (Powertrain): Torque Management Request Input Signal  - 
+- **Code P2545** (Powertrain): Torque Management Request Input Signal  - Range/Performance
+- **Code P2546** (Powertrain): Torque Management Request Input Signal  - Low
+- **Code P2547** (Powertrain): Torque Management Request Input Signal  - High 
+- **Code P2548** (Powertrain): Torque Management Request Input Signal  - 
+- **Code P2549** (Powertrain): Torque Management Request Input Signal  - Range/Performance 
+- **Code P254A** (Powertrain): PTO Speed Selector Sensor/Switch 1 Circuit/Open
+- **Code P254B** (Powertrain): PTO Speed Selector Sensor/Switch 1 Range/Performance
+- **Code P254C** (Powertrain): PTO Speed Selector Sensor/Switch 1 Circuit Low
+- **Code P254D** (Powertrain): PTO Speed Selector Sensor/Switch 1 Circuit High
+- **Code P254E** (Powertrain): PTO Speed Selector Sensor/Switch 1 Circuit Intermittent/Erratic
+- **Code P254F** (Powertrain): Engine Hood Switch Circuit 
+- **Code P2550** (Powertrain): Torque Management Request Input Signal  - Low
+- **Code P2551** (Powertrain): Torque Management Request Input Signal  - High
+- **Code P2552** (Powertrain): Throttle/Fuel Inhibit Circuit
+- **Code P2553** (Powertrain): Throttle/Fuel Inhibit Circuit Range/Performance 
+- **Code P2554** (Powertrain): Throttle/Fuel Inhibit Circuit Low
+- **Code P2555** (Powertrain): Throttle/Fuel Inhibit Circuit High 
+- **Code P2556** (Powertrain): Engine Coolant Level Sensor/Switch Circuit
+- **Code P2557** (Powertrain): Engine Coolant Level Sensor/Switch Circuit Range/Performance
+- **Code P2558** (Powertrain): Engine Coolant Level Sensor/Switch Circuit Low
+- **Code P2559** (Powertrain): Engine Coolant Level Sensor/Switch Circuit High
+- **Code P255A** (Powertrain): PTO Speed Selector Sensor/Switch 2 Circuit/Open
+- **Code P255B** (Powertrain): PTO Speed Selector Sensor/Switch 2 Range/Performance
+- **Code P255C** (Powertrain): PTO Speed Selector Sensor/Switch 2 Circuit Low
+- **Code P255D** (Powertrain): PTO Speed Selector Sensor/Switch 2 Circuit High
+- **Code P255E** (Powertrain): PTO Speed Selector Sensor/Switch 2 Circuit Intermittent/Erratic
+- **Code P255F** (Powertrain): A/C Request  - Circuit Range/Performance 
+- **Code P2560** (Powertrain): Engine Coolant Level Low 
+- **Code P2561** (Powertrain): A/C Control Module Requested MIL Illumination
+- **Code P2562** (Powertrain): Turbocharger Boost Control Position Sensor  - Circuit
+- **Code P2563** (Powertrain): Turbocharger Boost Control Position Sensor  - Circuit Range/Performance 
+- **Code P2564** (Powertrain): Turbocharger Boost Control Position Sensor  - Circuit Low
+- **Code P2565** (Powertrain): Turbocharger Boost Control Position Sensor  - Circuit High
+- **Code P2566** (Powertrain): Turbocharger Boost Control Position Sensor  - Circuit Intermittent
+- **Code P2567** (Powertrain): Direct Ozone Reduction Catalyst Temperature Sensor Circuit
+- **Code P2568** (Powertrain): Direct Ozone Reduction Catalyst Temperature Sensor Circuit Range/Performance 
+- **Code P2569** (Powertrain): Direct Ozone Reduction Catalyst Temperature Sensor Circuit Low
+- **Code P256A** (Powertrain): Engine Idle Speed Selector Sensor/Switch Circuit/Open
+- **Code P256B** (Powertrain): Engine Idle Speed Selector Sensor/Switch Range/Performance 
+- **Code P256C** (Powertrain): Engine Idle Speed Selector Sensor/Switch Circuit Low
+- **Code P256D** (Powertrain): Engine Idle Speed Selector Sensor/Switch Circuit High 
+- **Code P256E** (Powertrain): Engine Idle Speed Selector Sensor/Switch Circuit Intermittent/Erratic 
+- **Code P256F** (Powertrain): A/C Request  - Circuit Range/Performance 
+- **Code P2570** (Powertrain): Direct Ozone Reduction Catalyst Temperature Sensor Circuit High
+- **Code P2571** (Powertrain): Direct Ozone Reduction Catalyst Temperature Sensor Circuit Intermittent/Erratic
+- **Code P2572** (Powertrain): Direct Ozone Reduction Catalyst Deterioration Sensor Circuit
+- **Code P2573** (Powertrain): Direct Ozone Reduction Catalyst Deterioration Sensor Circuit Range/Performance
+- **Code P2574** (Powertrain): Direct Ozone Reduction Catalyst Deterioration Sensor Circuit Low
+- **Code P2575** (Powertrain): Direct Ozone Reduction Catalyst Deterioration Sensor Circuit High
+- **Code P2576** (Powertrain): Direct Ozone Reduction Catalyst Deterioration Sensor Circuit Intermittent/Erratic
+- **Code P2577** (Powertrain): Direct Ozone Reduction Catalyst Efficiency Below Threshold
+- **Code P2578** (Powertrain): Turbocharger Speed Sensor Circuit 
+- **Code P2579** (Powertrain): Turbocharger Speed Sensor Circuit Range/Performance 
+- **Code P257A** (Powertrain): Vacuum Reservoir Control Circuit/Open 
+- **Code P257B** (Powertrain): Vacuum Reservoir Control Circuit Low
+- **Code P257C** (Powertrain): Vacuum Reservoir Control Circuit High 
+- **Code P257D** (Powertrain): Engine Hood Switch Circuit Range/Performance 
+- **Code P257E** (Powertrain): Engine Hood Switch Circuit Low 
+- **Code P257F** (Powertrain): Engine Hood Switch Circuit High
+- **Code P2580** (Powertrain): Turbocharger Speed Sensor Circuit Low 
+- **Code P2581** (Powertrain): Turbocharger Speed Sensor Circuit High
+- **Code P2582** (Powertrain): Turbocharger Speed Sensor Circuit Intermittent 
+- **Code P2583** (Powertrain): Cruise Control Front Distance Range Sensor Single Sensor or Center 
+- **Code P2584** (Powertrain): Fuel Additive Control Module Requested MIL Illumination
+- **Code P2585** (Powertrain): Fuel Additive Control Module Warning Lamp Request 
+- **Code P2586** (Powertrain): Turbocharger Boost Control Position Sensor  - Circuit
+- **Code P2587** (Powertrain): Turbocharger Boost Control Position Sensor  - Circuit Range/Performance
+- **Code P2588** (Powertrain): Turbocharger Boost Control Position Sensor  - Circuit Low 
+- **Code P2589** (Powertrain): Turbocharger Boost Control Position Sensor  - Circuit High
+- **Code P258A** (Powertrain): Vacuum Pump Control Circuit/Open 
+- **Code P258B** (Powertrain): Vacuum Pump Control Range/Performance 
+- **Code P258C** (Powertrain): Vacuum Pump Control Circuit Low
+- **Code P258D** (Powertrain): Vacuum Pump Control Circuit High
+- **Code P258E** (Powertrain): PTO Enable Switch Performance
+- **Code P258F** (Powertrain): Torque Management Request Output Signal 
+- **Code P2590** (Powertrain): Turbocharger Boost Control Position Sensor  - Circuit Intermittent/Erratic
+- **Code P2591** (Powertrain): Cruise Control Front Distance Range Sensor Left 
+- **Code P2592** (Powertrain): Cruise Control Front Distance Range Sensor Right
+- **Code P2600** (Powertrain): Coolant Pump  - Control Circuit/Open
+- **Code P2601** (Powertrain): Coolant Pump  - Control Circuit Range/Performance 
+- **Code P2602** (Powertrain): Coolant Pump  - Control Circuit Low
+- **Code P2603** (Powertrain): Coolant Pump  - Control Circuit High
+- **Code P2604** (Powertrain): Intake Air Heater  - Circuit Range/Performance
+- **Code P2605** (Powertrain): Intake Air Heater  - Circuit/Open
+- **Code P2606** (Powertrain): Intake Air Heater  - Circuit Range/Performance
+- **Code P2607** (Powertrain): Intake Air Heater  - Circuit Low
+- **Code P2608** (Powertrain): Intake Air Heater  - Circuit High
+- **Code P2609** (Powertrain): Intake Air Heater System Performance
+- **Code P260A** (Powertrain): PTO Control Circuit /Open
+- **Code P260B** (Powertrain): PTO Control Circuit Low
+- **Code P260C** (Powertrain): PTO Control Circuit High 
+- **Code P260D** (Powertrain): PTO Engaged Lamp Control Circuit 
+- **Code P260E** (Powertrain): Diesel Particulate Filter Regeneration Lamp Control Circuit 
+- **Code P260F** (Powertrain): Evaporative System Monitoring Processor Performance 
+- **Code P2610** (Powertrain): ECM/PCM Internal Engine Off Timer Performance
+- **Code P2611** (Powertrain): A/C Refrigerant Distribution Valve Control Circuit/Open 
+- **Code P2612** (Powertrain): A/C Refrigerant Distribution Valve Control Circuit Low 
+- **Code P2613** (Powertrain): A/C Refrigerant Distribution Valve Control Circuit High 
+- **Code P2614** (Powertrain): Camshaft Position Signal Output Circuit/Open 
+- **Code P2615** (Powertrain): Camshaft Position Signal Output Circuit Low 
+- **Code P2616** (Powertrain): Camshaft Position Signal Output Circuit High
+- **Code P2617** (Powertrain): Crankshaft Position Signal Output Circuit/Open
+- **Code P2618** (Powertrain): Crankshaft Position Signal Output Circuit Low
+- **Code P2619** (Powertrain): Crankshaft Position Signal Output Circuit High 
+- **Code P261A** (Powertrain): Coolant Pump  - Control Circuit/Open 
+- **Code P261B** (Powertrain): Coolant Pump  - Control Circuit Range/Performance
+- **Code P261C** (Powertrain): Coolant Pump  - Control Circuit Low
+- **Code P261D** (Powertrain): Coolant Pump  - Control Circuit High
+- **Code P2620** (Powertrain): Throttle Position Output Circuit/Open
+- **Code P2621** (Powertrain): Throttle Position Output Circuit Low
+- **Code P2622** (Powertrain): Throttle Position Output Circuit High 
+- **Code P2623** (Powertrain): Injector Control Pressure Regulator Circuit/Open
+- **Code P2624** (Powertrain): Injector Control Pressure Regulator Circuit Low
+- **Code P2625** (Powertrain): Injector Control Pressure Regulator Circuit High 
+- **Code P2626** (Powertrain): O2 Sensor Pumping Current Trim Circuit/Open Bank 1 Sensor 1
+- **Code P2627** (Powertrain): O2 Sensor Pumping Current Trim Circuit Low Bank 1 Sensor 1
+- **Code P2628** (Powertrain): O2 Sensor Pumping Current Trim Circuit High Bank 1 Sensor 1
+- **Code P2629** (Powertrain): O2 Sensor Pumping Current Trim Circuit/Open Bank 2 Sensor 1
+- **Code P2630** (Powertrain): O2 Sensor Pumping Current Trim Circuit Low Bank 2 Sensor 1
+- **Code P2631** (Powertrain): O2 Sensor Pumping Current Trim Circuit High Bank 2 Sensor 1
+- **Code P2632** (Powertrain): Fuel Pump  - Control Circuit /Open 
+- **Code P2633** (Powertrain): Fuel Pump  - Control Circuit Low
+- **Code P2634** (Powertrain): Fuel Pump  - Control Circuit High
+- **Code P2635** (Powertrain): Fuel Pump  - Low Flow/Performance 
+- **Code P2636** (Powertrain): Fuel Pump  - Low Flow/Performance
+- **Code P2637** (Powertrain): Torque Management Feedback Signal  - 
+- **Code P2638** (Powertrain): Torque Management Feedback Signal  - Range/Performance 
+- **Code P2639** (Powertrain): Torque Management Feedback Signal  - Low
+- **Code P2640** (Powertrain): Torque Management Feedback Signal  - High 
+- **Code P2641** (Powertrain): Torque Management Feedback Signal  - 
+- **Code P2642** (Powertrain): Torque Management Feedback Signal  - Range/Performance
+- **Code P2643** (Powertrain): Torque Management Feedback Signal  - Low 
+- **Code P2644** (Powertrain): Torque Management Feedback Signal  - High 
+- **Code P2645** (Powertrain): A Rocker Arm Actuator Control Circuit/Open Bank 1
+- **Code P2646** (Powertrain): A Rocker Arm Actuator System Performance/Stuck Off Bank 1
+- **Code P2647** (Powertrain): A Rocker Arm Actuator System Stuck On Bank 1
+- **Code P2648** (Powertrain): A Rocker Arm Actuator Control Circuit Low Bank 1
+- **Code P2649** (Powertrain): A Rocker Arm Actuator Control Circuit High Bank 1
+- **Code P264A** (Powertrain): A Rocker Arm Actuator Position Sensor Circuit Bank 1
+- **Code P264B** (Powertrain): A Rocker Arm Actuator Position Sensor Circuit Range/Performance Bank 1
+- **Code P264C** (Powertrain): A Rocker Arm Actuator Position Sensor Circuit Low Bank 1
+- **Code P264D** (Powertrain): A Rocker Arm Actuator Position Sensor Circuit High Bank 1
+- **Code P264E** (Powertrain): A Rocker Arm Actuator Position Sensor Circuit Intermittent/Erratic Bank 1
+- **Code P2650** (Powertrain): B Rocker Arm Actuator Control Circuit/Open Bank 1
+- **Code P2651** (Powertrain): B Rocker Arm Actuator System Performance/Stuck Off Bank 1
+- **Code P2652** (Powertrain): B Rocker Arm Actuator System Stuck On Bank 1
+- **Code P2653** (Powertrain): B Rocker Arm Actuator Control Circuit Low Bank 1
+- **Code P2654** (Powertrain): B Rocker Arm Actuator Control Circuit High Bank 1
+- **Code P2655** (Powertrain): A Rocker Arm Actuator Control Circuit/Open Bank 2
+- **Code P2656** (Powertrain): A Rocker Arm Actuator System Performance/Stuck Off Bank 2
+- **Code P2657** (Powertrain): A Rocker Arm Actuator System Stuck On Bank 2
+- **Code P2658** (Powertrain): A Rocker Arm Actuator Control Circuit Low Bank 2
+- **Code P2659** (Powertrain): A Rocker Arm Actuator Control Circuit High Bank 2
+- **Code P265A** (Powertrain): B Rocker Arm Actuator Position Sensor Circuit Bank 1
+- **Code P265B** (Powertrain): B Rocker Arm Actuator Position Sensor Circuit Range/Performance Bank 1
+- **Code P265C** (Powertrain): B Rocker Arm Actuator Position Sensor Circuit Low Bank 1
+- **Code P265D** (Powertrain): B Rocker Arm Actuator Position Sensor Circuit High Bank 1
+- **Code P265E** (Powertrain): B Rocker Arm Actuator Position Sensor Circuit Intermittent/Erratic Bank 1
+- **Code P2660** (Powertrain): B Rocker Arm Actuator Control Circuit/Open Bank 2
+- **Code P2661** (Powertrain): B Rocker Arm Actuator System Performance/Stuck Off Bank 2
+- **Code P2662** (Powertrain): B Rocker Arm Actuator System Stuck On Bank 2
+- **Code P2663** (Powertrain): B Rocker Arm Actuator Control Circuit Low Bank 2
+- **Code P2664** (Powertrain): B Rocker Arm Actuator Control Circuit High Bank 2
+- **Code P2665** (Powertrain): Fuel Shutoff Valve  - Control Circuit/Open
+- **Code P2666** (Powertrain): Fuel Shutoff Valve  - Control Circuit Low
+- **Code P2667** (Powertrain): Fuel Shutoff Valve  - Control Circuit High
+- **Code P2668** (Powertrain): Fuel Mode Indicator Lamp Control Circuit
+- **Code P2669** (Powertrain): Actuator Supply Voltage  - Circuit /Open
+- **Code P266A** (Powertrain): A Rocker Arm Actuator Position Sensor Circuit Bank 2
+- **Code P266B** (Powertrain): A Rocker Arm Actuator Position Sensor Circuit Range/Performance Bank 2
+- **Code P266C** (Powertrain): A Rocker Arm Actuator Position Sensor Circuit Low Bank 2
+- **Code P266D** (Powertrain): A Rocker Arm Actuator Position Sensor Circuit High Bank 2
+- **Code P266E** (Powertrain): A Rocker Arm Actuator Position Sensor Circuit Intermittent/Erratic Bank 2
+- **Code P2670** (Powertrain): Actuator Supply Voltage  - Circuit Low
+- **Code P2671** (Powertrain): Actuator Supply Voltage  - Circuit High
+- **Code P2672** (Powertrain): Injection Pump Timing Offset 
+- **Code P2673** (Powertrain): Injection Pump Timing Calibration Not Learned
+- **Code P2674** (Powertrain): Injection Pump Fuel Calibration Not Learned
+- **Code P2675** (Powertrain): Air Cleaner Inlet Control Circuit/Open 
+- **Code P2676** (Powertrain): Air Cleaner Inlet Control Circuit Low 
+- **Code P2677** (Powertrain): Air Cleaner Inlet Control Circuit High 
+- **Code P2678** (Powertrain): Coolant Degassing Valve Control Circuit/Open 
+- **Code P2679** (Powertrain): Coolant Degassing Valve Control Circuit Low
+- **Code P267A** (Powertrain): B Rocker Arm Actuator Position Sensor Circuit Bank 2
+- **Code P267B** (Powertrain): B Rocker Arm Actuator Position Sensor Circuit Range/Performance Bank 2
+- **Code P267C** (Powertrain): B Rocker Arm Actuator Position Sensor Circuit Low Bank 2
+- **Code P267D** (Powertrain): B Rocker Arm Actuator Position Sensor Circuit High Bank 2
+- **Code P267E** (Powertrain): B Rocker Arm Actuator Position Sensor Circuit Intermittent/Erratic Bank 2
+- **Code P2680** (Powertrain): Coolant Degassing Valve Control Circuit High
+- **Code P2681** (Powertrain): Engine Coolant Bypass Valve Control Circuit/Open 
+- **Code P2682** (Powertrain): Engine Coolant Bypass Valve Control Circuit Low
+- **Code P2683** (Powertrain): Engine Coolant Bypass Valve Control Circuit High 
+- **Code P2684** (Powertrain): Actuator Supply Voltage - Circuit/Open 
+- **Code P2685** (Powertrain): Actuator Supply Voltage - Circuit Low
+- **Code P2686** (Powertrain): Actuator Supply Voltage - Circuit High
+- **Code P2687** (Powertrain): Fuel Supply Heater Control Circuit/Open 
+- **Code P2688** (Powertrain): Fuel Supply Heater Control Circuit Low
+- **Code P2689** (Powertrain): Fuel Supply Heater Control Circuit High 
+- **Code P268A** (Powertrain): Fuel Injector Calibration Not Learned/Programmed
+- **Code P268B** (Powertrain): High Pressure Fuel Pump Calibration Not Learned/Programmed
+- **Code P268C** (Powertrain): Cylinder 1 Injector Data Incompatible
+- **Code P268D** (Powertrain): Cylinder 2 Injector Data Incompatible
+- **Code P268E** (Powertrain): Cylinder 3 Injector Data Incompatible
+- **Code P268F** (Powertrain): Cylinder 4 Injector Data Incompatible
+- **Code P2690** (Powertrain): Cylinder 5 Injector Data Incompatible
+- **Code P2691** (Powertrain): Cylinder 6 Injector Data Incompatible
+- **Code P2692** (Powertrain): Cylinder 7 Injector Data Incompatible
+- **Code P2693** (Powertrain): Cylinder 8 Injector Data Incompatible
+- **Code P2694** (Powertrain): Cylinder 9 Injector Data Incompatible
+- **Code P2695** (Powertrain): Cylinder 10 Injector Data Incompatible
+- **Code P2696** (Powertrain): Injector Data Incompatible 
+- **Code P2697** (Powertrain): Exhaust Aftertreatment Fuel Injector  - Circuit/Open 
+- **Code P2698** (Powertrain): Exhaust Aftertreatment Fuel Injector  - Performance
+- **Code P2699** (Powertrain): Exhaust Aftertreatment Fuel Injector  - Circuit Low 
+- **Code P269A** (Powertrain): Exhaust Aftertreatment Fuel Injector  - Circuit High 
+- **Code P269B** (Powertrain): Exhaust Aftertreatment Glow Plug Control Circuit/Open 
+- **Code P269C** (Powertrain): Exhaust Aftertreatment Glow Plug Control Performance 
+- **Code P269D** (Powertrain): Exhaust Aftertreatment Glow Plug Control Circuit Low 
+- **Code P269E** (Powertrain): Exhaust Aftertreatment Glow Plug Control Circuit High 
+- **Code P269F** (Powertrain): Exhaust Aftertreatment Glow Plug Circuit/Open 
+- **Code P26A0** (Powertrain): Exhaust Aftertreatment Glow Plug Performance
+- **Code P26A1** (Powertrain): Exhaust Aftertreatment Glow Plug Circuit Low 
+- **Code P26A2** (Powertrain): Exhaust Aftertreatment Glow Plug Circuit High 
+- **Code P2700** (Powertrain): Transmission Friction Element  - Apply Time Range/Performance 
+- **Code P2701** (Powertrain): Transmission Friction Element  - Apply Time Range/Performance
+- **Code P2702** (Powertrain): Transmission Friction Element - Apply Time Range/Performance
+- **Code P2703** (Powertrain): Transmission Friction Element - Apply Time Range/Performance
+- **Code P2704** (Powertrain): Transmission Friction Element - Apply Time Range/Performance
+- **Code P2705** (Powertrain): Transmission Friction Element - Apply Time Range/Performance
+- **Code P2706** (Powertrain): Shift Solenoid F Malfunction
+- **Code P2707** (Powertrain): Shift Solenoid F Performance/Stuck Off
+- **Code P2708** (Powertrain): Shift Solenoid F Stuck On
+- **Code P2709** (Powertrain): Shift Solenoid F Electrical 
+- **Code P2710** (Powertrain): Shift Solenoid F Intermittent 
+- **Code P2711** (Powertrain): Unexpected Mechanical Gear Disengagement
+- **Code P2712** (Powertrain): Hydraulic Power Unit Leakage
+- **Code P2713** (Powertrain): Pressure Control Solenoid - 
+- **Code P2714** (Powertrain): Pressure Control Solenoid - Performance/Stuck Off 
+- **Code P2715** (Powertrain): Pressure Control Solenoid - Stuck On
+- **Code P2716** (Powertrain): Pressure Control Solenoid - Electrical 
+- **Code P2717** (Powertrain): Pressure Control Solenoid - Intermittent 
+- **Code P2718** (Powertrain): Pressure Control Solenoid - Control Circuit/Open
+- **Code P2719** (Powertrain): Pressure Control Solenoid - Control Circuit Range/Performance 
+- **Code P2720** (Powertrain): Pressure Control Solenoid - Control Circuit Low
+- **Code P2721** (Powertrain): Pressure Control Solenoid - Control Circuit High
+- **Code P2722** (Powertrain): Pressure Control Solenoid - 
+- **Code P2723** (Powertrain): Pressure Control Solenoid - Performance/Stuck Off 
+- **Code P2724** (Powertrain): Pressure Control Solenoid - Stuck On 
+- **Code P2725** (Powertrain): Pressure Control Solenoid - Electrical 
+- **Code P2726** (Powertrain): Pressure Control Solenoid - Intermittent 
+- **Code P2727** (Powertrain): Pressure Control Solenoid - Control Circuit/Open
+- **Code P2728** (Powertrain): Pressure Control Solenoid - Control Circuit Range/Performance
+- **Code P2729** (Powertrain): Pressure Control Solenoid - Control Circuit Low
+- **Code P2730** (Powertrain): Pressure Control Solenoid - Control Circuit High 
+- **Code P2731** (Powertrain): Pressure Control Solenoid - 
+- **Code P2732** (Powertrain): Pressure Control Solenoid - Performance/Stuck Off 
+- **Code P2733** (Powertrain): Pressure Control Solenoid - Stuck On 
+- **Code P2734** (Powertrain): Pressure Control Solenoid - Electrical 
+- **Code P2735** (Powertrain): Pressure Control Solenoid - Intermittent
+- **Code P2736** (Powertrain): Pressure Control Solenoid - Control Circuit/Open 
+- **Code P2737** (Powertrain): Pressure Control Solenoid - Control Circuit Range/Performance
+- **Code P2738** (Powertrain): Pressure Control Solenoid - Control Circuit Low 
+- **Code P2739** (Powertrain): Pressure Control Solenoid - Control Circuit High
+- **Code P273A** (Powertrain): Transmission Friction Element - Apply Time Range/Performance
+- **Code P273B** (Powertrain): Transmission Friction Element - Apply Time Range/Performance
+- **Code P2740** (Powertrain): Transmission Fluid Temperature Sensor  - Circuit
+- **Code P2741** (Powertrain): Transmission Fluid Temperature Sensor  - Circuit Range/Performance
+- **Code P2742** (Powertrain): Transmission Fluid Temperature Sensor  - Circuit Low
+- **Code P2743** (Powertrain): Transmission Fluid Temperature Sensor  - Circuit High
+- **Code P2744** (Powertrain): Transmission Fluid Temperature Sensor  - Circuit Intermittent
+- **Code P2745** (Powertrain): Intermediate Shaft Speed Sensor B Circuit
+- **Code P2746** (Powertrain): Intermediate Shaft Speed Sensor B Circuit Range/Performance
+- **Code P2747** (Powertrain): Intermediate Shaft Speed Sensor B Circuit No Signal 
+- **Code P2748** (Powertrain): Intermediate Shaft Speed Sensor B Circuit Intermittent
+- **Code P2749** (Powertrain): Intermediate Shaft Speed Sensor C Circuit 
+- **Code P2750** (Powertrain): Intermediate Shaft Speed Sensor C Circuit Range/Performance
+- **Code P2751** (Powertrain): Intermediate Shaft Speed Sensor C Circuit No Signal
+- **Code P2752** (Powertrain): Intermediate Shaft Speed Sensor C Circuit Intermittent
+- **Code P2753** (Powertrain): Transmission Fluid Cooler Control Circuit/Open 
+- **Code P2754** (Powertrain): Transmission Fluid Cooler Control Circuit Low 
+- **Code P2755** (Powertrain): Transmission Fluid Cooler Control Circuit High 
+- **Code P2756** (Powertrain): Torque Converter Clutch Pressure Control Solenoid
+- **Code P2757** (Powertrain): Torque Converter Clutch Pressure Control Solenoid Control Circuit Performance/Stuck Off 
+- **Code P2758** (Powertrain): Torque Converter Clutch Pressure Control Solenoid Control Circuit Stuck On
+- **Code P2759** (Powertrain): Torque Converter Clutch Pressure Control Solenoid Control Circuit Electrical 
+- **Code P2760** (Powertrain): Torque Converter Clutch Pressure Control Solenoid Control Circuit Intermittent 
+- **Code P2761** (Powertrain): Torque Converter Clutch Pressure Control Solenoid Control Circuit/Open 
+- **Code P2762** (Powertrain): Torque Converter Clutch Pressure Control Solenoid Control Circuit Range/Performance 
+- **Code P2763** (Powertrain): Torque Converter Clutch Pressure Control Solenoid Control Circuit High
+- **Code P2764** (Powertrain): Torque Converter Clutch Pressure Control Solenoid Control Circuit Low 
+- **Code P2765** (Powertrain): Input/Turbine Speed Sensor  - Circuit 
+- **Code P2766** (Powertrain): Input/Turbine Speed Sensor  - Circuit Range/Performance
+- **Code P2767** (Powertrain): Input/Turbine Speed Sensor  - Circuit No Signal 
+- **Code P2768** (Powertrain): Input/Turbine Speed Sensor  - Circuit Intermittent 
+- **Code P2769** (Powertrain): Torque Converter Clutch Circuit Low 
+- **Code P2770** (Powertrain): Torque Converter Clutch Circuit High
+- **Code P2771** (Powertrain): Four Wheel Drive (4WD) Low Switch Circuit
+- **Code P2772** (Powertrain): Four Wheel Drive (4WD) Low Switch Circuit Range/Performance
+- **Code P2773** (Powertrain): Four Wheel Drive (4WD) Low Switch Circuit Low
+- **Code P2774** (Powertrain): Four Wheel Drive (4WD) Low Switch Circuit High
+- **Code P2775** (Powertrain): Upshift Switch Circuit Range/Performance 
+- **Code P2776** (Powertrain): Upshift Switch Circuit Low 
+- **Code P2777** (Powertrain): Upshift Switch Circuit High 
+- **Code P2778** (Powertrain): Upshift Switch Circuit Intermittent/Erratic 
+- **Code P2779** (Powertrain): Downshift Switch Circuit Range/Performance 
+- **Code P2780** (Powertrain): Downshift Switch Circuit Low 
+- **Code P2781** (Powertrain): Downshift Switch Circuit High 
+- **Code P2782** (Powertrain): Downshift Switch Circuit Intermittent/Erratic 
+- **Code P2783** (Powertrain): Torque Converter Temperature Too High
+- **Code P2784** (Powertrain): Input/Turbine Speed Sensor   - Correlation 
+- **Code P2785** (Powertrain): Clutch Actuator Temperature Too High 
+- **Code P2786** (Powertrain): Gear Shift Actuator Temperature Too High
+- **Code P2787** (Powertrain): Clutch Temperature Too High
+- **Code P2788** (Powertrain): Auto Shift Manual Adaptive Learning at Limit 
+- **Code P2789** (Powertrain): Clutch  - Adaptive Learning at Limit 
+- **Code P278A** (Powertrain): Kick Down Switch Circuit 
+- **Code P278B** (Powertrain): Kick Down Switch Circuit Range/Performance 
+- **Code P278C** (Powertrain): Kick Down Switch Circuit Low 
+- **Code P278D** (Powertrain): Kick Down Switch Circuit High 
+- **Code P278E** (Powertrain): Kick Down Switch Circuit Intermittent/Erratic 
+- **Code P278F** (Powertrain): Clutch  - Adaptive Learning at Limit 
+- **Code P2790** (Powertrain): Gate Select Direction Circuit 
+- **Code P2791** (Powertrain): Gate Select Direction Circuit Low 
+- **Code P2792** (Powertrain): Gate Select Direction Circuit High 
+- **Code P2793** (Powertrain): Gear Shift Direction Circuit 
+- **Code P2794** (Powertrain): Gear Shift Direction Circuit Low 
+- **Code P2795** (Powertrain): Gear Shift Direction Circuit High
+- **Code P2796** (Powertrain): Auxiliary Transmission Fluid Pump Control Circuit/Open
+- **Code P2797** (Powertrain): Auxiliary Transmission Fluid Pump Performance 
+- **Code P2798** (Powertrain): Auxiliary Transmission Fluid Pump Control Circuit Low
+- **Code P2799** (Powertrain): Auxiliary Transmission Fluid Pump Control Circuit High 
+- **Code P279A** (Powertrain): Transfer Case Gear High Incorrect Ratio 
+- **Code P279B** (Powertrain): Transfer Case Gear Low Incorrect Ratio
+- **Code P279C** (Powertrain): Transfer Case Gear Neutral Incorrect Ratio 
+- **Code P279D** (Powertrain): Four Wheel Drive (4WD) Range Signal Circuit
+- **Code P279E** (Powertrain): Four Wheel Drive (4WD) Range Signal Circuit Range/Performance
+- **Code P279F** (Powertrain): Four Wheel Drive (4WD) Range Signal Circuit Low
+- **Code P27A0** (Powertrain): Four Wheel Drive (4WD) Range Signal Circuit High
+- **Code P2800** (Powertrain): Transmission Range Sensor  - Circuit (PRNDL Input) 
+- **Code P2801** (Powertrain): Transmission Range Sensor  - Circuit Range/Performance
+- **Code P2802** (Powertrain): Transmission Range Sensor  - Circuit Low
+- **Code P2803** (Powertrain): Transmission Range Sensor  - Circuit High 
+- **Code P2804** (Powertrain): Transmission Range Sensor  - Circuit Intermittent
+- **Code P2805** (Powertrain): Transmission Range Sensor   - Correlation
+- **Code P2806** (Powertrain): Transmission Range Sensor Alignment
+- **Code P2807** (Powertrain): Pressure Control Solenoid - 
+- **Code P2808** (Powertrain): Pressure Control Solenoid - Performance/Stuck Off 
+- **Code P2809** (Powertrain): Pressure Control Solenoid - Stuck On 
+- **Code P280A** (Powertrain): Transmission Range Sensor  - Circuit Not Learned
+- **Code P280B** (Powertrain): Transmission Range Sensor  - Circuit Not Learned 
+- **Code P2810** (Powertrain): Pressure Control Solenoid - Electrical 
+- **Code P2811** (Powertrain): Pressure Control Solenoid - Intermittent 
+- **Code P2812** (Powertrain): Pressure Control Solenoid - Control Circuit/Open 
+- **Code P2813** (Powertrain): Pressure Control Solenoid - Control Circuit Range/Performance
+- **Code P2814** (Powertrain): Pressure Control Solenoid - Control Circuit Low 
+- **Code P2815** (Powertrain): Pressure Control Solenoid - Control Circuit High 
+- **Code P2816** (Powertrain): Pressure Control Solenoid - 
+- **Code P2817** (Powertrain): Pressure Control Solenoid - Performance/Stuck Off 
+- **Code P2818** (Powertrain): Pressure Control Solenoid - Stuck On
+- **Code P2819** (Powertrain): Pressure Control Solenoid - Electrical 
+- **Code P281A** (Powertrain): Pressure Control Solenoid - Intermittent 
+- **Code P281B** (Powertrain): Pressure Control Solenoid - Control Circuit/Open
+- **Code P281C** (Powertrain): Pressure Control Solenoid - Control Circuit Range/Performance
+- **Code P281D** (Powertrain): Pressure Control Solenoid - Control Circuit Low
+- **Code P281E** (Powertrain): Pressure Control Solenoid - Control Circuit High 
+- **Code P281F** (Powertrain): Pressure Control Solenoid - 
+- **Code P2820** (Powertrain): Pressure Control Solenoid - Performance/Stuck Off 
+- **Code P2821** (Powertrain): Pressure Control Solenoid - Stuck On 
+- **Code P2822** (Powertrain): Pressure Control Solenoid - Electrical 
+- **Code P2823** (Powertrain): Pressure Control Solenoid - Intermittent 
+- **Code P2824** (Powertrain): Pressure Control Solenoid - Control Circuit/Open 
+- **Code P2825** (Powertrain): Pressure Control Solenoid - Control Circuit Range/Performance
+- **Code P2826** (Powertrain): Pressure Control Solenoid - Control Circuit Low 
+- **Code P2827** (Powertrain): Pressure Control Solenoid - Control Circuit High 
+- **Code P2828** (Powertrain): Pressure Control Solenoid - 
+- **Code P2829** (Powertrain): Pressure Control Solenoid - Performance/Stuck Off 
+- **Code P282A** (Powertrain): Pressure Control Solenoid - Stuck On 
+- **Code P282B** (Powertrain): Pressure Control Solenoid - Electrical 
+- **Code P282C** (Powertrain): Pressure Control Solenoid - Intermittent
+- **Code P282D** (Powertrain): Pressure Control Solenoid - Control Circuit/Open 
+- **Code P282E** (Powertrain): Pressure Control Solenoid - Control Circuit Range/Performance
+- **Code P282F** (Powertrain): Pressure Control Solenoid - Control Circuit Low
+- **Code P2830** (Powertrain): Pressure Control Solenoid - Control Circuit High 
+- **Code P2831** (Powertrain): Shift Fork  - Position Circuit 
+- **Code P2832** (Powertrain): Shift Fork  - Position Circuit Range/Performance 
+- **Code P2833** (Powertrain): Shift Fork  - Position Circuit Low 
+- **Code P2834** (Powertrain): Shift Fork  - Position Circuit High 
+- **Code P2835** (Powertrain): Shift Fork  - Position Circuit Intermittent 
+- **Code P2836** (Powertrain): Shift Fork  - Position Circuit 
+- **Code P2837** (Powertrain): Shift Fork  - Position Circuit Range/Performance 
+- **Code P2838** (Powertrain): Shift Fork  - Position Circuit Low 
+- **Code P2839** (Powertrain): Shift Fork  - Position Circuit High 
+- **Code P283A** (Powertrain): Shift Fork  - Position Circuit Intermittent 
+- **Code P283B** (Powertrain): Shift Fork - Position Circuit
+- **Code P283C** (Powertrain): Shift Fork - Position Circuit Range/Performance 
+- **Code P283D** (Powertrain): Shift Fork - Position Circuit Low 
+- **Code P283E** (Powertrain): Shift Fork - Position Circuit High
+- **Code P283F** (Powertrain): Shift Fork - Position Circuit Intermittent
+- **Code P2840** (Powertrain): Shift Fork - Position Circuit 
+- **Code P2841** (Powertrain): Shift Fork - Position Circuit Range/Performance 
+- **Code P2842** (Powertrain): Shift Fork - Position Circuit Low
+- **Code P2843** (Powertrain): Shift Fork - Position Circuit High
+- **Code P2844** (Powertrain): Shift Fork - Position Circuit Intermittent 
+- **Code P2845** (Powertrain): Shift Fork  - Position Sensor Incorrect Neutral Position Indicated
+- **Code P2846** (Powertrain): Shift Fork  - Position Sensor Incorrect Neutral Position Indicated
+- **Code P2847** (Powertrain): Shift Fork - Position Sensor Incorrect Neutral Position Indicated
+- **Code P2848** (Powertrain): Shift Fork - Position Sensor Incorrect Neutral Position Indicated
+- **Code P2849** (Powertrain): Shift Fork  - Stuck 
+- **Code P284A** (Powertrain): Shift Fork  - Stuck 
+- **Code P284B** (Powertrain): Shift Fork - Stuck
+- **Code P284C** (Powertrain): Shift Fork - Stuck
+- **Code P284D** (Powertrain): Shift Fork  - Unrequested Movement
+- **Code P284E** (Powertrain): Shift Fork  - Unrequested Movement
+- **Code P284F** (Powertrain): Shift Fork - Unrequested Movement 
+- **Code P2850** (Powertrain): Shift Fork - Unrequested Movement 
+- **Code P2851** (Powertrain): Shift Fork Position Sensor   - Correlation 
+- **Code P2852** (Powertrain): Shift Fork Position Sensor - Correlation
+- **Code P2853** (Powertrain): Clutch  - Pressure Discharge Performance
+- **Code P2854** (Powertrain): Clutch  - Pressure Discharge Performance
+- **Code P2855** (Powertrain): Clutch  - Pressure Charge Performance 
+- **Code P2856** (Powertrain): Clutch  - Pressure Charge Performance
+- **Code P2857** (Powertrain): Clutch  - Pressure Engagement Performance 
+- **Code P2858** (Powertrain): Clutch  - Pressure Engagement Performance 
+- **Code P2859** (Powertrain): Clutch  - Pressure Disengagement Performance 
+- **Code P285A** (Powertrain): Clutch  - Pressure Disengagement Performance
+- **Code P2A00** (Powertrain): O2 Sensor Circuit Range/Performance Bank 1 Sensor 1
+- **Code P2A01** (Powertrain): O2 Sensor Circuit Range/Performance Bank 1 Sensor 2
+- **Code P2A02** (Powertrain): O2 Sensor Circuit Range/Performance Bank 1 Sensor 3
+- **Code P2A03** (Powertrain): O2 Sensor Circuit Range/Performance Bank 2 Sensor 1
+- **Code P2A04** (Powertrain): O2 Sensor Circuit Range/Performance Bank 2 Sensor 2
+- **Code P2A05** (Powertrain): O2 Sensor Circuit Range/Performance Bank 2 Sensor 3
+- **Code P2A06** (Powertrain): O2 Sensor Negative Voltage Bank 1 Sensor 1
+- **Code P2A07** (Powertrain): O2 Sensor Negative Voltage Bank 1 Sensor 2
+- **Code P2A08** (Powertrain): O2 Sensor Negative Voltage Bank 1 Sensor 3
+- **Code P2A09** (Powertrain): O2 Sensor Negative Voltage Bank 2 Sensor 1
+- **Code P2A10** (Powertrain): O2 Sensor Negative Voltage Bank 2 Sensor 2
+- **Code P2A11** (Powertrain): O2 Sensor Negative Voltage Bank 2 Sensor 3
+- **Code P2BA7** (Powertrain): NOx Exceedence - Empty Reagent Tank
+- **Code P2BA8** (Powertrain): NOx Exceedence - Interruption of Reagent Dosing Activity 
+- **Code P2BA9** (Powertrain): NOx Exceedence - Insufficient Reagent Quality 
+- **Code P2BAA** (Powertrain): NOx Exceedence - Low Reagent Consumption 
+- **Code P2BAB** (Powertrain): NOx Exceedence - Incorrect EGR Flow 
+- **Code P2BAC** (Powertrain): NOx Exceedence - Deactivation of EGR
+- **Code P2BAD** (Powertrain): NOx Exceedence - Root Cause Unknown 
+- **Code P2BAE** (Powertrain): NOx Exceedence - NOx control monitoring system 
+- **Code P3400** (Powertrain): Cylinder Deactivation System Bank 1
+- **Code P3401** (Powertrain): Cylinder 1 Deactivation/Intake Valve Control Circuit/Open
+- **Code P3402** (Powertrain): Cylinder 1 Deactivation/Intake Valve Control Circuit Performance
+- **Code P3403** (Powertrain): Cylinder 1 Deactivation/Intake Valve Control Circuit Low
+- **Code P3404** (Powertrain): Cylinder 1 Deactivation/Intake Valve Control Circuit High
+- **Code P3405** (Powertrain): Cylinder 1 Exhaust Valve Control Circuit/Open
+- **Code P3406** (Powertrain): Cylinder 1 Exhaust Valve Control Circuit Performance
+- **Code P3407** (Powertrain): Cylinder 1 Exhaust Valve Control Circuit Low
+- **Code P3408** (Powertrain): Cylinder 1 Exhaust Valve Control Circuit High
+- **Code P3409** (Powertrain): Cylinder 2 Deactivation/Intake Valve Control Circuit/Open
+- **Code P3410** (Powertrain): Cylinder 2 Deactivation/Intake Valve Control Circuit Performance
+- **Code P3411** (Powertrain): Cylinder 2 Deactivation/Intake Valve Control Circuit Low
+- **Code P3412** (Powertrain): Cylinder 2 Deactivation/Intake Valve Control Circuit High
+- **Code P3413** (Powertrain): Cylinder 2 Exhaust Valve Control Circuit/Open
+- **Code P3414** (Powertrain): Cylinder 2 Exhaust Valve Control Circuit Performance
+- **Code P3415** (Powertrain): Cylinder 2 Exhaust Valve Control Circuit Low
+- **Code P3416** (Powertrain): Cylinder 2 Exhaust Valve Control Circuit High
+- **Code P3417** (Powertrain): Cylinder 3 Deactivation/Intake Valve Control Circuit/Open
+- **Code P3418** (Powertrain): Cylinder 3 Deactivation/Intake Valve Control Circuit Performance
+- **Code P3419** (Powertrain): Cylinder 3 Deactivation/Intake Valve Control Circuit Low
+- **Code P3420** (Powertrain): Cylinder 3 Deactivation/Intake Valve Control Circuit High
+- **Code P3421** (Powertrain): Cylinder 3 Exhaust Valve Control Circuit/Open
+- **Code P3422** (Powertrain): Cylinder 3 Exhaust Valve Control Circuit Performance
+- **Code P3423** (Powertrain): Cylinder 3 Exhaust Valve Control Circuit Low
+- **Code P3424** (Powertrain): Cylinder 3 Exhaust Valve Control Circuit High
+- **Code P3425** (Powertrain): Cylinder 4 Deactivation/Intake Valve Control Circuit/Open
+- **Code P3426** (Powertrain): Cylinder 4 Deactivation/Intake Valve Control Circuit Performance
+- **Code P3427** (Powertrain): Cylinder 4 Deactivation/Intake Valve Control Circuit Low
+- **Code P3428** (Powertrain): Cylinder 4 Deactivation/Intake Valve Control Circuit High
+- **Code P3429** (Powertrain): Cylinder 4 Exhaust Valve Control Circuit/Open
+- **Code P3430** (Powertrain): Cylinder 4 Exhaust Valve Control Circuit Performance
+- **Code P3431** (Powertrain): Cylinder 4 Exhaust Valve Control Circuit Low
+- **Code P3432** (Powertrain): Cylinder 4 Exhaust Valve Control Circuit High
+- **Code P3433** (Powertrain): Cylinder 5 Deactivation/Intake Valve Control Circuit/Open
+- **Code P3434** (Powertrain): Cylinder 5 Deactivation/Intake Valve Control Circuit Performance
+- **Code P3435** (Powertrain): Cylinder 5 Deactivation/Intake Valve Control Circuit Low
+- **Code P3436** (Powertrain): Cylinder 5 Deactivation/Intake Valve Control Circuit High
+- **Code P3437** (Powertrain): Cylinder 5 Exhaust Valve Control Circuit/Open
+- **Code P3438** (Powertrain): Cylinder 5 Exhaust Valve Control Circuit Performance
+- **Code P3439** (Powertrain): Cylinder 5 Exhaust Valve Control Circuit Low
+- **Code P3440** (Powertrain): Cylinder 5 Exhaust Valve Control Circuit High
+- **Code P3441** (Powertrain): Cylinder 6 Deactivation/Intake Valve Control Circuit/Open
+- **Code P3442** (Powertrain): Cylinder 6 Deactivation/Intake Valve Control Circuit Performance
+- **Code P3443** (Powertrain): Cylinder 6 Deactivation/Intake Valve Control Circuit Low
+- **Code P3444** (Powertrain): Cylinder 6 Deactivation/Intake Valve Control Circuit High
+- **Code P3445** (Powertrain): Cylinder 6 Exhaust Valve Control Circuit/Open
+- **Code P3446** (Powertrain): Cylinder 6 Exhaust Valve Control Circuit Performance
+- **Code P3447** (Powertrain): Cylinder 6 Exhaust Valve Control Circuit Low
+- **Code P3448** (Powertrain): Cylinder 6 Exhaust Valve Control Circuit High
+- **Code P3449** (Powertrain): Cylinder 7 Deactivation/Intake Valve Control Circuit/Open
+- **Code P3450** (Powertrain): Cylinder 7 Deactivation/Intake Valve Control Circuit Performance
+- **Code P3451** (Powertrain): Cylinder 7 Deactivation/Intake Valve Control Circuit Low
+- **Code P3452** (Powertrain): Cylinder 7 Deactivation/Intake Valve Control Circuit High
+- **Code P3453** (Powertrain): Cylinder 7 Exhaust Valve Control Circuit/Open
+- **Code P3454** (Powertrain): Cylinder 7 Exhaust Valve Control Circuit Performance
+- **Code P3455** (Powertrain): Cylinder 7 Exhaust Valve Control Circuit Low
+- **Code P3456** (Powertrain): Cylinder 7 Exhaust Valve Control Circuit High
+- **Code P3457** (Powertrain): Cylinder 8 Deactivation/Intake Valve Control Circuit/Open
+- **Code P3458** (Powertrain): Cylinder 8 Deactivation/Intake Valve Control Circuit Performance
+- **Code P3459** (Powertrain): Cylinder 8 Deactivation/Intake Valve Control Circuit Low
+- **Code P3460** (Powertrain): Cylinder 8 Deactivation/Intake Valve Control Circuit High
+- **Code P3461** (Powertrain): Cylinder 8 Exhaust Valve Control Circuit/Open
+- **Code P3462** (Powertrain): Cylinder 8 Exhaust Valve Control Circuit Performance
+- **Code P3463** (Powertrain): Cylinder 8 Exhaust Valve Control Circuit Low
+- **Code P3464** (Powertrain): Cylinder 8 Exhaust Valve Control Circuit High
+- **Code P3465** (Powertrain): Cylinder 9 Deactivation/Intake Valve Control Circuit/Open
+- **Code P3466** (Powertrain): Cylinder 9 Deactivation/Intake Valve Control Circuit Performance
+- **Code P3467** (Powertrain): Cylinder 9 Deactivation/Intake Valve Control Circuit Low
+- **Code P3468** (Powertrain): Cylinder 9 Deactivation/Intake Valve Control Circuit High
+- **Code P3469** (Powertrain): Cylinder 9 Exhaust Valve Control Circuit/Open
+- **Code P3470** (Powertrain): Cylinder 9 Exhaust Valve Control Circuit Performance
+- **Code P3471** (Powertrain): Cylinder 9 Exhaust Valve Control Circuit Low
+- **Code P3472** (Powertrain): Cylinder 9 Exhaust Valve Control Circuit High
+- **Code P3473** (Powertrain): Cylinder 10 Deactivation/Intake Valve Control Circuit/Open
+- **Code P3474** (Powertrain): Cylinder 10 Deactivation/Intake Valve Control Circuit Performance
+- **Code P3475** (Powertrain): Cylinder 10 Deactivation/Intake Valve Control Circuit Low
+- **Code P3476** (Powertrain): Cylinder 10 Deactivation/Intake Valve Control Circuit High
+- **Code P3477** (Powertrain): Cylinder 10 Exhaust Valve Control Circuit/Open
+- **Code P3478** (Powertrain): Cylinder 10 Exhaust Valve Control Circuit Performance
+- **Code P3479** (Powertrain): Cylinder 10 Exhaust Valve Control Circuit Low
+- **Code P3480** (Powertrain): Cylinder 10 Exhaust Valve Control Circuit High
+- **Code P3481** (Powertrain): Cylinder 11 Deactivation/Intake Valve Control Circuit/Open
+- **Code P3482** (Powertrain): Cylinder 11 Deactivation/Intake Valve Control Circuit Performance
+- **Code P3483** (Powertrain): Cylinder 11 Deactivation/Intake Valve Control Circuit Low
+- **Code P3484** (Powertrain): Cylinder 11 Deactivation/Intake Valve Control Circuit High
+- **Code P3485** (Powertrain): Cylinder 11 Exhaust Valve Control Circuit/Open
+- **Code P3486** (Powertrain): Cylinder 11 Exhaust Valve Control Circuit Performance
+- **Code P3487** (Powertrain): Cylinder 11 Exhaust Valve Control Circuit Low
+- **Code P3488** (Powertrain): Cylinder 11 Exhaust Valve Control Circuit High
+- **Code P3489** (Powertrain): Cylinder 12 Deactivation/Intake Valve Control Circuit/Open
+- **Code P3490** (Powertrain): Cylinder 12 Deactivation/Intake Valve Control Circuit Performance
+- **Code P3491** (Powertrain): Cylinder 12 Deactivation/Intake Valve Control Circuit Low
+- **Code P3492** (Powertrain): Cylinder 12 Deactivation/Intake Valve Control Circuit High
+- **Code P3493** (Powertrain): Cylinder 12 Exhaust Valve Control Circuit/Open
+- **Code P3494** (Powertrain): Cylinder 12 Exhaust Valve Control Circuit Performance
+- **Code P3495** (Powertrain): Cylinder 12 Exhaust Valve Control Circuit Low
+- **Code P3496** (Powertrain): Cylinder 12 Exhaust Valve Control Circuit High
+- **Code P3497** (Powertrain): Cylinder Deactivation System Bank 2

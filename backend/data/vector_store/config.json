@@ -1,0 +1,27 @@
+{
+  "chunk_size": 800,
+  "chunk_overlap": 150,
+  "top_k": 4,
+  "embedding_mode": "sentence-transformers",
+  "embedding_model_name": "all-MiniLM-L6-v2",
+  "llm_model_name": "llama3.2:1b",
+  "collection_name": "automotive_docs",
+  "yolo_weights_path": "d:\\Material\\AI\\ITI\\demo\\rag-assistant-project-v2\\data\\models\\dash_yolo_best.pt",
+  "yolo_class_to_phrase": {
+    "Central Warning lamp": "central master warning indicator lamp is on",
+    "Doors": "car door ajar open warning indicator is on",
+    "Electronic Power Steering": "electronic power steering EPS malfunction warning",
+    "Electronic Power Steering Warning": "electronic power steering EPS system warning light",
+    "Engine cooling system": "engine cooling system issue warning light",
+    "FrontFogLight": "front fog lights are active",
+    "High Engine Coolant Temperature": "high engine coolant temperature overheating warning",
+    "LaneCenteringOff": "lane centering assist system is turned off",
+    "Low beam": "low beam headlights are active",
+    "Low fuel level": "low fuel level reserve indicator is on",
+    "Seat Belt": "unfastened seat belt reminder indicator is on",
+    "SideLamp": "side parking lamps are active",
+    "Washer Fluid": "windshield washer fluid level is low",
+    "security": "anti-theft vehicle security system indicator is active"
+  },
+  "tfidf_vectorizer_path": null
+}
