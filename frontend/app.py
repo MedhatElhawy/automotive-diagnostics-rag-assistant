@@ -17,6 +17,8 @@ def get_system_status():
     except Exception as e:
         return ("Offline", "Unavailable", "Unavailable", str(e))
 
+import re
+
 def process_query(message, history, image):
     if history is None:
         history = []
@@ -34,23 +36,45 @@ def process_query(message, history, image):
     try:
         result = ask(query_text, image_bytes=image_bytes)
         
-        answer = result.get("answer", "No diagnostics available.")
-        sources = ", ".join(result.get("sources", [])) or "None identified"
+        raw_answer = result.get("answer", "No diagnostics available.").strip()
+        raw_sources = result.get("sources", [])
+        sources_str = ", ".join(raw_sources) or "None identified"
         mode = result.get("generation_mode", "N/A")
         
+        cleaned_answer = re.sub(r'\(?\s*source[s]?\s*:\s*[^)]+\)?', '', raw_answer, flags=re.IGNORECASE)
+        cleaned_answer = re.sub(r'According to the provided (sources?|context)[,\s]*', '', cleaned_answer, flags=re.IGNORECASE)
+        cleaned_answer = cleaned_answer.strip()
+        if cleaned_answer:
+            cleaned_answer = cleaned_answer[0].upper() + cleaned_answer[1:]
+        else:
+            cleaned_answer = raw_answer
+
         detections = result.get("detections", [])
         if detections:
             detected_str = " • ".join([f"{d['label']} [{d['confidence']:.0%}]" for d in detections])
         else:
             detected_str = "No active warning indicators flagged."
 
-        meta_info = f"**Pipeline Mode:** `{mode}`\n\n**Grounding Sources:** `{sources}`"
+        citation_footer = "\n\n" + "—" * 30 + "\n"
+        if raw_sources:
+            unique_sources = sorted(list(set(raw_sources)))
+            formatted_sources = ", ".join([f"`{src}`" for src in unique_sources])
+            citation_footer += f"**Sources:** {formatted_sources}"
+        else:
+            citation_footer += "**Sources:** `None identified`"
+
+        if detections:
+            citation_footer += f"\n**Detections:** {detected_str}"
+
+        full_assistant_reply = f"{cleaned_answer}{citation_footer}"
+
+        meta_info = f"**Pipeline Mode:** `{mode}`\n\n**Grounding Sources:** `{sources_str}`"
         detection_info = f"**Vision Detections:** {detected_str}"
 
         user_label = message if message else "[Dashboard Scan Uploaded]"
         
         history.append({"role": "user", "content": user_label})
-        history.append({"role": "assistant", "content": answer})
+        history.append({"role": "assistant", "content": full_assistant_reply})
 
         return "", history, meta_info, detection_info
 

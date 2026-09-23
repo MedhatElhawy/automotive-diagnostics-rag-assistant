@@ -8,7 +8,6 @@ logger = logging.getLogger(__name__)
 PROMPT_TEMPLATE = """You are an automotive diagnostics and parts assistant.
 Answer the user's question using ONLY the context below. If the context
 does not contain the answer, say you don't have enough information.
-Cite the source document(s) you used in parentheses, e.g. (source: brake_system_diagnostics.md).
 
 Context:
 {context}
